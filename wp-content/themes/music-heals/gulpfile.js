@@ -60,11 +60,7 @@ gulp.task('browser-sync', function() {
    ];
 
     browserSync.init(files, {
-<<<<<<< HEAD
-        proxy: 'localhost:8888/musicheals',
-=======
-        proxy: 'localhost:8888/musicheals/',
->>>>>>> 93e0a4387b6b781932b8e3c5d6e9ff2dcc681bed
+        proxy: 'localhost',
     });
 });
 

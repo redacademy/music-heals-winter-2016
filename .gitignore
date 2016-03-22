@@ -1,5 +1,4 @@
 # WORDPRESS GITIGNORE #
-
 # Ignore OS files #
 # =============== #
 .DS_Store
@@ -10,7 +9,6 @@
 ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
-
 # Ignore logs and databases #
 # ========================= #
 *.log
@@ -18,7 +16,6 @@ ehthumbs.db
 *.sqlite
 error_log
 access_log
-
 # Ignore packages #
 # =============== #
 *.7z
@@ -29,33 +26,26 @@ access_log
 *.rar
 *.tar
 *.zip
-
 # Ignore everything in the root except the "wp-content" directory. #
 # ================================================================ #
 /*
 !.gitignore
 !wp-content/
 !README.md
-
 # Ignore everything in "wp-content" except the "plugins", "themes", and "uploads" directories. #
 # ============================================================================================ #
 wp-content/*
 !wp-content/plugins/
 !wp-content/themes/
 !wp-content/uploads/
-
 # Ignore everything in "plugins" except certain plugins. #
 # ========================================================== #
 wp-content/plugins/*
-
 # Ignore everything in "themes" except the active theme. #
 # ========================================================== #
 wp-content/themes/*
 wp-content/themes/music-heals/gulpfile.js
 !wp-content/themes/music-heals/
-wp-content/themes/music-heals/gulpfile.js
-
-
 # Ignore npm packages #
 # =================== #
 wp-content/themes/music-heals/node_modules/
