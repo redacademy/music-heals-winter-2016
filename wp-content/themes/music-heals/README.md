@@ -1,3 +1,5 @@
-# Music Heals - RED Community Project
+# RED Starter
 
-This project is to develop the design put forth by the RED Academy UX students for the community partner, Music Heals.
+A WordPress starter theme for RED Academy students, forked from Underscores.
+
+Download me, add me to your `wp-content` directory, rename me, and and start themin'!
