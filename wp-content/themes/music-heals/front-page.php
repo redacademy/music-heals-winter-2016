@@ -22,6 +22,8 @@
 
 				<?php get_template_part( 'template-parts/content' ); ?>
 
+				<p>hi</p>
+
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>
