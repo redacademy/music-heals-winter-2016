@@ -4,5 +4,4 @@
  *
  * @package RED_Starter_Theme
  */
-
 ?>
