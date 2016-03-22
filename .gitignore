@@ -46,6 +46,11 @@ wp-content/plugins/*
 wp-content/themes/*
 wp-content/themes/music-heals/gulpfile.js
 !wp-content/themes/music-heals/
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 4e5b819310ed29a829f145b8f1a644815dc1d839
 # Ignore npm packages #
 # =================== #
 wp-content/themes/music-heals/node_modules/
