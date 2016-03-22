@@ -554,9 +554,6 @@ a {
 .widget_search .search-submit {
   display: none; }
 
-.testing {
-  font-family: "Calluna"; }
-
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -659,3 +656,6 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-content {
+  height: 90vh;
+  width: 100vw; }
