@@ -3,7 +3,12 @@
  * The main template file.
  *
  * @package RED_Starter_Theme
+<<<<<<< HEAD
  */ ?>
+=======
+ */?>
+
+>>>>>>> 7d728f195711fcfb36eb70e65e94e69e8def501c
 
 <div id="content" class="site-content">
 	<div id="primary" class="content-area">
@@ -26,7 +31,6 @@
 
 			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>
 
@@ -37,5 +41,9 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7d728f195711fcfb36eb70e65e94e69e8def501c
 
 <?php get_footer(); ?>
