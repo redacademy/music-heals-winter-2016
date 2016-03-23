@@ -2,7 +2,7 @@
 
 //bx slider
 
-$(function(){
+$(document).ready(function(){
  $('.bxslider').bxSlider({
     speed: 200,
     controls: false,
