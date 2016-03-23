@@ -1,7 +1,6 @@
 
 .site-footer {
   background-color: #9b9b9b;
-  height: 70vh;
   width: 100%;
 }
 
@@ -20,7 +19,7 @@
 
 .signup-form {
   display: flex;
-  width: 20rem;
+  width: 24rem;;
 }
 
 input[type="email"], input[type="submit"] {
@@ -40,9 +39,12 @@ input[type="submit"] {
   font-size: .9rem;
 	font-weight: 700;
   height: 2.2rem;
+  margin-left: .5rem;
   text-align: center;
+  text-shadow: none;    
   width: 5rem;
 }
+
 
 .contact, .charity-info {
   display: flex;
@@ -61,10 +63,15 @@ input[type="submit"] {
   flex-direction: row;
   list-style: none;
   margin-top: 1rem;
+  margin-left: 0;
+  padding-left: 0;
+
 
   li {
     background-color: transparent;
     height: 35px;
+    margin: 5px;
     width: 35px;
   }
+
 }
