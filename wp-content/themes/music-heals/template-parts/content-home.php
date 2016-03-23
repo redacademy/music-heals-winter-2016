@@ -48,7 +48,7 @@
       <div>
         <span>+ More</span>
       </div>
-</section>
+
 
 <div class="about-us">
   <h2>How We Help</h2>
