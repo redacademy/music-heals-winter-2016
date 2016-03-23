@@ -558,6 +558,7 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+<<<<<<< HEAD
 .site-branding {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -588,6 +589,11 @@ a {
   padding-right: 1rem; }
   .logo img {
     background: transparent; }
+=======
+.site-content {
+  height: 90vh;
+  width: 100vw; }
+>>>>>>> new-features
 
 /*--------------------------------------------------------------
 # Content
@@ -691,6 +697,12 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b9dea2e888bc67061796359504903937b0b2f104
 .video-box {
   background: url("../../assets/Home_image1.jpg") no-repeat top;
   background-size: cover;
@@ -757,12 +769,40 @@ object {
   background-size: cover;
   border-top: 4px solid white;
   height: 230px;
+=======
+.site-content {
+  height: 90vh;
+  width: 100vw; }
+
+.bxslider {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.slider-image-one {
+  height: 50vh;
+  width: 100vw;
+  background: url(../../assets/Home_Slider1.svg) no-repeat center;
+  background-size: contain; }
+
+.news-and-events-section {
+  height: 60vh;
+  width: 100vw;
+  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
+  background-size: cover, contain; }
+
+.news-and-events {
+  height: 60vh;
+  width: 80vw;
+  color: white;
+>>>>>>> new-features
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -793,3 +833,27 @@ object {
     text-shadow: none;
     box-shadow: none;
     padding: .75rem 2.5rem; }
+<<<<<<< HEAD
+=======
+>>>>>>> home-page
+=======
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: no-wrap;
+      -ms-flex-wrap: no-wrap;
+          flex-wrap: no-wrap;
+  margin: 0 auto; }
+  .news-and-events h1 {
+    width: 300px;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: -1.5rem;
+    line-height: 3.1rem;
+    font-size: 2.5rem; }
+  .news-and-events h2 {
+    text-transform: capitalize; }
+  .news-and-events span {
+    font-size: 20px; }
+>>>>>>> new-features
+>>>>>>> b9dea2e888bc67061796359504903937b0b2f104

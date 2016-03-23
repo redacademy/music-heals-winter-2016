@@ -100,3 +100,53 @@
     padding: .75rem 2.5rem;
   }
 }
+
+//  SLIDER SECTION
+
+.bxslider {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-images {
+  height: 50vh;
+  width: 100vw;
+}
+
+// NEWS AND EVENTS SECTION
+
+.news-and-events-section {
+  height: 60vh;
+  width: 100vw;
+  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
+  background-size: cover, contain;
+}
+
+.news-and-events {
+  height: 60vh;
+  width: 80vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin: 0 auto;
+
+  h1 {
+    width: 300px;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: -1.5rem;
+    line-height: 3.1rem;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    text-transform: capitalize;
+  }
+
+  span {
+    font-size: 20px;
+  }
+}
