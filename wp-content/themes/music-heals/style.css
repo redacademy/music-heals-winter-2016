@@ -933,9 +933,14 @@ object {
 <<<<<<< HEAD
 =======
   height: 450px;
+<<<<<<< HEAD
 >>>>>>> 7890b3c7a5f46ad451bb96c3371c994bde2c3c2b
   margin-bottom: 2rem;
   margin-top: 2rem;
+=======
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+>>>>>>> 05ce05f42c5d1d5c15837e3664362683ab3f9604
   max-width: 100%; }
   .about-us h2 {
     color: #fff;
@@ -968,8 +973,8 @@ object {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
   height: 450px;
-  margin-bottom: 2rem;
-  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   max-width: 100%; }
   .shop h2 {
     color: #fff;
