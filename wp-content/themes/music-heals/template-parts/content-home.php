@@ -20,13 +20,16 @@
 
 <ul class="bxslider box-padding">
   <li>
-    <img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider1.svg" alt="music heals images" class="slider-images"/>
+    <div class="slider-image-1">
+    </div>
   </li>
   <li>
-    <img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider2.svg" alt="music heals images" class="slider-images"/>
+    <div class="slider-image-2">
+    </div>
   </li>
   <li>
-    <img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider3.svg" alt="music heals images" class="slider-images"/>
+    <div class="slider-image-3">
+    </div>
   </li>
 </ul>
 
