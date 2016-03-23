@@ -7,6 +7,7 @@
  */
  ?>
 
+
 <ul class="bxslider">
   <li>
     <img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider1.svg" alt="music heals images" class="slider-images"/>
