@@ -7,18 +7,18 @@
 
 ?>
 
- <div class="video-box">
+ <div class="video-box box-padding">
    <div class="text-wrapper">
      <div class="header-text"><h1>Think about all the ways music helps you.</h1></div>
      <div class="tagline-text"><p>Music Heals wants to make sure that <span>everyone</span> has access to the healing power of music.</p></div>
    </div>
  </div>
- <div class="donations-box">
+ <div class="donations-box box-padding">
    <h1>The Gift of Music</h1>
    <button>Give</button>
  </div>
 
-<ul class="bxslider">
+<ul class="bxslider box-padding">
   <li>
     <img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider1.svg" alt="music heals images" class="slider-images"/>
   </li>
@@ -30,7 +30,7 @@
   </li>
 </ul>
 
-<section class="news-and-events-section">
+<section class="news-and-events-section box-padding">
     <!--  NEWS AND EVENTS -->
     <div class="news-and-events">
 
@@ -50,11 +50,13 @@
       </div>
 </section>
 
-<div class="about-us">
+
+<div class="about-us box-padding">
+
   <h2>How We Help</h2>
   <button class="about-us-btn">About Us</button>
 </div>
-<div class="shop">
+<div class="shop box-padding">
   <h2>Merch</h2>
   <button class="shop-btn">Shop</button>
 </div>
