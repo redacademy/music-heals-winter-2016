@@ -484,8 +484,27 @@ a {
   text-align: right;
   width: 50%; }
 
+body {
+  font-family: 'Catamaran', sans-serif; }
+
+button {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid black;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0; }
+
+.common-btn {
+  color: #000;
+  height: 4rem;
+  font-size: 20px;
+  width: 10rem; }
+
 .box-padding {
-  border-bottom: 1.3rem solid white; }
+  border-bottom: 1.3rem solid white;
+  height: 400px; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -578,7 +597,8 @@ a {
   z-index: 100; }
 
 .menu {
-  width: 30px; }
+  width: 30px;
+  padding-left: .5rem; }
 
 .logo {
   width: 90px;
@@ -772,9 +792,13 @@ object {
 /* Front page */
 .video-box {
   background: url("../../assets/Home_image1.jpg") no-repeat top;
+<<<<<<< HEAD
   background-size: cover, contain;
   overflow: visible;
   height: 230px;
+=======
+  background-size: cover, cover;
+>>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -805,7 +829,6 @@ object {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
-  font-family: 'Catamaran', sans-serif;
   letter-spacing: 1px;
   padding-top: 2.5rem; }
 
@@ -832,8 +855,12 @@ object {
 
 .donations-box {
   background: url("../../assets/Home_Gift box.svg") no-repeat center;
+<<<<<<< HEAD
   background-size: cover, contain;
   height: 230px;
+=======
+  background-size: cover, cover;
+>>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -850,7 +877,6 @@ object {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
   max-width: 100%;
-  font-family: 'Catamaran', sans-serif;
   letter-spacing: 1px;
   text-align: center;
   position: relative; }
@@ -861,14 +887,8 @@ object {
     text-transform: uppercase;
     padding: 0 1rem;
     line-height: 1.25; }
-  .donations-box button {
+  .donations-box .give {
     color: #DB1921;
-    font-size: 15px;
-    font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid black;
-    text-shadow: none;
-    box-shadow: none;
     padding: .75rem 2.5rem; }
 
 .bxslider {
@@ -881,15 +901,13 @@ object {
   width: 100vw; }
 
 .news-and-events-section {
-  height: 60vh;
   width: 100vw;
   background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain; }
 
 .news-and-events {
-  height: 60vh;
   width: 80vw;
-  color: black;
+  color: white;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -930,22 +948,16 @@ object {
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
+<<<<<<< HEAD
   height: 450px;
+=======
+>>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
   max-width: 100%; }
   .about-us h2 {
     color: #fff;
     font-size: 50px;
     margin-top: 5rem;
     text-transform: uppercase; }
-
-.about-us-btn {
-  background-color: rgba(255, 255, 255, 0.78);
-  border: 1.5px solid #000;
-  border-radius: 0;
-  color: #000;
-  height: 4.5rem;
-  font-size: 25px;
-  width: 12rem; }
 
 .shop {
   -webkit-align-items: center;
@@ -962,19 +974,13 @@ object {
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
+<<<<<<< HEAD
   height: 450px;
+=======
+>>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
   max-width: 100%; }
   .shop h2 {
     color: #fff;
     font-size: 50px;
     margin-top: 5rem;
     text-transform: uppercase; }
-
-.shop-btn {
-  background-color: rgba(255, 255, 255, 0.78);
-  border: 1.5px solid #000;
-  border-radius: 0;
-  color: #000;
-  height: 4.5rem;
-  font-size: 25px;
-  width: 12rem; }

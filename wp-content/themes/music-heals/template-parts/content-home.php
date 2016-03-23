@@ -15,7 +15,7 @@
  </div>
  <div class="donations-box box-padding">
    <h1>The Gift of Music</h1>
-   <button>Give</button>
+   <button class="common-btn give">Give</button>
  </div>
 
 <ul class="bxslider box-padding">
@@ -50,11 +50,13 @@
       </div>
 </section>
 
+
 <div class="about-us box-padding">
+
   <h2>How We Help</h2>
-  <button class="about-us-btn">About Us</button>
+  <button class="common-btn">About Us</button>
 </div>
 <div class="shop box-padding">
   <h2>Merch</h2>
-  <button class="shop-btn">Shop</button>
+  <button class="common-btn">Shop</button>
 </div>
