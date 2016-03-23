@@ -484,6 +484,10 @@ a {
   text-align: right;
   width: 50%; }
 
+.site-content {
+  height: 90vh;
+  width: 100vw; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -553,6 +557,26 @@ a {
 /* Search widget. */
 .widget_search .search-submit {
   display: none; }
+
+.site-branding {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  background: transparent; }
+
+.menu {
+  width: 30px; }
+
+.logo {
+  width: 70px; }
+  .logo img {
+    background: transparent; }
 
 /*--------------------------------------------------------------
 # Content
@@ -656,6 +680,93 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-content {
-  height: 90vh;
-  width: 100vw; }
+.video-box {
+  background: url("../../assets/Home_image1.jpg") no-repeat center;
+  background-size: contain;
+  overflow: visible;
+  height: 300px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.text-wrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center; }
+
+.header-text {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem 2rem;
+  line-height: 1; }
+  .header-text h1 {
+    opacity: 1;
+    color: black;
+    margin: .25em 0; }
+
+.tagline-text {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem 2rem;
+  line-height: 1; }
+  .tagline-text p {
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+    margin: .25em 0; }
+  .tagline-text span {
+    font-style: italic; }
+
+.donations-box {
+  background: url("../../assets/Home_Gift box.svg") no-repeat center;
+  background-size: contain;
+  height: 300px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; }
+  .donations-box h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    line-height: 1.25; }
+  .donations-box button {
+    color: #DB1921;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    text-shadow: none;
+    box-shadow: none;
+    padding: .75rem 2.5rem; }

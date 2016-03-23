@@ -1,1 +1,19 @@
+.site-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: transparent;
+}
 
+.menu {
+  width: 30px;
+
+}
+
+.logo {
+  width: 70px;
+
+  img {
+    background: transparent;
+  }
+}

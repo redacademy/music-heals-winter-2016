@@ -1,4 +1,92 @@
-.site-content {
-  height: 90vh;
-  width: 100vw;
+//===FrontPage PHP===//
+
+
+
+
+//===Content-Home===//
+
+// Mission Statement //
+
+.video-box {
+  background: url('../../assets/Home_image1.jpg') no-repeat center;
+  background-size: contain;
+  overflow: visible;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-wrapper {
+  background-color: rgba(255,255,255, 0.6);
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.header-text {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem 2rem;
+  line-height: 1;
+  h1 {
+    opacity: 1;
+    color: black;
+    margin: .25em 0;
+  }
+}
+
+.tagline-text {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem 2rem;
+  line-height: 1;
+  p {
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+    margin: .25em 0;
+  }
+
+  span {
+    font-style: italic;
+  }
+}
+
+// Donations Page box //
+
+.donations-box {
+  background: url('../../assets/Home_Gift box.svg') no-repeat center;
+  background-size: contain;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    line-height: 1.25;
+  }
+
+  button {
+    color: #DB1921;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(255,255,255, 0.7);
+    border: 2px solid black;
+    text-shadow: none;
+    box-shadow: none;
+    padding: .75rem 2.5rem;
+  }
 }
