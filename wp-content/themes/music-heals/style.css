@@ -484,10 +484,6 @@ a {
   text-align: right;
   width: 50%; }
 
-.site-content {
-  height: 90vh;
-  width: 100vw; }
-
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -629,7 +625,8 @@ a {
 
 .site-footer {
   background-color: #9b9b9b;
-  width: 100%; }
+  width: 100%;
+  width: 100vw; }
 
 .site-info {
   -webkit-align-items: center;
@@ -933,6 +930,10 @@ object {
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
+<<<<<<< HEAD
+=======
+  height: 450px;
+>>>>>>> 7890b3c7a5f46ad451bb96c3371c994bde2c3c2b
   margin-bottom: 2rem;
   margin-top: 2rem;
   max-width: 100%; }
