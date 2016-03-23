@@ -484,8 +484,27 @@ a {
   text-align: right;
   width: 50%; }
 
+body {
+  font-family: 'Catamaran', sans-serif; }
+
+button {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid black;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 0; }
+
+.common-btn {
+  color: #000;
+  height: 4rem;
+  font-size: 20px;
+  width: 10rem; }
+
 .box-padding {
-  border-bottom: 1.3rem solid white; }
+  border-bottom: 1.3rem solid white;
+  height: 400px; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -773,10 +792,7 @@ object {
 /* Front page */
 .video-box {
   background: url("../../assets/Home_image1.jpg") no-repeat top;
-  background-size: cover;
-  border-bottom: 4px solid white;
-  overflow: visible;
-  height: 450px;
+  background-size: cover, cover;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -807,7 +823,6 @@ object {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
-  font-family: 'Catamaran', sans-serif;
   letter-spacing: 1px;
   padding-top: 2.5rem; }
 
@@ -834,9 +849,7 @@ object {
 
 .donations-box {
   background: url("../../assets/Home_Gift box.svg") no-repeat center;
-  background-size: cover;
-  border-top: 4px solid white;
-  height: 450px;
+  background-size: cover, cover;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -853,7 +866,6 @@ object {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
   max-width: 100%;
-  font-family: 'Catamaran', sans-serif;
   letter-spacing: 1px;
   text-align: center;
   position: relative; }
@@ -864,14 +876,8 @@ object {
     text-transform: uppercase;
     padding: 0 1rem;
     line-height: 1.25; }
-  .donations-box button {
+  .donations-box .give {
     color: #DB1921;
-    font-size: 15px;
-    font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid black;
-    text-shadow: none;
-    box-shadow: none;
     padding: .75rem 2.5rem; }
 
 .bxslider {
@@ -884,15 +890,13 @@ object {
   width: 100vw; }
 
 .news-and-events-section {
-  height: 60vh;
   width: 100vw;
   background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain; }
 
 .news-and-events {
-  height: 60vh;
   width: 80vw;
-  color: black;
+  color: white;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -933,33 +937,12 @@ object {
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
-  height: 450px;
-<<<<<<< HEAD
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  height: 450px;
-=======
-<<<<<<< HEAD
->>>>>>> 4dbd54bda37a0ad3b49cb5c124ffe27d129de71d
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-=======
->>>>>>> front-page-polish
   max-width: 100%; }
   .about-us h2 {
     color: #fff;
     font-size: 50px;
     margin-top: 5rem;
     text-transform: uppercase; }
-
-.about-us-btn {
-  background-color: rgba(255, 255, 255, 0.78);
-  border: 1.5px solid #000;
-  border-radius: 0;
-  color: #000;
-  height: 4.5rem;
-  font-size: 25px;
-  width: 12rem; }
 
 .shop {
   -webkit-align-items: center;
@@ -976,24 +959,9 @@ object {
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
-  height: 450px;
-<<<<<<< HEAD
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-=======
->>>>>>> front-page-polish
   max-width: 100%; }
   .shop h2 {
     color: #fff;
     font-size: 50px;
     margin-top: 5rem;
     text-transform: uppercase; }
-
-.shop-btn {
-  background-color: rgba(255, 255, 255, 0.78);
-  border: 1.5px solid #000;
-  border-radius: 0;
-  color: #000;
-  height: 4.5rem;
-  font-size: 25px;
-  width: 12rem; }
