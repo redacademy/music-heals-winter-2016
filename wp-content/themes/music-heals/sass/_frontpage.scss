@@ -8,31 +8,35 @@
 // Mission Statement //
 
 .video-box {
-  background: url('../../assets/Home_image1.jpg') no-repeat center;
-  background-size: contain;
+  background: url('../../assets/Home_image1.jpg') no-repeat top;
+  background-size: cover, contain;
+  border-bottom: 4px solid white;
   overflow: visible;
-  height: 300px;
+  height: 230px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1 0 100%;
+  max-width: 100%;
+  position: relative;
+
 }
 
 .text-wrapper {
   background-color: rgba(255,255,255, 0.6);
-  margin-top: 1rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-bottom: 1rem;
+  margin: 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 2.5rem;
 }
 
 .header-text {
-  font-family: sans-serif;
   text-align: center;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   line-height: 1;
   h1 {
     opacity: 1;
@@ -42,9 +46,8 @@
 }
 
 .tagline-text {
-  font-family: sans-serif;
   text-align: center;
-  padding: 1rem 2rem;
+  padding: .5rem 2rem;
   line-height: 1;
   p {
     opacity: 1;
@@ -62,13 +65,19 @@
 
 .donations-box {
   background: url('../../assets/Home_Gift box.svg') no-repeat center;
-  background-size: contain;
-  height: 300px;
+  background-size: cover, contain;
+  border-top: 4px solid white;
+  height: 230px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 1 0 100%;
+  max-width: 100%;
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 1px;
   text-align: center;
+  position: relative;
 
   h1 {
     color: white;
