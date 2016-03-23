@@ -1,3 +1,12 @@
+<?php
+/**
+ * Template part for displaying single posts.
+ *
+ * @package RED_Starter_Theme
+ */
+
+?>
+
 <div class="about-us">
   <h2>How We Help</h2>
   <button class="about-us-btn">About Us</button>
@@ -6,4 +15,3 @@
   <h2>Merch</h2>
   <button class="shop-btn">Shop</button>
 </div>
-<footer>
