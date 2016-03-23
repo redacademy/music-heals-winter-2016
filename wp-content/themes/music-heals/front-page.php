@@ -12,16 +12,13 @@
 
 	<ul class="bxslider">
 		<li>
-			<div class="slider-image-one">
-			</div>
+			<img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider1.svg" alt="music heals images" class="slider-images"/>
 		</li>
 		<li>
-			<div class="slider-image-two">
-			</div>
+			<img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider2.svg" alt="music heals images" class="slider-images"/>
 		</li>
 		<li>
-			<div class="slider-image-three">
-			</div>
+			<img src="<?php bloginfo( 'template_url' ); ?>/assets/Home_Slider3.svg" alt="music heals images" class="slider-images"/>
 		</li>
 	</ul>
 

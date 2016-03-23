@@ -114,6 +114,5 @@ function loadbxslider()
 		wp_enqueue_scripts('jquery', get_template_directory_uri() . '/js/jquery/jquery-2.2.2.js' );
     wp_enqueue_style('bxstyle', get_template_directory_uri() . '/js/jquery-slider/jquery.bxslider.css' );
     wp_enqueue_script('bxscript', get_template_directory_uri() . '/js/jquery-slider/jquery.bxslider.min.js', array('jquery'));
-		// wp_enqueue_scripts('scripts', get_template_directory_uri() . '/js/scripts.js');
 }
 add_action('init', 'loadbxslider');
