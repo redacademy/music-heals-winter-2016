@@ -558,6 +558,36 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+.site-branding {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../../assets/Home_image1.jpg") no-repeat top;
+  background-size: cover, contain;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 100; }
+
+.menu {
+  width: 30px; }
+
+.logo {
+  width: 90px;
+  margin: 0 auto;
+  padding-right: 1rem; }
+  .logo img {
+    background: transparent; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -660,3 +690,108 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+<<<<<<< HEAD
+=======
+.video-box {
+  background: url("../../assets/Home_image1.jpg") no-repeat top;
+  background-size: cover, contain;
+  border-bottom: 4px solid white;
+  overflow: visible;
+  height: 230px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  max-width: 100%;
+  position: relative; }
+
+.text-wrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 1rem 2rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 2.5rem; }
+
+.header-text {
+  text-align: center;
+  padding: 0 2rem;
+  line-height: 1; }
+  .header-text h1 {
+    opacity: 1;
+    color: black;
+    margin: .25em 0; }
+
+.tagline-text {
+  text-align: center;
+  padding: .5rem 2rem;
+  line-height: 1; }
+  .tagline-text p {
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+    margin: .25em 0; }
+  .tagline-text span {
+    font-style: italic; }
+
+.donations-box {
+  background: url("../../assets/Home_Gift box.svg") no-repeat center;
+  background-size: cover, contain;
+  border-top: 4px solid white;
+  height: 230px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  max-width: 100%;
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  position: relative; }
+  .donations-box h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    line-height: 1.25; }
+  .donations-box button {
+    color: #DB1921;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    text-shadow: none;
+    box-shadow: none;
+    padding: .75rem 2.5rem; }
+>>>>>>> home-page

@@ -12,8 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-		<script src="https://use.typekit.net/phd7iff.js"></script>
-		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
 
 	<?php wp_head(); ?>
 	</head>
@@ -24,6 +23,9 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
+					<div class="menu"><img src="<?php echo get_template_directory_uri() . '/assets\/Icon_Hamburger' ?>.svg" alt="Hamburger Menu"/></div>
+
+					<div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
 
 				</div><!-- .site-branding -->
 
