@@ -14,6 +14,12 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<script src="https://use.typekit.net/phd7iff.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<!-- jQuery library (served from Google) -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<!-- bxSlider Javascript file -->
+		<script src="../js/jquery-slider/jquery.bxslider.min.js"></script>
+		<!-- bxSlider CSS file -->
+		<link href="../js/jquery-slider/jquery.bxslider.css" rel="stylesheet" />
 
 	<?php wp_head(); ?>
 	</head>

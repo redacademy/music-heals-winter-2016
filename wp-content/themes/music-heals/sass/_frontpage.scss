@@ -2,3 +2,71 @@
   height: 90vh;
   width: 100vw;
 }
+
+
+//  SLIDER SECTION
+
+.bxslider {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-image-one {
+  height: 50vh;
+  width: 100vw;
+  background: url(../../assets/Home_Slider1.svg) no-repeat center;
+  background-size: contain;
+}
+
+.slider-image-two {
+  height: 50vh;
+  width: 100vw;
+  background: url(../../assets/Home_Slider2.svg) no-repeat center;
+  background-size: contain;
+}
+
+.slider-image-three {
+  height: 50vh;
+  width: 100vw;
+  background: url(../../assets/Home_Slider3.svg) no-repeat center;
+  background-size: contain;
+}
+
+
+// NEWS AND EVENTS SECTION
+
+.news-and-events-section {
+  height: 60vh;
+  width: 100vw;
+  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
+  background-size: cover, contain;
+}
+
+.news-and-events {
+  height: 60vh;
+  width: 80vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin: 0 auto;
+
+  h1 {
+    width: 300px;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: -1.5rem;
+    line-height: 3.1rem;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    text-transform: capitalize;
+  }
+
+  span {
+    font-size: 20px;
+  }
+}
