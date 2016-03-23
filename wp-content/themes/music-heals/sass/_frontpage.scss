@@ -9,11 +9,8 @@
 // Mission Statement //
 
 .video-box {
-  background: url('../../assets/Home_image1.jpg') no-repeat top;
-  background-size: cover, contain;
-  overflow: visible;
-  height: 230px;
-  background-size: cover, cover;
+  background: url('../../assets/Home_image1.jpg') no-repeat center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,9 +62,7 @@
 
 .donations-box {
   background: url('../../assets/Home_Gift box.svg') no-repeat center;
-  background-size: cover, contain;
-  height: 230px;
-  background-size: cover, cover;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +110,6 @@
 }
 
 .news-and-events {
-
   width: 80vw;
   color: white;
   display: flex;
@@ -172,7 +166,6 @@
   display: flex;
   flex-direction: column;
   flex: 1 0 100%;
-
   max-width: 100%;
 
   h2 {
