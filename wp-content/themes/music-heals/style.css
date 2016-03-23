@@ -895,9 +895,20 @@ object {
   padding: 0;
   margin: 0; }
 
-.slider-images {
-  height: 50vh;
-  width: 100vw; }
+.slider-image-1 {
+  background: url(../../assets/Home_Slider1.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: contain;
+  height: 60vh; }
+
+.slider-image-2 {
+  background: url(../../assets/Home_Slider2.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: contain;
+  height: 60vh; }
+
+.slider-image-3 {
+  background: url(../../assets/Home_Slider3.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: contain;
+  height: 60vh; }
 
 .news-and-events-section {
   width: 100vw;
@@ -919,7 +930,8 @@ object {
   -webkit-flex-wrap: no-wrap;
       -ms-flex-wrap: no-wrap;
           flex-wrap: no-wrap;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 3rem; }
   .news-and-events h1 {
     width: 300px;
     text-transform: uppercase;
@@ -929,6 +941,8 @@ object {
     font-size: 2.5rem; }
   .news-and-events h2 {
     text-transform: capitalize; }
+    .news-and-events h2 .sub-heading {
+      width: 17rem; }
   .news-and-events span {
     font-size: 20px; }
 
