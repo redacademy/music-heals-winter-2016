@@ -14,7 +14,25 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet' type='text/css'>
 
+
+	<?php wp_enqueue_script('jquery'); ?>
+
 	<?php wp_head(); ?>
+
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+	  jQuery('.bxslider').bxSlider({
+	    mode: 'horizontal',
+	    infiniteLoop: true,
+	    speed: 2000,
+	    pause: 8000,
+	    auto: true,
+	    pager: false,
+	    controls: true
+	  });
+	});
+	</script>
+
 	</head>
 
 	<body <?php body_class(); ?>>
