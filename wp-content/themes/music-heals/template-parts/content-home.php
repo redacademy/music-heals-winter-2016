@@ -48,7 +48,7 @@
       <div>
         <span>+ More</span>
       </div>
-=======
+</section>
 <div class="about-us">
   <h2>How We Help</h2>
   <button class="about-us-btn">About Us</button>
@@ -57,4 +57,3 @@
   <h2>Merch</h2>
   <button class="shop-btn">Shop</button>
 </div>
->>>>>>> sara-frontpagestyles

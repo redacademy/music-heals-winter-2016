@@ -2,6 +2,7 @@
 .site-footer {
   background-color: #9b9b9b;
   width: 100%;
+  width: 100vw;
 }
 
 .site-info {
@@ -41,7 +42,7 @@ input[type="submit"] {
   height: 2.2rem;
   margin-left: .5rem;
   text-align: center;
-  text-shadow: none;    
+  text-shadow: none;
   width: 5rem;
 }
 
