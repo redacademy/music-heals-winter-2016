@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 //===FrontPage PHP===//
 
@@ -148,5 +149,69 @@
 
   span {
     font-size: 20px;
+
+// About Us Section //
+
+.about-us {
+  align-items: center;
+  background:
+  url('../../assets/Confirmation_Headphone-man2.jpg') center no-repeat;
+  background-size: cover, cover;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 100%;
+  height: 450px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  max-width: 100%;
+
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 5rem;
+    text-transform: uppercase;
   }
 }
+
+.about-us-btn {
+  background-color: rgba(255,255,255,0.78);
+  border: 1.5px solid #000;
+  border-radius: 0;
+  color: #000;
+  height: 4.5rem;
+  font-size: 25px;
+  width: 12rem;
+}
+
+// Shop Section //
+
+.shop {
+  align-items: center;
+  background:
+  url('../../assets/Home_Merch.jpg') center center no-repeat;
+  background-size: cover, cover;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 100%;
+  height: 450px;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  max-width: 100%;
+
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 5rem;
+    text-transform: uppercase;
+  }
+}
+
+.shop-btn {
+  background-color: rgba(255,255,255,0.78);
+  border: 1.5px solid #000;
+  border-radius: 0;
+  color: #000;
+  height: 4.5rem;
+  font-size: 25px;
+  width: 12rem;
+  }
