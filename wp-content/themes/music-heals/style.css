@@ -484,10 +484,6 @@ a {
   text-align: right;
   width: 50%; }
 
-.site-content {
-  height: 90vh;
-  width: 100vw; }
-
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -558,7 +554,6 @@ a {
 .widget_search .search-submit {
   display: none; }
 
-<<<<<<< HEAD
 .site-branding {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -588,11 +583,6 @@ a {
   padding-right: 1rem; }
   .logo img {
     background: transparent; }
-=======
-.site-content {
-  height: 90vh;
-  width: 100vw; }
->>>>>>> new-features
 
 /*--------------------------------------------------------------
 # Content
@@ -634,7 +624,8 @@ a {
 
 .site-footer {
   background-color: #9b9b9b;
-  width: 100%; }
+  width: 100%;
+  width: 100vw; }
 
 .site-info {
   -webkit-align-items: center;
@@ -776,10 +767,6 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 .video-box {
   background: url("../../assets/Home_image1.jpg") no-repeat top;
   background-size: cover, contain;
@@ -804,21 +791,12 @@ object {
 .text-wrapper {
   background-color: rgba(255, 255, 255, 0.6);
   margin: 1rem 2rem;
-=======
-.about-us {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: url("../../assets/Confirmation_Headphone-man2.jpg") center no-repeat;
-  background-size: cover, cover;
->>>>>>> sara-frontpagestyles
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -855,71 +833,12 @@ object {
   background-size: cover, contain;
   border-top: 4px solid white;
   height: 230px;
-=======
-.site-content {
-  height: 90vh;
-  width: 100vw; }
-
-.bxslider {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.slider-image-one {
-  height: 50vh;
-  width: 100vw;
-  background: url(../../assets/Home_Slider1.svg) no-repeat center;
-  background-size: contain; }
-
-.news-and-events-section {
-  height: 60vh;
-  width: 100vw;
-  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
-  background-size: cover, contain; }
-
-.news-and-events {
-  height: 60vh;
-  width: 80vw;
-  color: white;
->>>>>>> new-features
-=======
-  -webkit-flex: 1 0 100%;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
-  height: 450px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  max-width: 100%; }
-  .about-us h2 {
-    color: #fff;
-    font-size: 50px;
-    margin-top: 5rem;
-    text-transform: uppercase; }
-
-.about-us-btn {
-  background-color: rgba(255, 255, 255, 0.78);
-  border: 1.5px solid #000;
-  border-radius: 0;
-  color: #000;
-  height: 4.5rem;
-  font-size: 25px;
-  width: 12rem; }
-
-.shop {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: url("../../assets/Home_Merch.jpg") center center no-repeat;
-  background-size: cover, cover;
->>>>>>> sara-frontpagestyles
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-<<<<<<< HEAD
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
@@ -950,8 +869,32 @@ object {
     text-shadow: none;
     box-shadow: none;
     padding: .75rem 2.5rem; }
->>>>>>> home-page
-=======
+
+.bxslider {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.slider-images {
+  height: 50vh;
+  width: 100vw; }
+
+.news-and-events-section {
+  height: 60vh;
+  width: 100vw;
+  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
+  background-size: cover, contain; }
+
+.news-and-events {
+  height: 60vh;
+  width: 80vw;
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -970,8 +913,53 @@ object {
     text-transform: capitalize; }
   .news-and-events span {
     font-size: 20px; }
->>>>>>> new-features
-=======
+
+.about-us {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../../assets/Confirmation_Headphone-man2.jpg") center no-repeat;
+  background-size: cover, cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  height: 450px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  max-width: 100%; }
+  .about-us h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 5rem;
+    text-transform: uppercase; }
+
+.about-us-btn {
+  background-color: rgba(255, 255, 255, 0.78);
+  border: 1.5px solid #000;
+  border-radius: 0;
+  color: #000;
+  height: 4.5rem;
+  font-size: 25px;
+  width: 12rem; }
+
+.shop {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../../assets/Home_Merch.jpg") center center no-repeat;
+  background-size: cover, cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
@@ -993,4 +981,3 @@ object {
   height: 4.5rem;
   font-size: 25px;
   width: 12rem; }
->>>>>>> sara-frontpagestyles
