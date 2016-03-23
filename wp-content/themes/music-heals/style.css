@@ -920,6 +920,8 @@ object {
     font-size: 2.5rem; }
   .news-and-events h2 {
     text-transform: capitalize; }
+    .news-and-events h2 .sub-heading {
+      width: 17rem; }
   .news-and-events span {
     font-size: 20px; }
 
