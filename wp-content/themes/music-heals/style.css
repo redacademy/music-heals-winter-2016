@@ -909,7 +909,8 @@ object {
   -webkit-flex-wrap: no-wrap;
       -ms-flex-wrap: no-wrap;
           flex-wrap: no-wrap;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 3rem; }
   .news-and-events h1 {
     width: 300px;
     text-transform: uppercase;
