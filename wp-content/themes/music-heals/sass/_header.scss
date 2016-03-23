@@ -1,4 +1,28 @@
-.site-content {
-  height: 90vh;
-  width: 100vw;
+.site-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: url('../../assets/Home_image1.jpg') no-repeat top;
+  background-size: cover, contain;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.menu {
+  width: 30px;
+
+}
+
+.logo {
+  width: 90px;
+  margin: 0 auto;
+  padding-right: 1rem;
+
+  img {
+    background: transparent;
+  }
+
 }
