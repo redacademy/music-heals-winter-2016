@@ -9,11 +9,6 @@
 // Mission Statement //
 
 .video-box {
-  background: url('../../assets/Home_image1.jpg') no-repeat top;
-  background-size: cover, contain;
-  overflow: visible;
-  height: 230px;
-  background-size: cover, cover;
   background: url('../../assets/Home_image1.jpg') no-repeat center;
   background-size: cover;
   display: flex;
@@ -67,8 +62,6 @@
 
 .donations-box {
   background: url('../../assets/Home_Gift box.svg') no-repeat center;
-  background-size: cover, contain;
-  height: 230px;
   background-size: cover, cover;
   display: flex;
   flex-direction: column;
