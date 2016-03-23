@@ -47,8 +47,4 @@
 			</div>  <!-- ends wrapper div -->
 	</section>
 
-	<script src="../js/jquery/jquery-2.2.2.js"></script>
-	<script src="../js/jquery-slider/jquery.bxslider.min.js"></script>
-	<script src="../js/slider.js"></script>
-
 <?php get_footer(); ?>

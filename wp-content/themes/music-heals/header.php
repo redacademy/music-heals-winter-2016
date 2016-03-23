@@ -14,14 +14,26 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<script src="https://use.typekit.net/phd7iff.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-		<!-- jQuery library (served from Google) -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<!-- bxSlider Javascript file -->
-		<script src="../js/jquery-slider/jquery.bxslider.min.js"></script>
-		<!-- bxSlider CSS file -->
-		<link href="../js/jquery-slider/jquery.bxslider.css" rel="stylesheet" />
+
+
+	<?php wp_enqueue_script('jquery'); ?>
 
 	<?php wp_head(); ?>
+
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+	  jQuery('.bxslider').bxSlider({
+	    mode: 'horizontal',
+	    infiniteLoop: true,
+	    speed: 2000,
+	    pause: 8000,
+	    auto: true,
+	    pager: false,
+	    controls: true
+	  });
+	});
+	</script>
+
 	</head>
 
 	<body <?php body_class(); ?>>
