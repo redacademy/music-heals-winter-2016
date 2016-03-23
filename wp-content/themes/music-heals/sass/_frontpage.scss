@@ -1,4 +1,68 @@
-.site-content {
-  height: 90vh;
-  width: 100vw;
+// .site-content {
+//   height: 90vh;
+//   width: 100vw;
+// }
+
+.about-us {
+  align-items: center;
+  background:
+  url('../../assets/Confirmation_Headphone-man2.jpg') center no-repeat;
+  background-size: cover, contain;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+
+  h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 4rem;
+    text-transform: uppercase;
+  }
 }
+
+.about-us-btn {
+  background-color: rgba(255,255,255,0.8);
+  border: 1.5px solid #000;
+  border-radius: 0;
+  color: #000;
+  height: 4rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 3rem;
+  width: 10rem;
+}
+
+.shop {
+  align-items: center;
+  background:
+  url('../../assets/Home_Merch.jpg') center no-repeat;
+  background-size: cover, contain;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  width: 100%;
+
+  h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 4rem;
+    text-transform: uppercase;
+  }
+}
+
+.shop-btn {
+  background-color: rgba(255,255,255,0.8);
+  border: 1.5px solid #000;
+  border-radius: 0;
+  color: #000;
+  height: 4rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  width: 10rem;
+  }

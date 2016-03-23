@@ -592,6 +592,82 @@ a {
 .bypostauthor {
   display: block; }
 
+.site-footer {
+  background-color: #9b9b9b;
+  height: 70vh;
+  width: 100%; }
+
+.site-info {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem; }
+
+.signup span {
+  color: #000; }
+
+.signup-form {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20rem; }
+
+input[type="email"], input[type="submit"] {
+  border-radius: 0px; }
+
+input[type="email"] {
+  width: 80%; }
+
+input[type="submit"] {
+  background: #db1921;
+  border: 1px solid #000;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 700;
+  height: 2.2rem;
+  text-align: center;
+  width: 5rem; }
+
+.contact, .charity-info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 0; }
+
+.contact p, .charity-info p {
+  text-transform: uppercase;
+  margin-bottom: .5rem; }
+
+.social-icons {
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  margin-top: 1rem; }
+  .social-icons li {
+    background-color: transparent;
+    height: 35px;
+    width: 35px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -656,6 +732,68 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-content {
-  height: 90vh;
-  width: 100vw; }
+.about-us {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../../assets/Confirmation_Headphone-man2.jpg") center no-repeat;
+  background-size: cover, contain;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 70vh;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 100%; }
+  .about-us h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 4rem;
+    text-transform: uppercase; }
+
+.about-us-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1.5px solid #000;
+  border-radius: 0;
+  color: #000;
+  height: 4rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 3rem;
+  width: 10rem; }
+
+.shop {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../../assets/Home_Merch.jpg") center no-repeat;
+  background-size: cover, contain;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 70vh;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+  width: 100%; }
+  .shop h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-top: 4rem;
+    text-transform: uppercase; }
+
+.shop-btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1.5px solid #000;
+  border-radius: 0;
+  color: #000;
+  height: 4rem;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  width: 10rem; }
