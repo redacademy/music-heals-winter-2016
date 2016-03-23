@@ -162,8 +162,6 @@
   flex-direction: column;
   flex: 1 0 100%;
   height: 450px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
   max-width: 100%;
 
   h2 {
@@ -195,8 +193,6 @@
   flex-direction: column;
   flex: 1 0 100%;
   height: 450px;
-  margin-bottom: 2rem;
-  margin-top: 2.5rem;
   max-width: 100%;
 
   h2 {
@@ -215,4 +211,8 @@
   height: 4.5rem;
   font-size: 25px;
   width: 12rem;
+}
+
+.box-padding {
+  margin: 2rem 0rem;
 }
