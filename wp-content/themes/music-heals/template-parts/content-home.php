@@ -4,6 +4,7 @@
  *
  * @package RED_Starter_Theme
  */
+
 ?>
 
 <div class="video-box">

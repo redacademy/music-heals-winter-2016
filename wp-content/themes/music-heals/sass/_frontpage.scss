@@ -10,7 +10,7 @@
 
 .video-box {
   background: url('../../assets/Home_image1.jpg') no-repeat top;
-  background-size: cover, contain;
+  background-size: cover;
   border-bottom: 4px solid white;
   overflow: visible;
   height: 230px;
@@ -66,7 +66,7 @@
 
 .donations-box {
   background: url('../../assets/Home_Gift box.svg') no-repeat center;
-  background-size: cover, contain;
+  background-size: cover;
   border-top: 4px solid white;
   height: 230px;
   display: flex;
