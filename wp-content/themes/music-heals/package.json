@@ -1,7 +1,7 @@
 {
   "name": "redstarter",
   "version": "1.0.0",
-  "description": "Le Red Bread theme.",
+  "description": "Music Heals theme.",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
