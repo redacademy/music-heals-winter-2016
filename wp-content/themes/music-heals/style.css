@@ -504,6 +504,7 @@ button {
 
 .box-padding {
   border-bottom: 1.3rem solid white;
+  border-bottom: 1.3rem solid white;
   height: 400px; }
 
 /*--------------------------------------------------------------
@@ -666,7 +667,10 @@ button {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2rem; }
+  padding: 1.5rem; }
+
+.signup {
+  width: 85%; }
 
 .signup span {
   color: #000; }
@@ -674,8 +678,7 @@ button {
 .signup-form {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  width: 24rem; }
+  display: flex; }
 
 input[type="email"], input[type="submit"] {
   border-radius: 0px; }
@@ -704,11 +707,12 @@ input[type="submit"] {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 1rem 0; }
+  margin: 1rem; }
 
 .contact p, .charity-info p {
   text-transform: uppercase;
-  margin-bottom: .5rem; }
+  margin-bottom: .3rem;
+  margin-top: .3rem; }
 
 .social-icons {
   color: #fff;
@@ -719,14 +723,15 @@ input[type="submit"] {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style: none;
-  margin-top: 1rem;
+  margin-bottom: 0;
   margin-left: 0;
   padding-left: 0; }
   .social-icons li {
     background-color: transparent;
-    height: 35px;
-    margin: 5px;
-    width: 35px; }
+    margin: 5px; }
+  .social-icons img {
+    height: 45px;
+    width: 45px; }
 
 /*--------------------------------------------------------------
 # Media
@@ -795,17 +800,18 @@ object {
 .video-box {
 <<<<<<< HEAD
   background: url("../../assets/Home_image1.jpg") no-repeat top;
-<<<<<<< HEAD
   background-size: cover, contain;
   overflow: visible;
   height: 230px;
-=======
   background-size: cover, cover;
+<<<<<<< HEAD
 >>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
 =======
   background: url("../../assets/Home_image1.jpg") no-repeat center;
   background-size: cover;
 >>>>>>> header-menu
+=======
+>>>>>>> 05fbf5ddc334d15f291c8554f270d0560b6fd799
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -862,12 +868,9 @@ object {
 
 .donations-box {
   background: url("../../assets/Home_Gift box.svg") no-repeat center;
-<<<<<<< HEAD
   background-size: cover, contain;
   height: 230px;
-=======
   background-size: cover, cover;
->>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -955,15 +958,11 @@ object {
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
-<<<<<<< HEAD
-  height: 450px;
-=======
->>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
   max-width: 100%; }
   .about-us h2 {
     color: #fff;
     font-size: 50px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-transform: uppercase; }
 
 .shop {
@@ -981,13 +980,9 @@ object {
   -webkit-flex: 1 0 100%;
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
-<<<<<<< HEAD
-  height: 450px;
-=======
->>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
   max-width: 100%; }
   .shop h2 {
     color: #fff;
     font-size: 50px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-transform: uppercase; }

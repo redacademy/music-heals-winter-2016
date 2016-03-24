@@ -11,7 +11,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 1.5rem;
+}
+
+.signup {
+  width: 85%;
 }
 
 .signup span {
@@ -20,7 +24,6 @@
 
 .signup-form {
   display: flex;
-  width: 24rem;;
 }
 
 input[type="email"], input[type="submit"] {
@@ -50,12 +53,13 @@ input[type="submit"] {
 .contact, .charity-info {
   display: flex;
   flex-direction: column;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .contact p, .charity-info p {
   text-transform: uppercase;
-  margin-bottom: .5rem;
+  margin-bottom: .3rem;
+  margin-top: .3rem;
 }
 
 .social-icons {
@@ -63,16 +67,19 @@ input[type="submit"] {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-top: 1rem;
+  margin-bottom: 0;
   margin-left: 0;
   padding-left: 0;
 
 
   li {
     background-color: transparent;
-    height: 35px;
     margin: 5px;
-    width: 35px;
+  }
+
+  img {
+    height: 45px;
+    width: 45px;
   }
 
 }

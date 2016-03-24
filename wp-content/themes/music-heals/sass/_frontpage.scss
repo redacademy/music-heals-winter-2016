@@ -62,7 +62,7 @@
 
 .donations-box {
   background: url('../../assets/Home_Gift box.svg') no-repeat center;
-  background-size: cover, cover;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,7 +110,6 @@
 }
 
 .news-and-events {
-
   width: 80vw;
   color: white;
   display: flex;
@@ -147,13 +146,12 @@
   display: flex;
   flex-direction: column;
   flex: 1 0 100%;
-
   max-width: 100%;
 
   h2 {
     color: #fff;
     font-size: 50px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-transform: uppercase;
   }
 }
@@ -168,13 +166,12 @@
   display: flex;
   flex-direction: column;
   flex: 1 0 100%;
-
   max-width: 100%;
 
   h2 {
     color: #fff;
     font-size: 50px;
-    margin-top: 5rem;
+    margin-top: 3rem;
     text-transform: uppercase;
   }
 }
