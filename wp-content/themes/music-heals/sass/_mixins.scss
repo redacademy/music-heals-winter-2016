@@ -22,16 +22,22 @@
 // CONTENT BOX MIXINS
 
 @mixin content-box {
-  height: 66vh;
-  width: 60vw;
+  height: 50vh;
+  width: 80vw;
+
+	h1 {
+		text-align: center;
+	}
 }
 
 @mixin content-box-left {
-  background-color: grey;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
 }
 
 @mixin content-box-right {
-  background-color: red;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
 }
 
 // BANNER MIXINS
@@ -43,10 +49,12 @@
 
 @mixin banner-flex-left {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+	align-items: center;
 }
 
 @mixin banner-flex-right {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+	align-items: center;
 }
