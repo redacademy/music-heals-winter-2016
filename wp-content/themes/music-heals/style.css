@@ -798,20 +798,8 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .video-box {
-<<<<<<< HEAD
-  background: url("../../assets/Home_image1.jpg") no-repeat top;
-  background-size: cover, contain;
-  overflow: visible;
-  height: 230px;
-  background-size: cover, cover;
-<<<<<<< HEAD
->>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
-=======
   background: url("../../assets/Home_image1.jpg") no-repeat center;
   background-size: cover;
->>>>>>> header-menu
-=======
->>>>>>> 05fbf5ddc334d15f291c8554f270d0560b6fd799
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -868,9 +856,7 @@ object {
 
 .donations-box {
   background: url("../../assets/Home_Gift box.svg") no-repeat center;
-  background-size: cover, contain;
-  height: 230px;
-  background-size: cover, cover;
+  background-size: cover;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
