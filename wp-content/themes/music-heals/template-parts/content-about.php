@@ -7,61 +7,59 @@
 
 ?>
 
-<!--  the things commented out will be implemented when custom post types, etc are ready -->
-
 <div>
-  <!-- <?php echo CFS()->get( 'tagline' ); ?> -->
-  <span>About Us</span>
+  <?php echo CFS()->get( 'tagline' ); ?>
+  <!-- <span>About Us</span> -->
 </div>
 
 <!--  WHO WE ARE -->
 
 <section>
-  <div class="who-we-are-banner"></div>
+  <div class="who-we-are-banner">
+    <div class="who-we-are-content-box">
 
-  <div class="who-we-are-content-box">
+      <h1>Who we are</h1>
 
-    <h1>Who we are</h1>
-
-    <!-- <?php echo CFS()->get( 'who_we_are_copy' ); ?> -->
+      <?php echo CFS()->get( 'who_we_are_copy' ); ?>
+    </div>
   </div>
 </section>
 
 <!--  HOW WE HELP -->
 
 <section>
-  <div class="how-we-help-banner"></div>
+  <div class="how-we-help-banner">
+    <div class="how-we-help-content-box">
 
-  <div class="how-we-help-content-box">
+      <h1>How we help</h1>
 
-    <h1>How we help</h1>
-
-    <!-- <?php echo CFS()->get( 'how_we_help_copy' ); ?> -->
+      <?php echo CFS()->get( 'how_we_help_copy' ); ?>
+    </div>
   </div>
 </section>
 
 <!--  PROGRAMS  -->
 
 <section>
-  <div class="programs-banner"></div>
+  <div class="programs-banner">
+    <div class="programs-content-box">
 
-  <div class="programs-content-box">
+      <h1>Programs</h1>
 
-    <h1>Programs</h1>
-
-    <!-- <?php echo CFS()->get( 'programs_copy' ); ?> -->
+      <?php echo CFS()->get( 'programs_copy' ); ?>
+    </div>
   </div>
 </section>
 
 <!--  SUCCESS STORIES-->
 
 <section>
-  <div class="success-stories-banner"></div>
+  <div class="success-stories-banner">
+    <div class="success-stories-content-box">
 
-  <div class="success-stories-content-box">
+      <h1>Success Stories</h1>
 
-    <h1>Success Stories</h1>
-
-    <!-- <?php echo CFS()->get( 'success_stories_copy' ); ?> -->
+      <?php echo CFS()->get( 'success_stories_copy' ); ?>
+    </div>
   </div>
 </section>
