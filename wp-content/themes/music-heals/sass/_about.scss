@@ -1,23 +1,83 @@
-.who-we-are-banner {
-  background: url('../../assets/about-page/tonyeaganaba.jpg') no-repeat center;
+// CONTENT BOX MIXINS
+
+@mixin content-box {
+  height: 66vh;
+  width: 60vw;
+}
+
+@mixin content-box-left {
+  background-color: grey;
+}
+
+@mixin content-box-right {
+  background-color: red;
+}
+
+// BANNER MIXINS
+
+@mixin banner-dimensions {
   background-size: cover, contain;
   height: 100vh;
 }
+
+@mixin banner-flex-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@mixin banner-flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+// WHO WE ARE
+
+.who-we-are-banner {
+  background: url('../../assets/about-page/tonyeaganaba.jpg') no-repeat center;
+  @include banner-dimensions;
+  @include banner-flex-left;
+}
+
+.who-we-are-content-box {
+ @include content-box;
+ @include content-box-left;
+}
+
+// HOW WE HELP
 
 .how-we-help-banner {
   background: url('../../assets/about-page/checksigning-redoverlay.jpg') no-repeat center;
-  background-size: cover, contain;
-  height: 100vh;
+  @include banner-dimensions;
+  @include banner-flex-right;
 }
+
+.how-we-help-content-box {
+  @include content-box;
+  @include content-box-right;
+}
+
+// PROGRAMS
 
 .programs-banner {
   background: url('../../assets/about-page/MusicHealsInstagram-programs2.png') no-repeat center;
-  background-size: cover, contain;
-  height: 100vh;
+  @include banner-dimensions;
+  @include banner-flex-left;
 }
+
+.programs-content-box {
+  @include content-box;
+  @include content-box-left;
+}
+
+// SUCCESS STORIES
 
 .success-stories-banner {
   background: url('../../assets/about-page/checksigning-redoverlay.jpg') no-repeat center;
-  background-size: cover, contain;
-  height: 100vh;
+  @include banner-dimensions;
+  @include banner-flex-right;
+}
+
+.success-stories-content-box {
+  @include content-box;
+  @include content-box-right;
 }
