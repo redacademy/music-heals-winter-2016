@@ -17,7 +17,6 @@
   flex: 1 0 100%;
   max-width: 100%;
   position: relative;
-
 }
 
 .text-wrapper {
@@ -96,9 +95,26 @@
   margin: 0;
 }
 
-.slider-images {
-  height: 50vh;
-  width: 100vw;
+.slider-image-1 {
+  background: url(../../assets/Home_Slider1.svg) no-repeat center 58px,
+  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
+  background-size: contain;
+  overflow:auto;
+  height: 60vh;
+}
+
+.slider-image-2 {
+  background: url(../../assets/Home_Slider2.svg) no-repeat center 58px,
+  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
+  background-size: contain;
+  height: 60vh;
+}
+
+.slider-image-3 {
+  background: url(../../assets/Home_Slider3.svg) no-repeat center 58px,
+  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
+  background-size: contain;
+  height: 60vh;
 }
 
 // NEWS AND EVENTS SECTION
@@ -117,6 +133,7 @@
   justify-content: center;
   flex-wrap: no-wrap;
   margin: 0 auto;
+  padding-top: 3rem;
 
   h1 {
     width: 300px;
@@ -129,6 +146,10 @@
 
   h2 {
     text-transform: capitalize;
+
+  .sub-heading {
+    width: 17rem;
+  }
   }
 
   span {
