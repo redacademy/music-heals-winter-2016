@@ -18,3 +18,35 @@
     @content;
   }
 }
+
+// CONTENT BOX MIXINS
+
+@mixin content-box {
+  height: 66vh;
+  width: 60vw;
+}
+
+@mixin content-box-left {
+  background-color: grey;
+}
+
+@mixin content-box-right {
+  background-color: red;
+}
+
+// BANNER MIXINS
+
+@mixin banner-dimensions {
+  background-size: cover, contain;
+  height: 100vh;
+}
+
+@mixin banner-flex-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@mixin banner-flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
