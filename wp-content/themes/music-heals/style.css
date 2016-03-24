@@ -590,20 +590,22 @@ button {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../../assets/Home_image1.jpg") no-repeat top;
-  background-size: cover, contain;
+  background: url("../../assets/Home_image1.jpg") no-repeat;
   height: 50px;
   width: 100%;
-  position: fixed;
   z-index: 100; }
 
 .menu {
-  width: 30px;
-  padding-left: .5rem; }
+  width: 40px;
+  padding-top: .5rem;
+  padding-left: .5rem;
+  position: fixed;
+  z-index: 100; }
 
 .logo {
-  width: 90px;
+  width: 100px;
   margin: 0 auto;
+  padding-top: .5rem;
   padding-right: 1rem; }
   .logo img {
     background: transparent; }
@@ -796,8 +798,25 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .video-box {
+<<<<<<< HEAD
   background: url("../../assets/Home_image1.jpg") no-repeat center;
   background-size: cover;
+=======
+<<<<<<< HEAD
+  background: url("../../assets/Home_image1.jpg") no-repeat top;
+  background-size: cover, contain;
+  overflow: visible;
+  height: 230px;
+  background-size: cover, cover;
+<<<<<<< HEAD
+>>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
+=======
+  background: url("../../assets/Home_image1.jpg") no-repeat center;
+  background-size: cover;
+>>>>>>> header-menu
+=======
+>>>>>>> 05fbf5ddc334d15f291c8554f270d0560b6fd799
+>>>>>>> a04e72b5e5b840842abb6357f35ad42411682d57
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
