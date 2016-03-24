@@ -14,6 +14,8 @@
   <span>About Us</span>
 </div>
 
+<!--  WHO WE ARE -->
+
 <section>
   <div class="who-we-are-banner">
   </div>
@@ -26,6 +28,8 @@
 
 </section>
 
+<!--  HOW WE HELP -->
+
 <section>
   <div class="how-we-help-banner">
   </div>
@@ -37,6 +41,8 @@
   </div>
 </section>
 
+<!--  PROGRAMS  -->
+
 <section>
   <div class="programs-banner">
   </div>
@@ -47,6 +53,8 @@
     <!-- <?php echo CFS()->get( 'programs_copy' ); ?> -->
   </div>
 </section>
+
+<!--  SUCCESS STORIES-->
 
 <section>
   <div class="success-stories-banner">
