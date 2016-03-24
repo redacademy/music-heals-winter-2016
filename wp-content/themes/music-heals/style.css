@@ -798,25 +798,8 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .video-box {
-<<<<<<< HEAD
   background: url("../../assets/Home_image1.jpg") no-repeat center;
   background-size: cover;
-=======
-<<<<<<< HEAD
-  background: url("../../assets/Home_image1.jpg") no-repeat top;
-  background-size: cover, contain;
-  overflow: visible;
-  height: 230px;
-  background-size: cover, cover;
-<<<<<<< HEAD
->>>>>>> e390e9e2a7abc71e142a8149d6799c885bdfec70
-=======
-  background: url("../../assets/Home_image1.jpg") no-repeat center;
-  background-size: cover;
->>>>>>> header-menu
-=======
->>>>>>> 05fbf5ddc334d15f291c8554f270d0560b6fd799
->>>>>>> a04e72b5e5b840842abb6357f35ad42411682d57
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -912,6 +895,7 @@ object {
 .slider-image-1 {
   background: url(../../assets/Home_Slider1.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-size: contain;
+  overflow: auto;
   height: 60vh; }
 
 .slider-image-2 {
