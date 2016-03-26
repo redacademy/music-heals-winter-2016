@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="980px" height="595px" viewBox="0 0 980 595" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Slider 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-7" transform="translate(-207.000000, -220.000000)" fill="#DB1921">
+            <g id="Slider-3" transform="translate(13.000000, 163.000000)">
+                <path d="M456.376693,325.312 L456.376693,305.064 L411.516693,305.064 L411.516693,293.468 L487.672693,293.468 C490.408693,293.468 492.628693,291.236 492.628693,288.468 L492.628693,80 C492.628693,77.236 490.408693,75 487.672693,75 L229.484693,75 C226.768693,75 224.548693,77.236 224.548693,80 L224.548693,288.468 C224.548693,291.236 226.768693,293.468 229.500693,293.468 L306.580693,293.468 L306.580693,305.064 L261.736693,305.064 L261.736693,325.312 L223.580693,352.812 L223.580693,375 L494.548693,375 L494.548693,352.812 L456.376693,325.312 Z M242.656693,273.752 L242.656693,93.124 C242.656693,90.736 244.564693,88.812 246.908693,88.812 L469.284693,88.812 C471.628693,88.812 473.532693,90.752 473.532693,93.124 L473.532693,273.752 C473.532693,276.14 471.628693,278.064 469.284693,278.064 L246.908693,278.064 C244.564693,278.064 242.656693,276.14 242.656693,273.752 L242.656693,273.752 Z M236.908693,351.828 L271.284693,327.22 L446.828693,327.22 L481.156693,351.828 L236.908693,351.828 Z" id="Page-1"></path>
+                <text id="100%" font-family="CallunaSans-Black, Calluna Sans" font-size="225" font-weight="700">
+                    <tspan x="551.0875" y="212">100%</tspan>
+                </text>
+                <text id="of-online" font-family="CallunaSans-Black, Calluna Sans" font-size="150" font-weight="700">
+                    <tspan x="571" y="370">of online</tspan>
+                </text>
+                <text id="donations-go-DIRECTL" font-family="CallunaSans-Black, Calluna Sans" font-size="90" font-weight="700" line-spacing="114">
+                    <tspan x="210.79" y="513">donations go DIRECTLY </tspan>
+                    <tspan x="193.24" y="627">to Music Heals Programs</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

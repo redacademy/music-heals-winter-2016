@@ -1,0 +1,32 @@
+.post-type-archive-donation {
+
+  .donation-header {
+    text-align: center;
+  }
+
+  .page-title {
+    font-size: 45px;
+    margin: 10px;
+  }
+
+  .donation-banner {
+    background: url('../../assets/donation-page/donation-banner.jpg') no-repeat center;
+    background-size: cover, contain;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0;
+    width: 100%;
+  }
+
+  .donation-info {
+    background-color: rgba(255,255,255,0.75);
+    text-align: center;
+    width: 80%;
+
+    p {
+      color: #000;
+      font-size: 30px;
+    }
+  }
+}
