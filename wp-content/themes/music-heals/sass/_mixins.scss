@@ -77,3 +77,18 @@
 		justify-content: flex-end;
 	}
 }
+
+// VIDEO SECTION MIXINS
+
+@mixin video-box {
+
+	display: none;
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+		display: flex;
+		flex-direction: column;
+		margin: 0rem 1rem 0rem 0rem;
+		height: 75vh;
+	}
+}

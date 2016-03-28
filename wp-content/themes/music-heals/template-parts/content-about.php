@@ -59,12 +59,13 @@
 
     <div class="video-wrapper">
         <iframe src="https://player.vimeo.com/video/108250365"
-                width="500" height="281"
+                class="first-iframe"
+                width="350" height="289"
                 frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
         </iframe>
 
         <iframe src="https://player.vimeo.com/video/113413784"
-                width="500" height="281"
+                width="350" height="289"
                 frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
         </iframe>
     </div>
