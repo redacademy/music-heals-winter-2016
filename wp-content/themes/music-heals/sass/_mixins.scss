@@ -24,10 +24,18 @@
 @mixin content-box {
   height: 50vh;
   width: 80vw;
+	padding-left: 2rem;
 
 	h1 {
-		text-align: center;
+		text-align: left;
+		text-transform: uppercase;
 	}
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+		height: 75vh;
+	}
+
 }
 
 @mixin content-box-left {
@@ -51,10 +59,20 @@
   display: flex;
   justify-content: center;
 	align-items: center;
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+		justify-content: flex-start;
+	}
 }
 
 @mixin banner-flex-right {
   display: flex;
   justify-content: center;
 	align-items: center;
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+		justify-content: flex-end;
+	}
 }
