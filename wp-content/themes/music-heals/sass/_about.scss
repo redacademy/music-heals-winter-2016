@@ -55,3 +55,8 @@
   @include content-box;
   @include content-box-right;
 }
+
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+}
