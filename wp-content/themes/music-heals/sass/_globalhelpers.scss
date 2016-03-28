@@ -26,7 +26,10 @@ button {
  height: 400px;
 }
 
-.container {
-  width: 100%;
-  padding: 0 4%;
+@media only screen and (min-width: 1080px) {
+
+  .container {
+    width: 100%;
+    padding: 0 4%;
+  }
 }

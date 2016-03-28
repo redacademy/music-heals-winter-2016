@@ -20,3 +20,13 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+function lrb_archive_title($title) {
+	if (is_post_type_archive(array('product'))) {
+		$title = 'Merch';
+	} elseif (is_tax('product-type')) {
+		$title = single_term_title('', false);
+	}
+	return $title;
+}
+add_filter('get_the_archive_title', 'lrb_archive_title');

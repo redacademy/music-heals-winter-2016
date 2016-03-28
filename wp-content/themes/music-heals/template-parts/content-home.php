@@ -10,12 +10,17 @@
   <div class="desktop-wrapper-1">
     <div class="desktop-wrapper-2">
      <section class="video-box box-padding">
+       <div class="menu-logo-wrapper">
+         <div class="menu"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
+
+         <div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
+       </div>
        <div class="text-wrapper">
          <div class="header-text"><h1>Think about all the ways music helps you.</h1></div>
          <div class="tagline-text"><p>Music Heals wants to make sure that <span>everyone</span> has access to the healing power of music.</p></div>
        </div>
      </section>
-     <div class="desktop-wrapper-3">
+     <div class="desktop-wrapper-3 box-padding">
        <section class="donations-box box-padding">
          <h1>The Gift of Music</h1>
          <button class="common-btn give">Give</button>

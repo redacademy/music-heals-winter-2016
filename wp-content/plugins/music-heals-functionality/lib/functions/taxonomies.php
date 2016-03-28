@@ -23,7 +23,7 @@ function register_product_type_taxonomy() {
 		'update_item'                => 'Update Product Type',
 		'view_item'                  => 'View Product Type',
 		'separate_items_with_commas' => 'Separate product types with commas',
-		'add_or_remove_items'        => 'Add or remove product types',
+		'add_or_remove_items'        => 'Add or remove product type',
 		'choose_from_most_used'      => 'Choose from the most used',
 		'popular_items'              => 'Popular Product Types',
 		'search_items'               => 'Search Product Types',
@@ -31,11 +31,6 @@ function register_product_type_taxonomy() {
 		'no_terms'                   => 'No product types',
 		'items_list'                 => 'Product Types list',
 		'items_list_navigation'      => 'Product Types list navigation',
-	);
-	$rewrite = array(
-		'slug'                       => '',
-		'with_front'                 => true,
-		'hierarchical'               => true,
 	);
 	$args = array(
 		'labels'                     => $labels,
@@ -45,9 +40,8 @@ function register_product_type_taxonomy() {
 		'show_admin_column'          => true,
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
-		'rewrite'                    => $rewrite,
 	);
-	register_taxonomy( 'product_taxonomy', array( 'product_type' ), $args );
+	register_taxonomy( 'product-type', array( 'product' ), $args );
 
 }
 add_action( 'init', 'register_product_type_taxonomy', 0 );
