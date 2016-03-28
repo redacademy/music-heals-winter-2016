@@ -21,6 +21,9 @@
       <h1>Who we are</h1>
 
       <?php echo CFS()->get( 'who_we_are_copy' ); ?>
+
+      <button type="button" class="donate-button">Give</button>
+
     </div>
   </div>
 </section>
@@ -47,6 +50,9 @@
       <h1>Programs</h1>
 
       <?php echo CFS()->get( 'programs_copy' ); ?>
+
+      <button type="button" class="donate-button">Give</button>
+
     </div>
   </div>
 </section>

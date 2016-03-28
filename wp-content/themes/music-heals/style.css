@@ -1010,6 +1010,11 @@ object {
   .who-we-are-content-box h1 {
     text-align: center; }
 
+.donate-button {
+  background-color: #DB1919;
+  width: 6rem;
+  color: white; }
+
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
   background-size: cover, contain;
