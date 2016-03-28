@@ -17,10 +17,11 @@
 <section>
   <div class="who-we-are-banner">
     <div class="who-we-are-content-box">
-
       <h1>Who we are</h1>
 
       <?php echo CFS()->get( 'who_we_are_copy' ); ?>
+
+      <button type="button" class="donate-button">Give</button>
     </div>
   </div>
 </section>
@@ -30,7 +31,6 @@
 <section>
   <div class="how-we-help-banner">
     <div class="how-we-help-content-box">
-
       <h1>How we help</h1>
 
       <?php echo CFS()->get( 'how_we_help_copy' ); ?>
@@ -43,10 +43,11 @@
 <section>
   <div class="programs-banner">
     <div class="programs-content-box">
-
       <h1>Programs</h1>
 
       <?php echo CFS()->get( 'programs_copy' ); ?>
+
+      <button type="button" class="donate-button">Give</button>
     </div>
   </div>
 </section>
@@ -56,7 +57,6 @@
 <section>
   <div class="success-stories-banner">
     <div class="success-stories-content-box">
-
       <h1>Success Stories</h1>
 
       <?php echo CFS()->get( 'success_stories_copy' ); ?>

@@ -1068,14 +1068,29 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .who-we-are-banner {
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
 
 .who-we-are-content-box {
   height: 50vh;
   width: 80vw;
+  padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
   color: black; }
   .who-we-are-content-box h1 {
-    text-align: center; }
+    text-align: left;
+    text-transform: uppercase; }
+  @media (min-width: 1080px) {
+    .who-we-are-content-box {
+      height: 75vh; } }
+
+.donate-button {
+  background-color: #DB1919;
+  width: 6rem;
+  color: white; }
 
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
@@ -1090,14 +1105,24 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .how-we-help-banner {
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; } }
 
 .how-we-help-content-box {
   height: 50vh;
   width: 80vw;
+  padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
   color: white; }
   .how-we-help-content-box h1 {
-    text-align: center; }
+    text-align: left;
+    text-transform: uppercase; }
+  @media (min-width: 1080px) {
+    .how-we-help-content-box {
+      height: 75vh; } }
 
 .programs-banner {
   background: url("../../assets/about-page/MusicHealsInstagram-programs2.png") no-repeat center;
@@ -1112,14 +1137,24 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .programs-banner {
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
 
 .programs-content-box {
   height: 50vh;
   width: 80vw;
+  padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
   color: black; }
   .programs-content-box h1 {
-    text-align: center; }
+    text-align: left;
+    text-transform: uppercase; }
+  @media (min-width: 1080px) {
+    .programs-content-box {
+      height: 75vh; } }
 
 .success-stories-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
@@ -1134,11 +1169,21 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .success-stories-banner {
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; } }
 
 .success-stories-content-box {
   height: 50vh;
   width: 80vw;
+  padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
   color: white; }
   .success-stories-content-box h1 {
-    text-align: center; }
+    text-align: left;
+    text-transform: uppercase; }
+  @media (min-width: 1080px) {
+    .success-stories-content-box {
+      height: 75vh; } }
