@@ -1085,7 +1085,8 @@ object {
     text-transform: uppercase; }
   @media (min-width: 1080px) {
     .who-we-are-content-box {
-      height: 75vh; } }
+      height: 75vh;
+      width: 65vw; } }
 
 .donate-button {
   background-color: #DB1919;
@@ -1122,7 +1123,8 @@ object {
     text-transform: uppercase; }
   @media (min-width: 1080px) {
     .how-we-help-content-box {
-      height: 75vh; } }
+      height: 75vh;
+      width: 65vw; } }
 
 .programs-banner {
   background: url("../../assets/about-page/MusicHealsInstagram-programs2.png") no-repeat center;
@@ -1154,7 +1156,8 @@ object {
     text-transform: uppercase; }
   @media (min-width: 1080px) {
     .programs-content-box {
-      height: 75vh; } }
+      height: 75vh;
+      width: 65vw; } }
 
 .success-stories-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
@@ -1186,4 +1189,5 @@ object {
     text-transform: uppercase; }
   @media (min-width: 1080px) {
     .success-stories-content-box {
-      height: 75vh; } }
+      height: 75vh;
+      width: 65vw; } }

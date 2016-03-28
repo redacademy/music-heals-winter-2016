@@ -56,6 +56,12 @@
 
 <section>
   <div class="success-stories-banner">
+
+    <iframe src="https://player.vimeo.com/video/108250365"
+            width="500" height="281"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+    </iframe>
+
     <div class="success-stories-content-box">
       <h1>Success Stories</h1>
 
