@@ -111,24 +111,23 @@
 }
 
 .slider-image-1 {
-  background: url(../../assets/Home_Slider1.svg) no-repeat center 58px,
+  background: url(../../assets/testpic.svg) no-repeat center 58px,
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: 100% 100%;
-  overflow:auto;
+  background-size: contain;
   height: 60vh;
 }
 
 .slider-image-2 {
-  background: url(../../assets/Home_Slider2.svg) no-repeat center 58px,
+  background: url(../../assets/testpic2.svg) no-repeat center 58px,
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: 100% 100%;
+  background-size: contain;
   height: 60vh;
 }
 
 .slider-image-3 {
-  background: url(../../assets/Home_Slider3.svg) no-repeat center 58px,
+  background: url(../../assets/testpic3.svg) no-repeat center 58px,
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: 100% 100%;
+  background-size: contain;
   height: 60vh;
 }
 
