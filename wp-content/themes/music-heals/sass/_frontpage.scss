@@ -1,7 +1,9 @@
 
 //===FrontPage PHP===//
 
-
+.site-header {
+  display: none;
+}
 
 
 //===Content-Home===//
@@ -12,10 +14,25 @@
   background: url('../../assets/Home_image1.jpg') no-repeat center;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-basis: 100%;
   max-width: 100%;
+}
+
+.menu-logo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu {
+  width: 60px;
+
+  position: fixed;
+  z-index: 100;
 }
 
 .text-wrapper {
@@ -196,7 +213,7 @@
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 1080px) {
 
   .desktop-wrapper-1 {
     display: flex;
@@ -219,19 +236,30 @@
 
   .desktop-wrapper-3 {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
     flex: 0 1 35%;
     margin: 0 0;
   }
 
   .donations-box {
-    flex-basis: 50%;
+    flex: 0 1 50%;
   }
 
   .bx-wrapper {
-    flex-basis: 50%;
-    margin: 0 0;
+    flex: 0 1 50%;
+
+  }
+
+  .slider-image-1 {
+    height: 200px;
+  }
+
+  .slider-image-2 {
+    height: 200px;
+  }
+
+  .slider-image-3 {
+    height: 200px;
   }
 
   .desktop-wrapper-4 {
