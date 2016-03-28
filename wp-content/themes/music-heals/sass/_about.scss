@@ -55,3 +55,16 @@
   @include content-box;
   @include content-box-right;
 }
+
+.video-wrapper {
+  @include video-box;
+
+  .first-iframe {
+    margin-bottom: 1rem;
+  }
+
+  iframe {
+    border: 3px solid white;
+    border-bottom: 1px solid white;
+  }
+}
