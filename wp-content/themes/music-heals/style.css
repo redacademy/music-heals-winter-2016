@@ -895,18 +895,18 @@ object {
 
 .slider-image-1 {
   background: url(../../assets/Home_Slider1.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: contain;
+  background-size: 100% 100%;
   overflow: auto;
   height: 60vh; }
 
 .slider-image-2 {
   background: url(../../assets/Home_Slider2.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: contain;
+  background-size: 100% 100%;
   height: 60vh; }
 
 .slider-image-3 {
   background: url(../../assets/Home_Slider3.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: contain;
+  background-size: 100% 100%;
   height: 60vh; }
 
 .news-and-events-section {
