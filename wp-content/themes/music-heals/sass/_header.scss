@@ -1,13 +1,13 @@
-// .site-branding {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   align-items: center;
-//   background: url('../../assets/Home_image1.jpg') no-repeat;
-//   height: 50px;
-//   width: 100%;
-//   z-index: 100;
-// }
+.site-branding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: url('../../assets/Home_image1.jpg') no-repeat;
+  height: 50px;
+  width: 100%;
+  z-index: 100;
+}
 
 .menu {
   width: 40px;
@@ -18,7 +18,7 @@
 
 .logo {
   width: 100px;
-  margin: 0 auto;
+
 
 
   img {
