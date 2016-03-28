@@ -1,3 +1,4 @@
+<div class="container">
 <?php
 /**
  * The main template file.
@@ -12,3 +13,4 @@
 
 
 <?php get_footer(); ?>
+</div>

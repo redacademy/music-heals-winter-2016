@@ -11,26 +11,17 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
-
 			<div class="container">
-				<header class="grid-page-header">
+				<header class="products-page-header">
 					<?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
-					<p class="products-tagline">We are a team of creative and talented individuals who love making delicious treats.</p>
-					<hr class="decorative"/>
-					<div class="product-types">
+					<p class="products-tagline">Merch the whole family will love. All Merch profits go directly to the Music Heals Foundation. Feel good with every purchase.</p>
+					<div class="products-navbar">
 						<?php $terms = get_terms('product-type'); ?>
 						<?php if (! empty($terms)) : ?>
 
-							<?php foreach ($terms as $term) : ?>
-								<div class="single-product-category">
-									<img src="<?php echo get_template_directory_uri() . '/images\/' . $term->slug; ?>.png" alt="" />
-									<a href="<?php echo get_term_link($term); ?>"><h3><?php echo $term-> name ?></h3></a>
-								</div>
 
-							<?php endforeach ?>
 						<?php endif ?>
 					</div>
-					<?php	the_archive_description( '<div class="taxonomy-description">', '</div>' );?>
 				</header><!-- .page-header -->
 
 				<?php /* Start the Loop */ ?>
@@ -44,6 +35,7 @@ get_header(); ?>
 		        <?php endif; ?>
 						<div class="product-info">
 			        <span class="product-title"><?php the_title( '<span>', '</span>' ); ?></span>
+							<span class="product-type"><?php echo CFS()->get('product_type'); ?></span>
 			        <span class="product-price"><?php echo CFS()->get( 'price' ); ?></span>
 						</div>
 				 </div>
@@ -51,14 +43,14 @@ get_header(); ?>
 				<?php endwhile; ?>
 			</div> <!---product-grid--->
 
-				<?php the_posts_navigation(); ?>
+
 
 			<?php else : ?>
 
 				<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 			<?php endif; ?>
-			</div>
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
