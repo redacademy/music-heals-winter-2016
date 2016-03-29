@@ -669,8 +669,47 @@ button {
           justify-content: center;
   padding: 1.5rem; }
 
+
 .signup {
   width: 85%; }
+  @media (min-width: 480px) {
+    .site-info {
+      background: url("../../assets/Footer_guitar.svg") no-repeat;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+@media (min-width: 480px) {
+  .signup-social-icons {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; } }
+
+.signup {
+  margin: 1rem;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 85%; }
+  @media (min-width: 480px) {
+    .signup {
+      font-size: 10px;
+      -webkit-flex-basis: 200px;
+          -ms-flex-preferred-size: 200px;
+              flex-basis: 200px;
+      -webkit-order: 3;
+          -ms-flex-order: 3;
+              order: 3;
+      width: 200px; } }
 
 .signup span {
   color: #000; }
@@ -686,6 +725,12 @@ input[type="email"], input[type="submit"] {
 input[type="email"] {
   width: 80%; }
 
+  @media (min-width: 480px) {
+    input[type="email"] {
+      font-size: 10px;
+      width: 300px; } }
+
+
 input[type="submit"] {
   background: #db1921;
   border: 1px solid #000;
@@ -700,6 +745,23 @@ input[type="submit"] {
   text-shadow: none;
   width: 5rem; }
 
+  @media (min-width: 480px) {
+    input[type="submit"] {
+      font-size: 10px;
+      height: 27px;
+      text-align: center;
+      width: 57px; } }
+
+@media (min-width: 480px) {
+  .contact-charity-info {
+    color: #C9C9C9;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; } }
+
 .contact, .charity-info {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -708,11 +770,39 @@ input[type="submit"] {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1rem; }
+  @media (min-width: 480px) {
+    .contact, .charity-info {
+      font-size: 10px; } }
+
+.contact {
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2; }
+  @media (min-width: 480px) {
+    .contact {
+      -webkit-order: 1;
+          -ms-flex-order: 1;
+              order: 1; } }
+
+.charity-info {
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3; }
+  @media (min-width: 480px) {
+    .charity-info {
+      -webkit-order: 2;
+          -ms-flex-order: 2;
+              order: 2; } }
+
 
 .contact p, .charity-info p {
   text-transform: uppercase;
   margin-bottom: .3rem;
   margin-top: .3rem; }
+  @media (min-width: 480px) {
+    .contact p, .charity-info p {
+      font-size: 10px; } }
+
 
 .social-icons {
   color: #fff;
@@ -726,12 +816,30 @@ input[type="submit"] {
   margin-bottom: 0;
   margin-left: 0;
   padding-left: 0; }
+
+  -webkit-order: 4;
+      -ms-flex-order: 4;
+          order: 4;
+  padding-left: 0; }
+  @media (min-width: 480px) {
+    .social-icons {
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      margin: 1rem;
+      -webkit-order: 4;
+          -ms-flex-order: 4;
+              order: 4; } }
   .social-icons li {
     background-color: transparent;
     margin: 5px; }
   .social-icons img {
     height: 45px;
     width: 45px; }
+    @media (min-width: 480px) {
+      .social-icons img {
+        height: 35px;
+        width: 35px; } }
 
 /*--------------------------------------------------------------
 # Media
@@ -1084,6 +1192,24 @@ object {
   margin: 10px; }
 
 .post-type-archive-donation .donation-banner {
+
+  @media (min-width: 480px) {
+    .post-type-archive-donation .page-title {
+      font-size: 30px; } }
+
+@media (min-width: 480px) {
+  .donation-banner-steps {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+
+.donation-banner {
   background: url("../../assets/donation-page/donation-banner.jpg") no-repeat center;
   background-size: cover, contain;
   display: -webkit-flex;
@@ -1105,3 +1231,215 @@ object {
   .post-type-archive-donation .donation-info p {
     color: #000;
     font-size: 30px; }
+  @media (min-width: 480px) {
+    .donation-banner {
+      background-size: cover, cover;
+      height: 650px;
+      position: absolute;
+      z-index: 0; } }
+
+.translucent-background {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70%;
+  text-align: center;
+  width: 70%; }
+  @media (min-width: 480px) {
+    .translucent-background {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start; } }
+
+.donation-info {
+  background-color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  width: 100%; }
+  @media (min-width: 480px) {
+    .donation-info {
+      background-color: rgba(255, 255, 255, 0.75);
+      text-align: right; } }
+  .donation-info h2 {
+    color: #000;
+    font-size: 28px;
+    text-transform: uppercase; }
+  .donation-info p {
+    display: none; }
+    @media (min-width: 480px) {
+      .donation-info p {
+        display: block; } }
+
+.donation-steps {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media (min-width: 480px) {
+    .donation-steps {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  .donation-steps .donation-step-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%; }
+  .donation-steps h2 {
+    color: #9B9B9B;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.75);
+    text-transform: uppercase;
+    width: 70%; }
+    @media (min-width: 480px) {
+      .donation-steps h2 {
+        color: #fff; } }
+
+@media (min-width: 480px) {
+  .donation-steps {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
+    padding-top: 20rem;
+    position: relative;
+    z-index: 1; } }
+
+.donation-grid {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+  @media (min-width: 480px) {
+    .donation-grid {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row-reverse;
+          -ms-flex-direction: row-reverse;
+              flex-direction: row-reverse;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      margin-left: 0;
+      margin-right: 0; } }
+  .donation-grid .donation-wrapper {
+    background-color: #4A4A4A;
+    border: 1px solid #9B9B9B;
+    color: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 2rem;
+    margin-right: none; }
+    @media (min-width: 480px) {
+      .donation-grid .donation-wrapper {
+        -webkit-flex: 0 1 50%;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%;
+        max-width: 50%; } }
+  .donation-grid .donation-image-wrapper {
+    display: none; }
+    @media (min-width: 480px) {
+      .donation-grid .donation-image-wrapper {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex: 0 1 50%;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%;
+        max-width: 50%;
+        height: 60px;
+        width: 50px;
+        height: auto;
+        width: auto; } }
+  .donation-grid .donation-info {
+    background-color: #4A4A4A;
+    text-align: left;
+    padding-left: 1rem; }
+    @media (min-width: 480px) {
+      .donation-grid .donation-info {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex: 0 1 50%;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%;
+        max-width: 50%; } }
+    .donation-grid .donation-info .price-wrapper {
+      font-size: 3rem;
+      padding-bottom: 1rem; }
+    .donation-grid .donation-info .donation-title {
+      font-size: 22px;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .donation-grid .donation-info p {
+      display: block;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      padding-bottom: 1rem; }
+  .donation-grid .donation-btn {
+    background-color: #DB1921;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    text-align: center;
+    width: 100%; }
+    @media (min-width: 480px) {
+      .donation-grid .donation-btn {
+        font-size: 30px;
+        height: 50px;
+        width: 270px; } }

@@ -16,6 +16,31 @@
 
 .signup {
   width: 85%;
+  @include desktop {
+    background: url('../../assets/Footer_guitar.svg') no-repeat;
+    display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+}
+
+.signup-social-icons {
+  @include desktop {
+    display: flex;
+      flex-direction: row;
+  }
+}
+
+.signup {
+  margin: 1rem;
+  order: 1;
+  width: 85%;
+  @include desktop {
+    font-size: 10px;
+    flex-basis: 200px;
+    order: 3;
+    width: 200px;
+  }
 }
 
 .signup span {
@@ -32,6 +57,10 @@ input[type="email"], input[type="submit"] {
 
 input[type="email"] {
   width: 80%;
+  @include desktop {
+    font-size: 10px;
+    width: 300px;
+  }
 }
 
 input[type="submit"] {
@@ -47,6 +76,20 @@ input[type="submit"] {
   text-align: center;
   text-shadow: none;
   width: 5rem;
+  @include desktop {
+    font-size: 10px;
+    height: 27px;
+    text-align: center;
+    width: 57px;
+  }
+}
+
+.contact-charity-info {
+  @include desktop {
+    color: $light_grey;
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 
@@ -54,12 +97,33 @@ input[type="submit"] {
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  @include desktop {
+    font-size: 10px;
+
+  }
+}
+
+.contact {
+  order: 2;
+  @include desktop {
+    order: 1;
+  }
+}
+
+.charity-info {
+  order: 3;
+  @include desktop {
+    order: 2;
+  }
 }
 
 .contact p, .charity-info p {
   text-transform: uppercase;
   margin-bottom: .3rem;
   margin-top: .3rem;
+  @include desktop {
+    font-size: 10px;
+  }
 }
 
 .social-icons {
@@ -69,8 +133,13 @@ input[type="submit"] {
   list-style: none;
   margin-bottom: 0;
   margin-left: 0;
+  order: 4;
   padding-left: 0;
-
+  @include desktop {
+    flex-grow: 1;
+    margin: 1rem;
+    order: 4;
+  }
 
   li {
     background-color: transparent;
@@ -80,6 +149,10 @@ input[type="submit"] {
   img {
     height: 45px;
     width: 45px;
+    @include desktop {
+      height: 35px;
+      width: 35px;
+    }
   }
 
 }
