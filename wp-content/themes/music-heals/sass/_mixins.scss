@@ -17,11 +17,13 @@
 @mixin text-overflow-control-mixin {
 	overflow: auto;
 	height: 27vh;
+	max-width: 19rem;
 
 	$desktop-width: 1080px;
 	@media (min-width: $desktop-width) {
 	overflow: visible;
-	// height: 27vh;
+	max-width: 29rem;
+	line-height: 1.7rem;
 	}
 }
 
@@ -36,7 +38,7 @@
 
 	$desktop-width: 1080px;
 	@media (min-width: $desktop-width) {
-	margin: 11rem 1rem 0rem 0rem;
+	margin: 12rem 1rem 0rem 0rem;
 	}
 }
 
