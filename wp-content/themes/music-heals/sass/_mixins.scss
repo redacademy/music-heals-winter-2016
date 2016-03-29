@@ -11,6 +11,35 @@
 	margin-right: auto;
 }
 
+
+// text overflow
+
+@mixin text-overflow-control-mixin {
+	overflow: auto;
+	height: 27vh;
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+	overflow: visible;
+	// height: 27vh;
+	}
+}
+
+
+//  donation buttons
+@mixin donate-button-mixin {
+	background-color: #DB1919;
+	width: 6rem;
+	color: white;
+	align-self: flex-end;
+	margin: 5rem 1rem 0rem 0rem;
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+	margin: 11rem 1rem 0rem 0rem;
+	}
+}
+
 // Media Query Mixins
 
 @mixin desktop {

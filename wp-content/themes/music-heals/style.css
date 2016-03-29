@@ -921,23 +921,23 @@ object {
   margin: 0; }
 
 .slider-image-1 {
-  background: url(../../assets/testpic.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 56px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-size: contain;
   height: 60vh; }
 
 .slider-image-2 {
-  background: url(../../assets/testpic2.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: url(../../assets/online-donations-image.svg) no-repeat center 56px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-size: contain;
   height: 60vh; }
 
 .slider-image-3 {
-  background: url(../../assets/testpic3.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 56px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-size: contain;
   height: 60vh; }
 
 .news-and-events-section {
   width: 100%;
-  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center;
   background-size: cover, contain; }
 
 .news-and-events {
@@ -1099,8 +1099,11 @@ object {
             flex-basis: 33%; } }
 
 .text-overflow-control {
-  overflow: scroll;
-  height: 11rem; }
+  overflow: auto;
+  height: 27vh; }
+  @media (min-width: 1080px) {
+    .text-overflow-control {
+      overflow: visible; } }
 
 .who-we-are-banner {
   background: url("../../assets/about-page/tonyeaganaba.jpg") no-repeat center;
@@ -1148,7 +1151,10 @@ object {
   -webkit-align-self: flex-end;
       -ms-flex-item-align: end;
           align-self: flex-end;
-  margin: 2rem 1rem 0rem 0rem; }
+  margin: 5rem 1rem 0rem 0rem; }
+  @media (min-width: 1080px) {
+    .donate-button {
+      margin: 11rem 1rem 0rem 0rem; } }
 
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
