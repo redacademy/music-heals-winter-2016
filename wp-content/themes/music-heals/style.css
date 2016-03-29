@@ -1060,7 +1060,7 @@ object {
             flex-basis: 33%; } }
 
 .text-overflow-control {
-  overflow: scroll;
+  overflow: auto;
   height: 11rem; }
 
 .who-we-are-banner {
