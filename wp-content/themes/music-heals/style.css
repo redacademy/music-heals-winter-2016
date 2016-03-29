@@ -1059,6 +1059,10 @@ object {
         -ms-flex-preferred-size: 33%;
             flex-basis: 33%; } }
 
+.text-overflow-control {
+  overflow: auto;
+  height: 11rem; }
+
 .who-we-are-banner {
   background: url("../../assets/about-page/tonyeaganaba.jpg") no-repeat center;
   background-size: cover, contain;
@@ -1083,7 +1087,13 @@ object {
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
-  color: black; }
+  color: black;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .who-we-are-content-box h1 {
     text-align: left;
     text-transform: uppercase; }
@@ -1095,7 +1105,11 @@ object {
 .donate-button {
   background-color: #DB1919;
   width: 6rem;
-  color: white; }
+  color: white;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  margin: 2rem 1rem 0rem 0rem; }
 
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
@@ -1154,7 +1168,13 @@ object {
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
-  color: black; }
+  color: black;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .programs-content-box h1 {
     text-align: left;
     text-transform: uppercase; }
