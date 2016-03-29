@@ -1,10 +1,9 @@
 
 //===FrontPage PHP===//
 
-.site-header {
+.home .site-header {
   display: none;
 }
-
 
 //===Content-Home===//
 
@@ -34,7 +33,7 @@
   z-index: 100;
 }
 
-.logo {
+.home .logo {
   margin: 0 auto;
 }
 
