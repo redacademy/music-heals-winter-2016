@@ -1,3 +1,8 @@
+.text-overflow-control {
+  overflow: scroll;
+  height: 11rem;
+}
+
 // WHO WE ARE
 
 .who-we-are-banner {
@@ -15,6 +20,8 @@
   background-color: #DB1919;
   width: 6rem;
   color: white;
+  align-self: flex-end;
+  margin: 2rem 1rem 0rem 0rem;
 }
 
 // HOW WE HELP

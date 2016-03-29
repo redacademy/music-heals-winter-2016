@@ -917,18 +917,17 @@ object {
   margin: 0; }
 
 .slider-image-1 {
-  background: url(../../assets/Home_Slider1.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: url(../../assets/testpic.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-size: contain;
-  overflow: auto;
   height: 60vh; }
 
 .slider-image-2 {
-  background: url(../../assets/Home_Slider2.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: url(../../assets/testpic2.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-size: contain;
   height: 60vh; }
 
 .slider-image-3 {
-  background: url(../../assets/Home_Slider3.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: url(../../assets/testpic3.svg) no-repeat center 58px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-size: contain;
   height: 60vh; }
 
@@ -1095,6 +1094,10 @@ object {
         -ms-flex-preferred-size: 33%;
             flex-basis: 33%; } }
 
+.text-overflow-control {
+  overflow: scroll;
+  height: 11rem; }
+
 .who-we-are-banner {
   background: url("../../assets/about-page/tonyeaganaba.jpg") no-repeat center;
   background-size: cover, contain;
@@ -1115,11 +1118,17 @@ object {
               justify-content: flex-start; } }
 
 .who-we-are-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
-  color: black; }
+  color: black;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .who-we-are-content-box h1 {
     text-align: left;
     text-transform: uppercase; }
@@ -1131,7 +1140,11 @@ object {
 .donate-button {
   background-color: #DB1919;
   width: 6rem;
-  color: white; }
+  color: white;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+  margin: 2rem 1rem 0rem 0rem; }
 
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
@@ -1153,7 +1166,7 @@ object {
               justify-content: flex-end; } }
 
 .how-we-help-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
@@ -1186,11 +1199,17 @@ object {
               justify-content: flex-start; } }
 
 .programs-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
-  color: black; }
+  color: black;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   .programs-content-box h1 {
     text-align: left;
     text-transform: uppercase; }
@@ -1219,7 +1238,7 @@ object {
               justify-content: flex-end; } }
 
 .success-stories-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
