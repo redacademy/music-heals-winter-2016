@@ -31,12 +31,12 @@ get_header(); ?>
 						<div class="products-list">
 			        <?php foreach($query as $post) : setup_postdata($post); ?>
 			          <?php if (has_post_thumbnail()) : ?>
-										<div class="single-latest-posts">
-						          <div class="post-image"><?php the_post_thumbnail('large'); ?></div>
+										<div class="single-latest-products">
+						          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
 						          <?php endif; ?>
-											<div class="post-info">
+											<div class="product-info">
 							          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							          <span class="product-type"><?php echo CFS()->get('product_type'); ?></span>
+							          <span class="product-type"><?php echo CFS()->get('type'); ?></span>
                         <span class="product-price"><?php echo CFS()->get( 'price' ); ?></span>
 											</div>
 										</div>
@@ -62,12 +62,12 @@ get_header(); ?>
 						<div class="products-list">
 			        <?php foreach($query as $post) : setup_postdata($post); ?>
 			          <?php if (has_post_thumbnail()) : ?>
-										<div class="single-latest-posts">
-						          <div class="post-image"><?php the_post_thumbnail('large'); ?></div>
+										<div class="single-latest-products">
+						          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
 						          <?php endif; ?>
-											<div class="post-info">
+											<div class="product-info">
 							          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							          <span class="product-type"><?php echo CFS()->get('product_type'); ?></span>
+							          <span class="product-type"><?php echo CFS()->get('type'); ?></span>
                         <span class="product-price"><?php echo CFS()->get( 'price' ); ?></span>
 											</div>
 										</div>
@@ -93,12 +93,12 @@ get_header(); ?>
 						<div class="products-list">
 			        <?php foreach($query as $post) : setup_postdata($post); ?>
 			          <?php if (has_post_thumbnail()) : ?>
-										<div class="single-latest-posts">
-						          <div class="post-image"><?php the_post_thumbnail('large'); ?></div>
+										<div class="single-latest-products">
+						          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
 						          <?php endif; ?>
-											<div class="post-info">
+											<div class="product-info">
 							          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							          <span class="product-type"><?php echo CFS()->get('product_type'); ?></span>
+							          <span class="product-type"><?php echo CFS()->get('type'); ?></span>
                         <span class="product-price"><?php echo CFS()->get( 'price' ); ?></span>
 											</div>
 										</div>
