@@ -595,7 +595,7 @@ button {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../../assets/Home_image1.jpg") no-repeat;
+  background: url("../../assets/header_imagebanner.jpg") no-repeat;
   height: 50px;
   width: 100%;
   z-index: 100; }
@@ -607,9 +607,13 @@ button {
   z-index: 100; }
 
 .logo {
-  width: 100px; }
+  width: 100px;
+  margin-left: 8rem; }
   .logo img {
     background: transparent; }
+
+.cart {
+  padding-right: 1rem; }
 
 /*--------------------------------------------------------------
 # Content
@@ -797,7 +801,7 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-header {
+.home .site-header {
   display: none; }
 
 .video-box {
@@ -837,7 +841,7 @@ object {
   position: fixed;
   z-index: 100; }
 
-.logo {
+.home .logo {
   margin: 0 auto; }
 
 .text-wrapper {
