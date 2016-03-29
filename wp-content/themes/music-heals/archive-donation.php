@@ -1,3 +1,4 @@
+<div class="container">
 <?php
 /**
  * The main template file.
@@ -80,3 +81,4 @@ get_header(); ?>
  </div><!-- #primary -->
 
 <?php get_footer(); ?>
+</div>
