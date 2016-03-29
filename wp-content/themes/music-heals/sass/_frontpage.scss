@@ -34,6 +34,10 @@
   z-index: 100;
 }
 
+.logo {
+  margin: 0 auto;
+}
+
 .text-wrapper {
   background-color: rgba(255,255,255, 0.6);
   margin: 1rem 2rem;
@@ -213,6 +217,21 @@
 }
 
 @media only screen and (min-width: 1080px) {
+
+  .menu-logo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .menu {
+    width: 70px;
+  }
+
+  .logo {
+    margin-left: 8rem;
+  }
 
   .desktop-wrapper-1 {
     display: flex;
