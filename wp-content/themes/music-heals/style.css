@@ -1060,7 +1060,7 @@ object {
             flex-basis: 33%; } }
 
 .text-overflow-control {
-  overflow: auto;
+  overflow: scroll;
   height: 11rem; }
 
 .who-we-are-banner {
@@ -1083,7 +1083,7 @@ object {
               justify-content: flex-start; } }
 
 .who-we-are-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
@@ -1131,7 +1131,7 @@ object {
               justify-content: flex-end; } }
 
 .how-we-help-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
@@ -1164,7 +1164,7 @@ object {
               justify-content: flex-start; } }
 
 .programs-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
@@ -1203,7 +1203,7 @@ object {
               justify-content: flex-end; } }
 
 .success-stories-content-box {
-  height: 50vh;
+  height: 60vh;
   width: 80vw;
   padding-left: 2rem;
   background-color: rgba(0, 0, 0, 0.4);
