@@ -1,34 +1,5 @@
-.merch-header {
-  text-align: center;
-}
+
 
 .merch-category {
   text-decoration: underline;
-  font-size: 2rem;
-}
-
-.merch-banner {
-  background: url('../../assets/merch_header.jpg') no-repeat center;
-  background-size: cover;
-  width: 100%;
-  height: 100px;
-}
-
-.merch-tagline {
-  text-align: center;
-  font-weight: 600;
-}
-
-.navbar {
-  border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
-
-  ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    margin: 0 auto;
-    padding: 5px 0 5px 0;
-  }
 }
