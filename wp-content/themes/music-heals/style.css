@@ -1532,7 +1532,8 @@ object {
   text-align: center; }
 
 .merch-category {
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-size: 2rem; }
 
 .merch-banner {
   background: url("../../assets/merch_header.jpg") no-repeat center;
@@ -1541,18 +1542,22 @@ object {
   height: 100px; }
 
 .merch-tagline {
-  text-align: center; }
+  text-align: center;
+  font-weight: 600; }
 
-.navbar ul {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style: none;
-  margin: 0 auto;
-  padding: 0; }
+.navbar {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey; }
+  .navbar ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 5px 0 5px 0; }
