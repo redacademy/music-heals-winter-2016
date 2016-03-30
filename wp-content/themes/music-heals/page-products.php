@@ -1,4 +1,4 @@
-<div class="container">
+<<div class="container">
 <?php
 /**
  * The template for displaying archive pages.
@@ -10,7 +10,20 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-      <h1>Kids</h1>
+
+			<div class="merch-header"><h1 class="merch-title">Merch</h1></div>
+			<div class="merch-banner"></div>
+			<div class="merch-tagline"><p>Merch the whole family will love. All Merch profits go directly to the Music Heals Foundation. Feel good with every purchase.</p></div>
+			<nav class="navbar">
+				<ul>
+					<li>All</li>
+					<li>Kids</li>
+					<li>Mens</li>
+					<li>Womens</li>
+				</ul>
+			</nav>
+
+      <h1 class="merch-category">Kids</h1>
 
 			      <?php
 			        $args= array(
@@ -42,7 +55,7 @@ get_header(); ?>
 			        <?php endforeach; wp_reset_postdata(); ?>
 						</div>
 
-          <h1>Womens</h1>
+          <h1 class="merch-category">Womens</h1>
             <?php
 			        $args= array(
                 'post_type'=> 'product',
@@ -73,7 +86,7 @@ get_header(); ?>
 			        <?php endforeach; wp_reset_postdata(); ?>
 						</div>
 
-          <h1>Mens</h1>
+          <h1 class="merch-category">Mens</h1>
             <?php
 			        $args= array(
                 'post_type'=> 'product',
