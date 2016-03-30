@@ -25,6 +25,8 @@
          <h1>The Gift of Music</h1>
          <button class="common-btn give">Give</button>
        </section>
+     </div>
+     </div>
 
        <div class="bxdiv">
          <ul class="bxslider box-padding">
@@ -42,10 +44,6 @@
           </li>
          </ul>
        </div>
-     </div>
-     </div>
-
-
 
     <div class="desktop-wrapper-4">
       <section class="news-and-events-section box-padding">
