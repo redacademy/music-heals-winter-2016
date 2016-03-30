@@ -1,0 +1,297 @@
+
+//===FrontPage PHP===//
+
+.home .site-header {
+  display: none;
+}
+
+//===Content-Home===//
+
+// Mission Statement //
+
+.video-box {
+  background: url('../../assets/Home_image1.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.menu-logo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu {
+  width: 60px;
+  position: fixed;
+  z-index: 100;
+}
+
+.home .logo {
+  margin: 0 auto;
+}
+
+.text-wrapper {
+  background-color: rgba(255,255,255, 0.6);
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  letter-spacing: 1px;
+  padding-top: 2.5rem;
+}
+
+.header-text {
+  text-align: center;
+  padding: 0 2rem;
+  line-height: 1;
+  h1 {
+    opacity: 1;
+    color: black;
+    margin: .25em 0;
+  }
+}
+
+.tagline-text {
+  text-align: center;
+  padding: .5rem 2rem;
+  line-height: 1;
+  p {
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+    margin: .25em 0;
+  }
+
+  span {
+    font-style: italic;
+  }
+}
+
+// Donations Page box //
+
+.donations-box {
+  background: url('../../assets/Home_Gift box.svg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+  max-width: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+
+
+  h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    line-height: 1.25;
+  }
+
+  .give {
+    color: #DB1921;
+    padding: .75rem 2.5rem;
+  }
+}
+
+//  SLIDER SECTION
+
+.bxslider {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider-image-1 {
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px,
+  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
+  background-size: cover, contain;
+  height: 60vh;
+}
+
+.slider-image-2 {
+  background: url(../../assets/online-donations-image.svg) no-repeat center 1px,
+  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
+  background-size: cover, contain;
+  height: 60vh;
+}
+
+.slider-image-3 {
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px,
+  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
+  background-size: cover, contain;
+  height: 60vh;
+}
+
+// NEWS AND EVENTS SECTION
+
+.news-and-events-section {
+  width: 100%;
+  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
+  background-size: cover, contain;
+}
+
+.news-and-events {
+  width: 80%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin: 0 auto;
+  padding-top: 3rem;
+
+  h1 {
+    width: 300px;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    margin-bottom: -1.5rem;
+    line-height: 3.1rem;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    text-transform: capitalize;
+
+  .sub-heading {
+    width: 17rem;
+  }
+  }
+
+  span {
+    font-size: 20px;
+  }
+}
+
+// About Us Section //
+
+.about-us {
+  align-items: center;
+  background:
+  url('../../assets/Confirmation_Headphone-man2.jpg') center no-repeat;
+  background-size: cover, cover;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 100%;
+  max-width: 100%;
+
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 3rem;
+    text-transform: uppercase;
+  }
+}
+
+// Shop Section //
+
+.shop {
+  align-items: center;
+  background:
+  url('../../assets/Home_Merch.jpg') center center no-repeat;
+  background-size: cover, cover;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 100%;
+  max-width: 100%;
+
+  h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 3rem;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+
+  .menu-logo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .menu {
+    width: 70px;
+  }
+
+  .logo {
+    margin-left: 8rem;
+  }
+
+  .desktop-wrapper-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .desktop-wrapper-2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+
+  }
+
+  .video-box {
+    display: flex;
+    flex: 1 0 65%;
+    margin: 0 0;
+  }
+
+  .desktop-wrapper-3 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 35%;
+    margin: 0 0;
+  }
+
+  .donations-box {
+    flex: 0 1 50%;
+  }
+
+  .bx-wrapper {
+    flex: 0 1 50%;
+
+  }
+
+  .slider-image-1 {
+    height: 200px;
+  }
+
+  .slider-image-2 {
+    height: 200px;
+  }
+
+  .slider-image-3 {
+    height: 200px;
+  }
+
+  .desktop-wrapper-4 {
+    display: flex;
+    width: 100%;
+  }
+
+  .news-and-events-section {
+    flex-basis: 33%;
+  }
+
+  .about-us {
+    flex-basis: 33%;
+  }
+
+  .shop {
+    flex-basis: 33%;
+  }
+}
