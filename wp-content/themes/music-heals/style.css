@@ -1281,3 +1281,31 @@ object {
   .video-wrapper iframe {
     border: 3px solid white;
     border-bottom: 1px solid white; }
+
+.page-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page-title {
+  text-align: center; }
+
+.404-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.home-button {
+  background-color: #DB1919;
+  width: 10rem;
+  color: white;
+  margin: 0 auto; }
