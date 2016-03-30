@@ -1,4 +1,4 @@
-<<div class="container">
+<div class="container">
 <?php
 /**
  * The template for displaying archive pages.
@@ -23,6 +23,8 @@ get_header(); ?>
 				</ul>
 			</nav>
 
+			<div class="product-wrapper">
+
       <h1 class="merch-category">Kids</h1>
 
 			      <?php
@@ -43,7 +45,7 @@ get_header(); ?>
 						<div class="products-list">
 			        <?php foreach($query as $post) : setup_postdata($post); ?>
 			          <?php if (has_post_thumbnail()) : ?>
-										<div class="single-latest-products">
+										<div class="single-product-category">
 						          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
 						          <?php endif; ?>
 											<div class="product-info">
@@ -74,7 +76,7 @@ get_header(); ?>
 						<div class="products-list">
 			        <?php foreach($query as $post) : setup_postdata($post); ?>
 			          <?php if (has_post_thumbnail()) : ?>
-										<div class="single-latest-products">
+										<div class="single-product-category">
 						          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
 						          <?php endif; ?>
 											<div class="product-info">
@@ -105,7 +107,7 @@ get_header(); ?>
 						<div class="products-list">
 			        <?php foreach($query as $post) : setup_postdata($post); ?>
 			          <?php if (has_post_thumbnail()) : ?>
-										<div class="single-latest-products">
+										<div class="single-product-category">
 						          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
 						          <?php endif; ?>
 											<div class="product-info">
@@ -116,7 +118,7 @@ get_header(); ?>
 										</div>
 			        <?php endforeach; wp_reset_postdata(); ?>
 						</div>
-
+				</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

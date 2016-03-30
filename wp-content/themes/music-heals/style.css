@@ -1531,8 +1531,101 @@ object {
         height: 50px;
         width: 270px; } }
 
+.merch-header {
+  text-align: center; }
+
 .merch-category {
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-size: 2rem;
+  padding-left: 2rem; }
+
+.merch-banner {
+  background: url("../../assets/merch_header.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100px; }
+
+.merch-tagline {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 1rem 0 1rem; }
+
+.navbar {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey; }
+  .navbar ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 5px 0 5px 0; }
+  .navbar li:hover {
+    text-decoration: underline; }
+
+.product-wrapper {
+  margin-bottom: 2rem; }
+
+.products-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.single-product-category {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+
+.product-image {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .product-image img {
+    height: 150px;
+    width: 150px; }
+
+.product-info {
+  text-align: center; }
+  .product-info h3 {
+    margin: 0;
+    font-size: 1.5rem; }
+  .product-info a {
+    text-decoration: none;
+    color: black; }
+
+.product-type {
+  display: block;
+  color: lightgrey;
+  font-size: 1.25rem; }
+
+.product-price {
+  font-size: 1.25rem;
+  font-weight: 600; }
 
 .page-content {
   display: -webkit-flex;

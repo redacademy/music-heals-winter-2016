@@ -5,6 +5,7 @@
 .merch-category {
   text-decoration: underline;
   font-size: 2rem;
+  padding-left: 2rem;
 }
 
 .merch-banner {
@@ -16,7 +17,9 @@
 
 .merch-tagline {
   text-align: center;
+  font-size: 1.25rem;
   font-weight: 600;
+  margin: 0 1rem 0 1rem;
 }
 
 .navbar {
@@ -31,4 +34,63 @@
     margin: 0 auto;
     padding: 5px 0 5px 0;
   }
+
+  li:hover {
+    text-decoration: underline;
+  }
+}
+
+//===Content===//
+
+.product-wrapper {
+  margin-bottom: 2rem;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.single-product-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.product-image {
+  display: flex;
+  align-items: center;
+
+  img {
+    height:150px;
+    width: 150px;
+  }
+
+}
+
+.product-info {
+  text-align: center;
+
+  h3 {
+    margin:0;
+    font-size: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.product-type {
+  display: block;
+  color: lightgrey;
+  font-size: 1.25rem;
+}
+
+.product-price {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
