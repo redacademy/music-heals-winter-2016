@@ -27,8 +27,8 @@
        </section>
      </div>
      </div>
+   </div>
 
-     <div class="bxdiv">
        <ul class="bxslider box-padding">
          <li>
           <div class="slider-image-1">
@@ -43,8 +43,8 @@
           </div>
         </li>
        </ul>
-     </div>
-     
+
+
     <div class="desktop-wrapper-4">
       <section class="news-and-events-section box-padding">
           <!--  NEWS AND EVENTS -->
