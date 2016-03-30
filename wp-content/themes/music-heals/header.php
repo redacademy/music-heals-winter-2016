@@ -45,7 +45,7 @@
 
 						<div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
 
-						<div class="cart"><img src="<?php echo get_template_directory_uri() . '/assets\/icon_shopping_cart_empty' ?>.svg" alt="Empty Shopping Cart"/></div>
+						<div class="cart"><img src="<?php echo get_template_directory_uri() . '/assets\/Icon_Shopping_Cart_empty' ?>.svg" alt="Empty Shopping Cart"/></div>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
