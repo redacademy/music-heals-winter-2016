@@ -1282,8 +1282,6 @@ object {
     border: 3px solid white;
     border-bottom: 1px solid white; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .post-type-archive-donation .donation-header {
   text-align: center; }
 
@@ -1535,9 +1533,7 @@ object {
 
 .merch-category {
   text-decoration: underline; }
-=======
-=======
->>>>>>> about-page
+
 .page-content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1565,7 +1561,3 @@ object {
   width: 10rem;
   color: white;
   margin: 0 auto; }
-<<<<<<< HEAD
->>>>>>> about-page
-=======
->>>>>>> about-page
