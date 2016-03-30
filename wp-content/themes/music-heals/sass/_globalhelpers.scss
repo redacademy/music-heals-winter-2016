@@ -21,9 +21,14 @@ button {
 }
 
 .box-padding {
-  border-bottom: 1.3rem solid white;
  border-bottom: 1.3rem solid white;
  height: 400px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .box-padding {
+    border: none;
+  }
 }
 
 @media only screen and (min-width: 1080px) {

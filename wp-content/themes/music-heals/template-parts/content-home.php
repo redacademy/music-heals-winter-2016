@@ -25,24 +25,26 @@
          <h1>The Gift of Music</h1>
          <button class="common-btn give">Give</button>
        </section>
-     </div>
-     </div>
-   </div>
 
-       <ul class="bxslider box-padding">
-         <li>
-          <div class="slider-image-1">
-          </div>
-        </li>
-        <li>
-          <div class="slider-image-2">
-          </div>
-        </li>
-        <li>
-          <div class="slider-image-3">
-          </div>
-        </li>
-       </ul>
+       <div class="bxdiv">
+         <ul class="bxslider box-padding">
+           <li>
+            <div class="slider-image-1">
+            </div>
+          </li>
+          <li>
+            <div class="slider-image-2">
+            </div>
+          </li>
+          <li>
+            <div class="slider-image-3">
+            </div>
+          </li>
+         </ul>
+       </div>
+     </div>
+     </div>
+
 
 
     <div class="desktop-wrapper-4">
