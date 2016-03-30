@@ -1387,18 +1387,6 @@ object {
     .post-type-archive-donation .page-title {
       font-size: 30px; } }
 
-@media (min-width: 700px) {
-  .donation-banner-steps {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; } }
-
 .donation-banner {
   background: url("../../assets/donation-page/Gifts_that_Heal.jpg") no-repeat center;
   background-size: cover, contain;
@@ -1416,9 +1404,25 @@ object {
   @media (min-width: 700px) {
     .donation-banner {
       background-size: cover, cover;
-      height: 650px;
-      position: absolute;
-      z-index: 0; } }
+      height: 650px; } }
+
+@media (min-width: 700px) {
+  .donation-banner-steps {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 650px;
+    position: absolute;
+    z-index: 0; } }
 
 .translucent-background {
   background-color: rgba(255, 255, 255, 0.6);
@@ -1436,12 +1440,10 @@ object {
   width: 70%; }
   @media (min-width: 700px) {
     .translucent-background {
-      -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-align-self: flex-start;
-          -ms-flex-item-align: start;
-              align-self: flex-start; } }
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: auto; } }
 
 .donation-info {
   background-color: rgba(255, 255, 255, 0.75);
@@ -1449,8 +1451,8 @@ object {
   width: 100%; }
   @media (min-width: 700px) {
     .donation-info {
-      background-color: rgba(255, 255, 255, 0.75);
-      text-align: right; } }
+      background-color: rgba(255, 255, 255, 0.5);
+      text-align: center; } }
   .donation-info h2 {
     color: #000;
     font-size: 28px;
@@ -1459,7 +1461,8 @@ object {
     display: none; }
     @media (min-width: 700px) {
       .donation-info p {
-        display: block; } }
+        display: block;
+        margin: 1rem; } }
 
 .donation-steps {
   display: -webkit-flex;
@@ -1481,7 +1484,9 @@ object {
       display: flex;
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      position: relative;
+      z-index: 1; } }
   .donation-steps .donation-step-wrapper {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1507,15 +1512,6 @@ object {
     @media (min-width: 700px) {
       .donation-steps h2 {
         color: #fff; } }
-
-@media (min-width: 700px) {
-  .donation-steps {
-    -webkit-align-self: flex-start;
-        -ms-flex-item-align: start;
-            align-self: flex-start;
-    padding-top: 20rem;
-    position: relative;
-    z-index: 1; } }
 
 .donation-grid {
   display: -webkit-flex;

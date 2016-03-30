@@ -13,14 +13,6 @@
   }
 }
 
-  .donation-banner-steps {
-    @include desktop {
-      display: flex;
-      flex-direction: column;
-        flex-wrap: wrap;
-    }
-  }
-
   .donation-banner {
     background: url('../../assets/donation-page/Gifts_that_Heal.jpg') no-repeat center;
     background-size: cover, contain;
@@ -31,6 +23,17 @@
     width: 100%;
     @include desktop {
       background-size: cover, cover;
+      height: 650px;
+
+    }
+  }
+
+  .donation-banner-steps {
+    @include desktop {
+      display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: space-between;
       height: 650px;
       position: absolute;
       z-index: 0;
@@ -46,8 +49,8 @@
     text-align: center;
     width: 70%;
     @include desktop {
-      flex-direction: row;
-      align-self: flex-start;
+      display: flex;
+      width: auto;
     }
   }
 
@@ -56,8 +59,8 @@
     text-align: center;
     width: 100%;
     @include desktop {
-      background-color: rgba(255,255,255,0.75);
-      text-align:right;
+      background-color: rgba(255,255,255,0.50);
+      text-align:center;
 
      }
 
@@ -71,6 +74,7 @@
       display: none;
       @include desktop {
         display: block;
+        margin: 1rem;
     }
   }
 }
@@ -80,10 +84,11 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
     @include desktop {
       display: flex;
         flex-direction: row;
+      position: relative;
+       z-index: 1;
     }
 
     .donation-step-wrapper {
@@ -107,14 +112,6 @@
       }
     }
   }
-    .donation-steps {
-      @include desktop {
-        align-self: flex-start;
-        padding-top: 20rem;
-        position: relative;
-         z-index: 1;
-      }
-   }
 
 .donation-grid {
   display:flex;
