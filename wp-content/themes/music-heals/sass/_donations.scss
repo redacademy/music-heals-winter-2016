@@ -22,7 +22,7 @@
   }
 
   .donation-banner {
-    background: url('../../assets/donation-page/donation-banner.jpg') no-repeat center;
+    background: url('../../assets/donation-page/Gifts_that_Heal.jpg') no-repeat center;
     background-size: cover, contain;
     display: flex;
       align-items: center;
@@ -146,9 +146,23 @@
     }
   }
 
-    .donation-image-wrapper {
-      display: none;
+  .donation-info {
+    background-color: $dark_grey;
+    text-align: left;
+    padding-left: 1rem;
+    @include desktop {
+      display: flex;
+        flex-direction: row;
+        flex: 0 1 50%;
+        max-width: 50%;
+    }
 
+    .donation-image-wrapper {
+      display: flex;
+        align-self: flex-end;
+        margin: 2rem;
+      height: 40px;
+      width: 35px;
       @include desktop {
         display: flex;
           flex-direction: row;
@@ -161,20 +175,16 @@
       }
     }
 
-  .donation-info {
-    background-color: $dark_grey;
-    text-align: left;
-    padding-left: 1rem;
-    @include desktop {
+    .donation-image-price {
       display: flex;
+        align-items: center;
         flex-direction: row;
-        flex: 0 1 50%;
-        max-width: 50%;
+        justify-content: space-between;
     }
 
     .price-wrapper {
       font-size: 3rem;
-      padding-bottom: 1rem;
+      margin: 1rem;
     }
 
     .donation-title {
