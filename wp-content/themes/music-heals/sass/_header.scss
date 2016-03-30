@@ -1,12 +1,11 @@
-.site-branding {
+.site-banner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background: url('../../assets/header_imagebanner.jpg') no-repeat;
-  height: 50px;
+  height: 60px;
   width: 100%;
-  z-index: 100;
 }
 
 .menu {

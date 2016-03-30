@@ -40,13 +40,12 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
-				<div class="site-branding">
-					<div class="menu"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
+				<div class="site-banner">
+						<div class="menu"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
 
-					<div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
+						<div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
 
-					<div class="cart"><img src="<?php echo get_template_directory_uri() . '/assets\/icon_shopping_cart_empty' ?>.svg" alt="Empty Shopping Cart"/></div>
-
+						<div class="cart"><img src="<?php echo get_template_directory_uri() . '/assets\/icon_shopping_cart_empty' ?>.svg" alt="Empty Shopping Cart"/></div>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">

@@ -1,5 +1,10 @@
 .merch-header {
   text-align: center;
+  font-size: 1.25rem;
+}
+
+.merch-title {
+  margin: .75rem 0;
 }
 
 .merch-category {
@@ -18,13 +23,17 @@
 .merch-tagline {
   text-align: center;
   font-size: 1.25rem;
-  font-weight: 600;
-  margin: 0 1rem 0 1rem;
+  margin: .5rem 0;
+  line-height: 1.25;
+
+  p {
+    margin: 0;
+  }
 }
 
 .navbar {
-  border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 
   ul {
     display: flex;
@@ -33,6 +42,11 @@
     list-style: none;
     margin: 0 auto;
     padding: 5px 0 5px 0;
+  }
+
+  li {
+    font-weight: 600;
+    margin: .5rem 0;
   }
 
   li:hover {
@@ -49,7 +63,7 @@
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .single-product-category {
@@ -57,6 +71,10 @@
   flex-direction: column;
   align-items: center;
   flex-basis: 50%;
+
+  &:hover {
+    border:3px solid #db1921;
+  }
 }
 
 .product-image {
@@ -75,7 +93,7 @@
 
   h3 {
     margin:0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   a {
@@ -86,8 +104,8 @@
 
 .product-type {
   display: block;
-  color: lightgrey;
-  font-size: 1.25rem;
+  color: #9b9b9b;
+  font-size: 1rem;
 }
 
 .product-price {
@@ -96,5 +114,31 @@
 }
 
 @media only screen and (min-width: 1080px) {
-  
+
+  .merch-container {
+    padding: 0 8%;
+  }
+
+  .navbar li {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  .merch-banner {
+    height: 350px;
+  }
+
+  .merch-tagline {
+    font-size: 1.75rem;
+    margin: 1.5rem 2.5rem;
+  }
+
+  .single-product-category {
+    flex-basis: 22%;
+  }
+
+  .product-image img {
+    height: 175px;
+    width: 175px;
+  }
 }
