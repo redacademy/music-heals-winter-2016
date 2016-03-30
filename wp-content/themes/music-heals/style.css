@@ -1019,19 +1019,19 @@ object {
   margin: 0; }
 
 .slider-image-1 {
-  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
 
 .slider-image-2 {
-  background: url(../../assets/online-donations-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
 
 .slider-image-3 {
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
 
 .news-and-events-section {
   width: 100%;
