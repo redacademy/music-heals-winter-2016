@@ -76,8 +76,8 @@
         <button class="common-btn">About Us</button>
       </section>
       <section class="shop box-padding">
-        <h2>Merch</h2>
-        <button class="common-btn">Shop</button>
+        <h2>Shop</h2>
+        <button class="common-btn">Merch</button>
       </section>
     </div>
   </div>
