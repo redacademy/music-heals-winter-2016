@@ -18,7 +18,7 @@ get_header(); ?>
 				<h1 class="page-title">Gifts that Heal</h1>
 			</section>
 			<section class="donation-banner-steps">
-				<div class="donation-banner box-padding container">
+				<div class="donation-banner box-padding">
 					<div class="translucent-background">
 						<div class="donation-info">
 							<h2>100% of your donation will support music therapy</h2>
@@ -44,28 +44,33 @@ get_header(); ?>
 				</div>
 		  </section>
 
-			<div class="donation-grid container">
+			<div class="donation-grid">
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<div class="donation-wrapper container">
+					<div class="donation-wrapper">
 
-						<div class="donation-image-wrapper">
-							<?php if ( has_post_thumbnail() ) : ?>
-								<a href="<?php the_permalink();?>"><?php the_post_thumbnail( 'large' ); ?></a>
-							<?php endif; ?>
-						</div>
+
 
 						<div class="donation-info">
-							<div class="price-wrapper">
-							<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
+							<div class="donation-image-price">
+								<div class="price-wrapper">
+									<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
+								</div>
+								<div class="donation-image-wrapper">
+										<?php if ( has_post_thumbnail() ) : ?>
+											<a href="<?php the_permalink();?>"><?php the_post_thumbnail( 'large' ); ?></a>
+										<?php endif; ?>
+								</div>
 							</div>
+
+
         			<span class="donation-title"><?php the_title(); ?></span>
 							<p><?php echo CFS()->get( 'donation_description' ); ?></p>
 
-							<button class="donation-btn">Donate</button>
 						</div>
 
+						<button class="donation-btn">Donate</button>
 
 					</div>
 
