@@ -500,7 +500,8 @@ button {
   color: #000;
   height: 4rem;
   font-size: 20px;
-  width: 10rem; }
+  width: 10rem;
+  margin-top: 1.5rem; }
 
 .box-padding {
   border-bottom: 1.3rem solid white;
@@ -1068,13 +1069,15 @@ object {
     margin-top: 0.5rem;
     margin-bottom: -1.5rem;
     line-height: 3.1rem;
-    font-size: 2.9rem; }
+    font-size: 1.9rem; }
   .news-and-events h2 {
     text-transform: capitalize; }
     .news-and-events h2 .sub-heading {
       width: 17rem; }
   .news-and-events span {
     font-size: 20px; }
+  .news-and-events .sub-heading {
+    margin-top: 4rem; }
 
 .about-us {
   -webkit-align-items: center;
@@ -1094,8 +1097,8 @@ object {
   max-width: 100%; }
   .about-us h2 {
     color: #fff;
-    font-size: 50px;
-    margin-top: 3rem;
+    font-size: 1.9rem;
+    margin-top: 3.7rem;
     text-transform: uppercase; }
 
 .shop {
@@ -1116,8 +1119,8 @@ object {
   max-width: 100%; }
   .shop h2 {
     color: #fff;
-    font-size: 50px;
-    margin-top: 3rem;
+    font-size: 1.9rem;
+    margin-top: 3.7rem;
     text-transform: uppercase; }
 
 @media only screen and (min-width: 1080px) {
