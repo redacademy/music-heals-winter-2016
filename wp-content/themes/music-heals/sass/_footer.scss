@@ -19,16 +19,8 @@
   }
 }
 
-// .signup-social-icons {
-//   @include desktop {
-//     display: flex;
-//       flex-direction: row;
-//   }
-// }
-
 .signup {
   margin: 1rem;
-  order: 1;
   width: 85%;
   @include desktop {
     font-size: 10px;
@@ -79,14 +71,6 @@ input[type="submit"] {
   }
 }
 
-// .contact-charity-info {
-//   @include desktop {
-//     color: $light_grey;
-//     display: flex;
-//     flex-direction: row;
-//   }
-// }
-
 .contact, .charity-info {
   display: flex;
   flex-direction: column;
@@ -98,14 +82,12 @@ input[type="submit"] {
 }
 
 .contact {
-  order: 2;
   @include desktop {
     order: 1;
   }
 }
 
 .charity-info {
-  order: 3;
   @include desktop {
     flex-grow: 1;
     order: 2;
@@ -128,14 +110,11 @@ input[type="submit"] {
   list-style: none;
   margin-bottom: 0;
   margin-left: 0;
-  order: 4;
   padding-left: 0;
   @include desktop {
     margin: 1rem;
     order: 4;
   }
-
-
 
   li {
     background-color: transparent;
@@ -150,5 +129,4 @@ input[type="submit"] {
       width: 35px;
     }
   }
-
 }

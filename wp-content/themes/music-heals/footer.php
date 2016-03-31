@@ -11,7 +11,13 @@
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
-					<!-- <div class="contact-charity-info"> -->
+					<div class="signup">
+						<span>Sign up for Music Heals Newsletter</span>
+						<form class="signup-form">
+							<input type="email" id="your-email" value placeholder="Your Email">
+							<input type="submit" name="subscribe" class="signup-form-btn" value="Sign Up">
+						</form>
+					</div>
 						<div class="contact">
 							<p>Contact Us</p>
 							<span>2245 West Broadway</span>
@@ -22,22 +28,13 @@
 							<p>Registered Charity</p>
 							<span>#846495489 RR 0001</span>
 						</div>
-					<!-- </div> -->
-					<!-- <div class="signup-social-icons"> -->
-						<div class="signup">
-							<span>Sign up for Music Heals Newsletter</span>
-							<form class="signup-form">
-								<input type="email" id="your-email" value placeholder="Your Email">
-								<input type="submit" name="subscribe" class="signup-form-btn" value="Sign Up">
-							</form>
-						</div>
 						<ul class="social-icons">
 							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Facebook_Logo' ?>.svg.png" alt="" /></li>
 							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Icon_Twitter' ?>.svg" alt="" /></li>
 							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Icon_Instagram' ?>.svg" alt="" /></li>
 							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Icon_Vimeo' ?>.svg" alt="" /></li>
 						</ul>
-					<!-- </div> -->
+
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->

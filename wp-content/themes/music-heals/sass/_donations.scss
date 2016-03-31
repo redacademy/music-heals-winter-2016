@@ -19,47 +19,28 @@
     display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 0;
+    margin-top: 0;
     width: 100%;
     @include desktop {
       background-size: cover, cover;
+      justify-content: flex-end;
       height: 650px;
-      position: absolute;
-      z-index: 0;
+      border-bottom: 0;
+      // position: absolute;
+      // z-index: 0;
     }
-  }
-
-  .donation-banner-steps {
-    @include desktop {
-      display: flex;
-      align-content: center;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-  }
-
-  .translucent-background {
-    background-color: rgba(255,255,255,0.60);
-    display: flex;
-      align-items: center;
-      justify-content: center;
-    height: 70%;
-    text-align: center;
-    width: 70%;
-    // @include desktop {
-    //   flex-direction: row;
-    //   align-self: flex-start;
-    // }
   }
 
   .donation-info {
     background-color: rgba(255,255,255,0.75);
+    border-color: rgba(255,255,255,0.60);
     text-align: center;
-    width: 100%;
+    width: 60%;
     @include desktop {
-      background-color: rgba(255,255,255,0.75);
-      text-align:right;
-
+      background-color: rgba(255,255,255,0.50);
+      text-align:left;
+      padding: 1rem;
+      width: 60%;
      }
 
     h2 {
@@ -72,7 +53,7 @@
       display: none;
       @include desktop {
         display: block;
-        margin:1rem;
+        margin: 1rem;
     }
   }
 }
@@ -83,10 +64,11 @@
     flex-direction: column;
     justify-content: center;
     @include desktop {
+      background-color: $light_grey;
       display: flex;
         flex-direction: row;
-      position: relative;
-       z-index: 1;
+      // position: relative;
+      //  z-index: 1;
     }
 
     .donation-step-wrapper {
@@ -95,10 +77,6 @@
         flex-direction: column;
         justify-content: center;
       width: 100%;
-      @include desktop {
-        height: 200px;
-        width: 180px;
-      }
     }
 
     h2 {
@@ -111,6 +89,7 @@
       width: 70%;
       @include desktop {
         color: #fff;
+          text-shadow: 2px 1px 2px rgba(100,100,100,.75)
       }
     }
   }
@@ -118,6 +97,8 @@
 .donation-grid {
   display:flex;
     flex-direction: column-reverse;
+  margin-left:  2rem;
+  margin-right: 2rem;
   @include desktop {
     display: flex;
       flex-direction: row-reverse;
@@ -125,28 +106,43 @@
     margin-left: 0;
     margin-right: 0;
   }
-  margin-left: 2rem;
-  margin-right: 2rem;
 
   .donation-wrapper {
-    background-color: $dark_grey;
-    border: 1px solid $med_grey;
-    color: #fff;
+    background-color: #fff;
+    border: 2px solid $dark_grey;
+    color: #000;
     display: flex;
       align-items: flex-start;
       flex-direction: column;
       justify-content: center;
       margin-bottom: 2rem;
       margin-right: none;
-
     @include desktop {
       flex: 0 1 50%;
       max-width: 50%;
     }
   }
 
-  .donation-info {
-    background-color: $dark_grey;
+.donation-image-wrapper {
+  display: none;
+  // display: flex;
+  //   align-self: flex-end;
+  // margin-right: 2rem;
+  // margin-top: 2rem;
+  // height: 40px;
+  // width: 35px;
+  @include desktop {
+    display: flex;
+      flex-direction: row;
+      flex: 0 1 50%;
+      max-width: 50%;
+    height: 60px;
+    width: 50px;
+    height: auto;
+    width: auto;
+  }
+}
+  .donation-info-wrapper {
     text-align: left;
     padding-left: 1rem;
     @include desktop {
@@ -154,31 +150,6 @@
         flex-direction: row;
         flex: 0 1 50%;
         max-width: 50%;
-    }
-
-    .donation-image-wrapper {
-      display: flex;
-        align-self: flex-end;
-        margin: 2rem;
-      height: 40px;
-      width: 35px;
-      @include desktop {
-        display: flex;
-          flex-direction: row;
-          flex: 0 1 50%;
-          max-width: 50%;
-        height: 60px;
-        width: 50px;
-        height: auto;
-        width: auto;
-      }
-    }
-
-    .donation-image-price {
-      display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
     }
 
     .price-wrapper {
@@ -194,7 +165,7 @@
 
     p  {
       display: block;
-      color: #fff;
+      color: #000;
       font-size: 22px;
       font-weight: 400;
       margin: 0;

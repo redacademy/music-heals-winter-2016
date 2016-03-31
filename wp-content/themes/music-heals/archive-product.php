@@ -1,3 +1,4 @@
+<div class="container">
 <?php
 /**
  * The template for displaying archive pages.
@@ -11,7 +12,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
-			<div class="container">
+
 				<header class="products-page-header">
 					<?php the_archive_title( '<h1 class="page-title">', '</h1>' ); ?>
 					<p class="products-tagline">Merch the whole family will love. All Merch profits go directly to the Music Heals Foundation. Feel good with every purchase.</p>
@@ -50,9 +51,10 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 			<?php endif; ?>
-		</div>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 
 <?php get_footer(); ?>
+</div>
