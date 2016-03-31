@@ -620,7 +620,6 @@ button {
   margin-right: 1rem; }
 
 .main-navigation {
-<<<<<<< HEAD
   display: none;
   position: absolute;
   width: 200px;
@@ -641,10 +640,6 @@ button {
 .page_item a {
   color: white;
   font-size: 1.5rem; }
-=======
-  display: block;
-  z-index: 100; }
->>>>>>> 20b5cd384914b386b07ba4bb183c3134604c9a4d
 
 /*--------------------------------------------------------------
 # Content
