@@ -1203,6 +1203,16 @@ object {
     -webkit-flex-basis: 33%;
         -ms-flex-preferred-size: 33%;
             flex-basis: 33%; }
+    .news-and-events-section .news-and-events h2 {
+      font-size: 1.2rem;
+      margin-top: 3.5rem; }
+  .header-text h1 {
+    width: 23rem; }
+  .tagline-text p {
+    width: 28rem;
+    line-height: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem; }
   .about-us {
     -webkit-flex-basis: 33%;
         -ms-flex-preferred-size: 33%;
