@@ -29,7 +29,7 @@
 							<span>#846495489 RR 0001</span>
 						</div>
 						<ul class="social-icons">
-							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Facebook_Logo' ?>.svg.png" alt="" /></li>
+							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/FB_Icon' ?>.png" alt="" /></li>
 							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Icon_Twitter' ?>.svg" alt="" /></li>
 							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Icon_Instagram' ?>.svg" alt="" /></li>
 							<li><img src="<?php echo get_template_directory_uri() . '/assets\/social-icons\/Icon_Vimeo' ?>.svg" alt="" /></li>

@@ -30,5 +30,6 @@
 }
 
 .main-navigation {
-  display: none;
+  display: block;
+  z-index: 100;
 }
