@@ -13,52 +13,34 @@
   }
 }
 
-  .donation-banner-steps {
-    @include desktop {
-      display: flex;
-      flex-direction: column;
-        flex-wrap: wrap;
-    }
-  }
-
   .donation-banner {
     background: url('../../assets/donation-page/Gifts_that_Heal.jpg') no-repeat center;
     background-size: cover, contain;
     display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 0;
+    margin-top: 0;
     width: 100%;
     @include desktop {
       background-size: cover, cover;
+      justify-content: flex-end;
       height: 650px;
-      position: absolute;
-      z-index: 0;
-    }
-  }
-
-  .translucent-background {
-    background-color: rgba(255,255,255,0.60);
-    display: flex;
-      align-items: center;
-      justify-content: center;
-    height: 70%;
-    text-align: center;
-    width: 70%;
-    @include desktop {
-      flex-direction: row;
-      align-self: flex-start;
+      border-bottom: 0;
+      // position: absolute;
+      // z-index: 0;
     }
   }
 
   .donation-info {
     background-color: rgba(255,255,255,0.75);
+    border-color: rgba(255,255,255,0.60);
     text-align: center;
-    width: 100%;
+    width: 60%;
     @include desktop {
-      background-color: rgba(255,255,255,0.75);
-      text-align:right;
-
+      background-color: rgba(255,255,255,0.50);
+      text-align:left;
+      padding: 1rem;
+      width: 60%;
      }
 
     h2 {
@@ -71,6 +53,7 @@
       display: none;
       @include desktop {
         display: block;
+        margin: 1rem;
     }
   }
 }
@@ -80,10 +63,12 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
     @include desktop {
+      background-color: $light_grey;
       display: flex;
         flex-direction: row;
+      // position: relative;
+      //  z-index: 1;
     }
 
     .donation-step-wrapper {
@@ -104,102 +89,100 @@
       width: 70%;
       @include desktop {
         color: #fff;
+          text-shadow: 2px 1px 2px rgba(100,100,100,.75)
       }
     }
   }
-    .donation-steps {
-      @include desktop {
-        align-self: flex-start;
-        padding-top: 20rem;
-        position: relative;
-         z-index: 1;
-      }
-   }
 
 .donation-grid {
   display:flex;
     flex-direction: column-reverse;
+  margin-left:  2rem;
+  margin-right: 2rem;
   @include desktop {
     display: flex;
       flex-direction: row-reverse;
       flex-wrap: wrap;
-    margin-left: 0;
-    margin-right: 0;
   }
-  margin-left: 2rem;
-  margin-right: 2rem;
 
   .donation-wrapper {
-    background-color: $dark_grey;
-    border: 1px solid $med_grey;
-    color: #fff;
+    background-color: #fff;
+    border: 2px solid $dark_grey;
+    color: #000;
     display: flex;
       align-items: flex-start;
       flex-direction: column;
       justify-content: center;
-      margin-bottom: 2rem;
-      margin-right: none;
-
+    margin-bottom: 2rem;
+    margin-right: none;
     @include desktop {
+      background-color: $light_grey;
+      display: flex;
+        flex-direction: row;
       flex: 0 1 50%;
       max-width: 50%;
     }
   }
 
-  .donation-info {
-    background-color: $dark_grey;
+.donation-image-wrapper {
+  display: none;
+  // display: flex;
+  //   align-self: flex-end;
+  // margin-right: 2rem;
+  // margin-top: 2rem;
+  // height: 40px;
+  // width: 35px;
+  @include desktop {
+    display: flex;
+      flex: 0 1 50%;
+      max-width: 50%;
+    // height: 60px;
+    // width: 50px;
+    height: auto;
+    width: auto;
+  }
+}
+  .donation-info-wrapper {
     text-align: left;
-    padding-left: 1rem;
     @include desktop {
+      background-color: #fff;
       display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex: 0 1 50%;
         max-width: 50%;
-    }
-
-    .donation-image-wrapper {
-      display: flex;
-        align-self: flex-end;
-        margin: 2rem;
-      height: 40px;
-      width: 35px;
-      @include desktop {
-        display: flex;
-          flex-direction: row;
-          flex: 0 1 50%;
-          max-width: 50%;
-        height: 60px;
-        width: 50px;
-        height: auto;
-        width: auto;
-      }
-    }
-
-    .donation-image-price {
-      display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
     }
 
     .price-wrapper {
       font-size: 3rem;
       margin: 1rem;
+      padding-left: 1rem;
+      @include desktop {
+        font-size: 2rem;
+        text-align: right;
+      }
     }
 
     .donation-title {
       font-size: 22px;
       font-weight: 600;
+      padding-left: 1rem;
       text-transform: uppercase;
+      @include desktop {
+        font-size: 18px;
+      }
     }
 
     p  {
       display: block;
-      color: #fff;
+      color: #000;
       font-size: 22px;
       font-weight: 400;
       margin: 0;
       padding-bottom: 1rem;
+      padding-left: 1rem;
+      @include desktop {
+        font-size: 18px;
+      }
     }
   }
 
@@ -209,13 +192,11 @@
     font-size: 34px;
     font-weight: 300;
     margin-bottom: 1.5rem;
-    margin-left: 0;
     text-align: center;
     width: 100%;
     @include desktop {
       font-size: 30px;
-      height: 50px;
-      width: 270px;
+      margin-bottom: 0;
     }
   }
 
