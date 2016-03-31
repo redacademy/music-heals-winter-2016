@@ -999,23 +999,23 @@ object {
   margin: 0; }
 
 .slider-image-1 {
-  background: url(../../assets/donation-statistics-image.svg) no-repeat center 56px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: contain;
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: cover, contain;
   height: 60vh; }
 
 .slider-image-2 {
-  background: url(../../assets/online-donations-image.svg) no-repeat center 56px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: contain;
+  background: url(../../assets/online-donations-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: cover, contain;
   height: 60vh; }
 
 .slider-image-3 {
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 56px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: contain;
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: cover, contain;
   height: 60vh; }
 
 .news-and-events-section {
   width: 100%;
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center;
+  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain; }
 
 .news-and-events {
@@ -1178,10 +1178,13 @@ object {
 
 .text-overflow-control {
   overflow: auto;
-  height: 27vh; }
+  height: 27vh;
+  max-width: 19rem; }
   @media (min-width: 1080px) {
     .text-overflow-control {
-      overflow: visible; } }
+      overflow: visible;
+      max-width: 29rem;
+      line-height: 1.7rem; } }
 
 .who-we-are-banner {
   background: url("../../assets/about-page/tonyeaganaba.jpg") no-repeat center;
@@ -1232,7 +1235,7 @@ object {
   margin: 5rem 1rem 0rem 0rem; }
   @media (min-width: 1080px) {
     .donate-button {
-      margin: 11rem 1rem 0rem 0rem; } }
+      margin: 12rem 1rem 0rem 0rem; } }
 
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
@@ -1357,6 +1360,8 @@ object {
     border: 3px solid white;
     border-bottom: 1px solid white; }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 .post-type-archive-donation .donation-header {
   text-align: center; }
 
@@ -1622,3 +1627,37 @@ object {
 
 .merch-category {
   text-decoration: underline; }
+=======
+=======
+>>>>>>> about-page
+.page-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page-title {
+  text-align: center; }
+
+.404-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.home-button {
+  background-color: #DB1919;
+  width: 10rem;
+  color: white;
+  margin: 0 auto; }
+<<<<<<< HEAD
+>>>>>>> about-page
+=======
+>>>>>>> about-page

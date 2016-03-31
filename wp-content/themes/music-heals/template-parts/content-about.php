@@ -60,7 +60,7 @@
 
     <div class="video-wrapper">
         <iframe src="https://player.vimeo.com/video/108250365"
-                class="first-"
+                class="first-iframe"
                 width="350" height="281"
                 frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
         </iframe>

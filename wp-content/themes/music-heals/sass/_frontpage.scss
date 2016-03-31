@@ -1,8 +1,6 @@
 
 //===FrontPage PHP===//
 
-
-
 .home .site-header {
   display: none;
 }
@@ -116,23 +114,23 @@
 }
 
 .slider-image-1 {
-  background: url(../../assets/donation-statistics-image.svg) no-repeat center 56px,
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px,
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: contain;
+  background-size: cover, contain;
   height: 60vh;
 }
 
 .slider-image-2 {
-  background: url(../../assets/online-donations-image.svg) no-repeat center 56px,
+  background: url(../../assets/online-donations-image.svg) no-repeat center 1px,
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: contain;
+  background-size: cover, contain;
   height: 60vh;
 }
 
 .slider-image-3 {
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 56px,
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px,
   linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: contain;
+  background-size: cover, contain;
   height: 60vh;
 }
 
@@ -140,7 +138,7 @@
 
 .news-and-events-section {
   width: 100%;
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center;
+  background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain;
 }
 
