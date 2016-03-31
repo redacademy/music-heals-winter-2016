@@ -1634,9 +1634,6 @@ object {
   margin: .75rem 0; }
 
 .merch-category {
-<<<<<<< HEAD
-  text-decoration: underline; }
-=======
   text-decoration: underline;
   font-size: 2rem;
   padding-left: 2rem; }
@@ -1772,7 +1769,6 @@ object {
 
 .entry-title {
   text-align: center; }
->>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f
 
 .page-content {
   display: -webkit-flex;
@@ -1808,9 +1804,5 @@ object {
   background-color: #DB1919;
   width: 10rem;
   color: white;
-<<<<<<< HEAD
   margin: 0 auto;
   margin-bottom: 7rem; }
-=======
-  margin: 0 auto; }
->>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f
