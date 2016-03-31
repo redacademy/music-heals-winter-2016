@@ -11,7 +11,7 @@
     <div class="desktop-wrapper-2">
      <section class="video-box box-padding">
        <div class="menu-logo-wrapper">
-         <div class="menu"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
+         <div class="menu-button"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
 
          <div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
        </div>

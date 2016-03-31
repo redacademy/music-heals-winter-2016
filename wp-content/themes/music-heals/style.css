@@ -600,7 +600,7 @@ button {
   height: 75px;
   width: 100%; }
 
-.menu {
+.menu-button {
   width: 40px;
   padding-left: 1rem;
   position: fixed;
@@ -614,6 +614,9 @@ button {
 
 .cart {
   margin-right: 1rem; }
+
+.main-navigation {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Content
@@ -900,7 +903,7 @@ object {
       -ms-flex-align: center;
           align-items: center; }
 
-.menu {
+.menu-button {
   width: 60px;
   position: fixed;
   z-index: 100; }

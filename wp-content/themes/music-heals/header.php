@@ -20,8 +20,8 @@
 	<?php wp_head(); ?>
 
 	<script type="text/javascript">
-	jQuery(document).ready(function(){
-	  jQuery('.bxslider').bxSlider({
+	jQuery(document).ready(function($){
+	  $('.bxslider').bxSlider({
 	    mode: 'horizontal',
 	    infiniteLoop: true,
 	    speed: 2000,
@@ -30,6 +30,10 @@
 	    pager: false,
 	    controls: true
 	  });
+
+		$('.menu-button').on('click', function() {
+			$('.main-navigation').toggle();
+		});
 	});
 	</script>
 
@@ -41,16 +45,17 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-banner">
-						<div class="menu"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
+						<div class="menu-button"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
 
 						<div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
 
 						<div class="cart"><img src="<?php echo get_template_directory_uri() . '/assets\/Icon_Shopping_Cart_empty' ?>.svg" alt="Empty Shopping Cart"/></div>
 				</div><!-- .site-branding -->
 
-				<nav id="site-navigation" class="main-navigation" role="navigation">
 
-				</nav><!-- #site-navigation -->
 			</header><!-- #masthead -->
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<?php wp_nav_menu( array('theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
+			</nav><!-- #site-navigation -->
 
 			<div id="content" class="site-content">
