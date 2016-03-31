@@ -1,15 +1,15 @@
-.site-branding {
+.site-banner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: url('../../assets/header_imagebanner.jpg') no-repeat;
-  height: 50px;
+  background: url('../../assets/Header_imagebanner.jpg') no-repeat center;
+  background-size: cover;
+  height: 75px;
   width: 100%;
-  z-index: 100;
 }
 
-.menu {
+.menu-button {
   width: 40px;
   padding-left: 1rem;
   position: fixed;
@@ -26,5 +26,10 @@
 }
 
 .cart {
-  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+.main-navigation {
+  display: block;
+  z-index: 100;
 }

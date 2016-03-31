@@ -582,7 +582,7 @@ button {
 .widget_search .search-submit {
   display: none; }
 
-.site-branding {
+.site-banner {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -595,12 +595,12 @@ button {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../../assets/header_imagebanner.jpg") no-repeat;
-  height: 50px;
-  width: 100%;
-  z-index: 100; }
+  background: url("../../assets/Header_imagebanner.jpg") no-repeat center;
+  background-size: cover;
+  height: 75px;
+  width: 100%; }
 
-.menu {
+.menu-button {
   width: 40px;
   padding-left: 1rem;
   position: fixed;
@@ -613,7 +613,10 @@ button {
     background: transparent; }
 
 .cart {
-  padding-right: 1rem; }
+  margin-right: 1rem; }
+
+.main-navigation {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Content
@@ -655,17 +658,16 @@ button {
 
 .site-footer {
   background-color: #9b9b9b;
-  width: 100%;
-  width: 100vw; }
+  width: 100%; }
 
 .site-info {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #fff;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -673,7 +675,7 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.5rem; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .site-info {
       background: url("../../assets/Footer_guitar.svg") no-repeat;
       display: -webkit-flex;
@@ -686,22 +688,10 @@ button {
           -ms-flex-pack: justify;
               justify-content: space-between; } }
 
-@media (min-width: 700px) {
-  .signup-social-icons {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row; } }
-
 .signup {
   margin: 1rem;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
   width: 85%; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .signup {
       font-size: 10px;
       -webkit-flex-basis: 200px;
@@ -725,7 +715,7 @@ input[type="email"], input[type="submit"] {
 
 input[type="email"] {
   width: 80%; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     input[type="email"] {
       font-size: 10px;
       width: 300px; } }
@@ -743,22 +733,12 @@ input[type="submit"] {
   text-align: center;
   text-shadow: none;
   width: 5rem; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     input[type="submit"] {
       font-size: 10px;
       height: 27px;
       text-align: center;
       width: 57px; } }
-
-@media (min-width: 700px) {
-  .contact-charity-info {
-    color: #C9C9C9;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row; } }
 
 .contact, .charity-info {
   display: -webkit-flex;
@@ -768,35 +748,30 @@ input[type="submit"] {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1rem; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .contact, .charity-info {
       font-size: 10px; } }
 
-.contact {
-  -webkit-order: 2;
-      -ms-flex-order: 2;
-          order: 2; }
-  @media (min-width: 700px) {
-    .contact {
-      -webkit-order: 1;
-          -ms-flex-order: 1;
-              order: 1; } }
+@media (min-width: 1080px) {
+  .contact {
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; } }
 
-.charity-info {
-  -webkit-order: 3;
-      -ms-flex-order: 3;
-          order: 3; }
-  @media (min-width: 700px) {
-    .charity-info {
-      -webkit-order: 2;
-          -ms-flex-order: 2;
-              order: 2; } }
+@media (min-width: 1080px) {
+  .charity-info {
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2; } }
 
 .contact p, .charity-info p {
   text-transform: uppercase;
   margin-bottom: .3rem;
   margin-top: .3rem; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .contact p, .charity-info p {
       font-size: 10px; } }
 
@@ -811,15 +786,9 @@ input[type="submit"] {
   list-style: none;
   margin-bottom: 0;
   margin-left: 0;
-  -webkit-order: 4;
-      -ms-flex-order: 4;
-          order: 4;
   padding-left: 0; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .social-icons {
-      -webkit-flex-grow: 1;
-          -ms-flex-positive: 1;
-              flex-grow: 1;
       margin: 1rem;
       -webkit-order: 4;
           -ms-flex-order: 4;
@@ -830,7 +799,7 @@ input[type="submit"] {
   .social-icons img {
     height: 45px;
     width: 45px; }
-    @media (min-width: 700px) {
+    @media (min-width: 1080px) {
       .social-icons img {
         height: 35px;
         width: 35px; } }
@@ -934,7 +903,7 @@ object {
       -ms-flex-align: center;
           align-items: center; }
 
-.menu {
+.menu-button {
   width: 60px;
   position: fixed;
   z-index: 100; }
@@ -1386,21 +1355,9 @@ object {
 .post-type-archive-donation .page-title {
   font-size: 45px;
   margin: 10px; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .post-type-archive-donation .page-title {
       font-size: 30px; } }
-
-@media (min-width: 700px) {
-  .donation-banner-steps {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; } }
 
 .donation-banner {
   background: url("../../assets/donation-page/Gifts_that_Heal.jpg") no-repeat center;
@@ -1416,53 +1373,37 @@ object {
           justify-content: center;
   margin-top: 0;
   width: 100%; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .donation-banner {
       background-size: cover, cover;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
       height: 650px;
-      position: absolute;
-      z-index: 0; } }
-
-.translucent-background {
-  background-color: rgba(255, 255, 255, 0.6);
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 70%;
-  text-align: center;
-  width: 70%; }
-  @media (min-width: 700px) {
-    .translucent-background {
-      -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-align-self: flex-start;
-          -ms-flex-item-align: start;
-              align-self: flex-start; } }
+      border-bottom: 0; } }
 
 .donation-info {
   background-color: rgba(255, 255, 255, 0.75);
+  border-color: rgba(255, 255, 255, 0.6);
   text-align: center;
-  width: 100%; }
-  @media (min-width: 700px) {
+  width: 60%; }
+  @media (min-width: 1080px) {
     .donation-info {
-      background-color: rgba(255, 255, 255, 0.75);
-      text-align: right; } }
+      background-color: rgba(255, 255, 255, 0.5);
+      margin-top: -250px;
+      padding: 0.5rem;
+      text-align: left;
+      width: 60%; } }
   .donation-info h2 {
     color: #000;
     font-size: 28px;
     text-transform: uppercase; }
   .donation-info p {
     display: none; }
-    @media (min-width: 700px) {
+    @media (min-width: 1080px) {
       .donation-info p {
-        display: block; } }
+        display: block;
+        margin: 1rem; } }
 
 .donation-steps {
   display: -webkit-flex;
@@ -1477,14 +1418,16 @@ object {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  @media (min-width: 700px) {
+  @media (min-width: 1080px) {
     .donation-steps {
+      background-color: rgba(255, 255, 255, 0.2);
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      margin-top: -280px; } }
   .donation-steps .donation-step-wrapper {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1507,18 +1450,10 @@ object {
     text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.75);
     text-transform: uppercase;
     width: 70%; }
-    @media (min-width: 700px) {
+    @media (min-width: 1080px) {
       .donation-steps h2 {
-        color: #fff; } }
-
-@media (min-width: 700px) {
-  .donation-steps {
-    -webkit-align-self: flex-start;
-        -ms-flex-item-align: start;
-            align-self: flex-start;
-    padding-top: 20rem;
-    position: relative;
-    z-index: 1; } }
+        color: #fff;
+        text-shadow: 2px 1px 2px rgba(100, 100, 100, 0.75); } }
 
 .donation-grid {
   display: -webkit-flex;
@@ -1526,10 +1461,8 @@ object {
   display: flex;
   -webkit-flex-direction: column-reverse;
       -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  margin-left: 2rem;
-  margin-right: 2rem; }
-  @media (min-width: 700px) {
+          flex-direction: column-reverse; }
+  @media (min-width: 1080px) {
     .donation-grid {
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -1543,9 +1476,9 @@ object {
       margin-left: 0;
       margin-right: 0; } }
   .donation-grid .donation-wrapper {
-    background-color: #4A4A4A;
-    border: 1px solid #9B9B9B;
-    color: #fff;
+    background-color: #fff;
+    border: 2px solid #4A4A4A;
+    color: #000;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -1560,18 +1493,9 @@ object {
             justify-content: center;
     margin-bottom: 2rem;
     margin-right: none; }
-    @media (min-width: 700px) {
+    @media (min-width: 1080px) {
       .donation-grid .donation-wrapper {
-        -webkit-flex: 0 1 50%;
-            -ms-flex: 0 1 50%;
-                flex: 0 1 50%;
-        max-width: 50%; } }
-  .donation-grid .donation-info {
-    background-color: #4A4A4A;
-    text-align: left;
-    padding-left: 1rem; }
-    @media (min-width: 700px) {
-      .donation-grid .donation-info {
+        background-color: #C9C9C9;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -1582,76 +1506,228 @@ object {
             -ms-flex: 0 1 50%;
                 flex: 0 1 50%;
         max-width: 50%; } }
-    .donation-grid .donation-info .donation-image-wrapper {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-align-self: flex-end;
-          -ms-flex-item-align: end;
-              align-self: flex-end;
-      margin: 2rem;
-      height: 40px;
-      width: 35px; }
-      @media (min-width: 700px) {
-        .donation-grid .donation-info .donation-image-wrapper {
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-flex-direction: row;
-              -ms-flex-direction: row;
-                  flex-direction: row;
-          -webkit-flex: 0 1 50%;
-              -ms-flex: 0 1 50%;
-                  flex: 0 1 50%;
-          max-width: 50%;
-          height: 60px;
-          width: 50px;
-          height: auto;
-          width: auto; } }
-    .donation-grid .donation-info .donation-image-price {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
-    .donation-grid .donation-info .price-wrapper {
+  .donation-grid .donation-image-wrapper {
+    display: none; }
+    @media (min-width: 1080px) {
+      .donation-grid .donation-image-wrapper {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 0 1 50%;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%;
+        max-width: 50%; } }
+    @media (min-width: 1080px) {
+      .donation-grid .donation-image-wrapper img {
+        height: 19rem;
+        margin: 1rem;
+        width: 16rem; } }
+  .donation-grid .donation-info-wrapper {
+    text-align: left; }
+    @media (min-width: 1080px) {
+      .donation-grid .donation-info-wrapper {
+        background-color: #fff;
+        border: 2px solid #4A4A4A;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-flex: 0 1 50%;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%;
+        max-width: 50%;
+        height: 19rem;
+        margin: 1rem;
+        width: 19rem; } }
+    .donation-grid .donation-info-wrapper .price-wrapper {
       font-size: 3rem;
-      margin: 1rem; }
-    .donation-grid .donation-info .donation-title {
+      margin: 1rem;
+      padding-left: 1rem; }
+      @media (min-width: 1080px) {
+        .donation-grid .donation-info-wrapper .price-wrapper {
+          font-size: 2rem;
+          text-align: right; } }
+    .donation-grid .donation-info-wrapper .donation-title {
       font-size: 22px;
       font-weight: 600;
+      padding-left: 1rem;
       text-transform: uppercase; }
-    .donation-grid .donation-info p {
+      @media (min-width: 1080px) {
+        .donation-grid .donation-info-wrapper .donation-title {
+          font-size: 18px; } }
+    .donation-grid .donation-info-wrapper p {
       display: block;
-      color: #fff;
+      color: #000;
       font-size: 22px;
       font-weight: 400;
       margin: 0;
-      padding-bottom: 1rem; }
+      padding-bottom: 1rem;
+      padding-left: 1rem; }
+      @media (min-width: 1080px) {
+        .donation-grid .donation-info-wrapper p {
+          font-size: 18px; } }
   .donation-grid .donation-btn {
     background-color: #DB1921;
     color: #fff;
     font-size: 34px;
     font-weight: 300;
     margin-bottom: 1.5rem;
-    margin-left: 0;
     text-align: center;
     width: 100%; }
-    @media (min-width: 700px) {
+    @media (min-width: 1080px) {
       .donation-grid .donation-btn {
         font-size: 30px;
-        height: 50px;
-        width: 270px; } }
+        margin-bottom: 0; } }
+
+.merch-header {
+  text-align: center;
+  font-size: 1.25rem; }
+
+.merch-title {
+  margin: .75rem 0; }
 
 .merch-category {
+<<<<<<< HEAD
   text-decoration: underline; }
+=======
+  text-decoration: underline;
+  font-size: 2rem;
+  padding-left: 2rem; }
+
+.merch-banner {
+  background: url("../../assets/merch_header.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100px; }
+
+.merch-tagline {
+  text-align: center;
+  font-size: 1.25rem;
+  margin: .5rem 0;
+  line-height: 1.25; }
+  .merch-tagline p {
+    margin: 0; }
+
+.navbar {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey; }
+  .navbar ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 5px 0 5px 0; }
+  .navbar li {
+    font-weight: 600;
+    margin: .5rem 0; }
+  .navbar li:hover {
+    text-decoration: underline; }
+
+.product-wrapper {
+  margin-bottom: 2rem; }
+
+.products-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.single-product-category {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+  .single-product-category:hover {
+    border: 3px solid #db1921; }
+
+.product-image {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .product-image img {
+    height: 150px;
+    width: 150px; }
+
+.product-info {
+  text-align: center; }
+  .product-info h3 {
+    margin: 0;
+    font-size: 1.25rem; }
+  .product-info a {
+    text-decoration: none;
+    color: black; }
+
+.product-type {
+  display: block;
+  color: #9b9b9b;
+  font-size: 1rem; }
+
+.product-price {
+  font-size: 1.25rem;
+  font-weight: 600; }
+
+@media only screen and (min-width: 1080px) {
+  .merch-container {
+    padding: 0 8%; }
+  .navbar li {
+    margin: 1rem 0;
+    font-size: 1.5rem; }
+  .merch-banner {
+    height: 350px; }
+  .merch-tagline {
+    font-size: 1.75rem;
+    margin: 1.5rem 2.5rem; }
+  .single-product-category {
+    -webkit-flex-basis: 22%;
+        -ms-flex-preferred-size: 22%;
+            flex-basis: 22%; }
+  .product-image img {
+    height: 175px;
+    width: 175px; } }
+
+.product-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+
+.entry-title {
+  text-align: center; }
+>>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f
 
 .page-content {
   display: -webkit-flex;
@@ -1687,5 +1763,9 @@ object {
   background-color: #DB1919;
   width: 10rem;
   color: white;
+<<<<<<< HEAD
   margin: 0 auto;
   margin-bottom: 7rem; }
+=======
+  margin: 0 auto; }
+>>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f

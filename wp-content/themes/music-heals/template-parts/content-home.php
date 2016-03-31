@@ -11,7 +11,7 @@
     <div class="desktop-wrapper-2">
      <section class="video-box box-padding">
        <div class="menu-logo-wrapper">
-         <div class="menu"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
+         <div class="menu-button"><img src="<?php echo get_template_directory_uri() . '/assets\/Hamburger menu-01' ?>.svg" alt="Hamburger Menu"/></div>
 
          <div class="logo"><img src="<?php echo get_template_directory_uri() . '/assets\/musicheals' ?>.png" alt="Music Heals Logo"/></div>
        </div>
@@ -23,7 +23,7 @@
      <div class="desktop-wrapper-3 box-padding">
        <section class="donations-box box-padding">
          <h1>The Gift of Music</h1>
-         <button class="common-btn give">Give</button>
+         <a href="<?php bloginfo('url')?>/donation/"><button class="common-btn give">Give</button></a>
        </section>
 
        <ul class="bxslider box-padding">
@@ -69,11 +69,11 @@
       <section class="about-us box-padding">
 
         <h2>How We Help</h2>
-        <button class="common-btn">About Us</button>
+        <a href="<?php bloginfo('url')?>/about/"><button class="common-btn">About Us</button></a>
       </section>
       <section class="shop box-padding">
         <h2>Merch</h2>
-        <button class="common-btn">Shop</button>
+        <a href="<?php bloginfo('url')?>/products/"><button class="common-btn">Shop</button></a>
       </section>
     </div>
   </div>
