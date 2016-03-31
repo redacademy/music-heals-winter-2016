@@ -500,12 +500,16 @@ button {
   color: #000;
   height: 4rem;
   font-size: 20px;
-  width: 10rem; }
+  width: 10rem;
+  margin-top: 1.5rem; }
 
 .box-padding {
   border-bottom: 1.3rem solid white;
-  border-bottom: 1.3rem solid white;
   height: 400px; }
+
+@media only screen and (min-width: 1080px) {
+  .box-padding {
+    border: none; } }
 
 @media only screen and (min-width: 1080px) {
   .container {
@@ -988,19 +992,23 @@ object {
   margin: 0; }
 
 .slider-image-1 {
-  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
 
 .slider-image-2 {
-  background: url(../../assets/online-donations-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
 
 .slider-image-3 {
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
+
+@media only screen and (min-width: 1080px) {
+  .slider-image-1, .slider-image-2, .slider-image-3 {
+    height: 100vh; } }
 
 .news-and-events-section {
   width: 100%;
@@ -1027,16 +1035,18 @@ object {
   .news-and-events h1 {
     width: 300px;
     text-transform: uppercase;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     margin-bottom: -1.5rem;
     line-height: 3.1rem;
-    font-size: 2.5rem; }
+    font-size: 1.9rem; }
   .news-and-events h2 {
     text-transform: capitalize; }
     .news-and-events h2 .sub-heading {
       width: 17rem; }
   .news-and-events span {
     font-size: 20px; }
+  .news-and-events .sub-heading {
+    margin-top: 4rem; }
 
 .about-us {
   -webkit-align-items: center;
@@ -1056,8 +1066,8 @@ object {
   max-width: 100%; }
   .about-us h2 {
     color: #fff;
-    font-size: 50px;
-    margin-top: 3rem;
+    font-size: 1.9rem;
+    margin-top: 3.7rem;
     text-transform: uppercase; }
 
 .shop {
@@ -1078,8 +1088,8 @@ object {
   max-width: 100%; }
   .shop h2 {
     color: #fff;
-    font-size: 50px;
-    margin-top: 3rem;
+    font-size: 1.9rem;
+    margin-top: 3.7rem;
     text-transform: uppercase; }
 
 @media only screen and (min-width: 1080px) {
