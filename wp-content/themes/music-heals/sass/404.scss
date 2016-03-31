@@ -14,8 +14,14 @@
 }
 
 .home-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-button {
   background-color: #DB1919;
   width: 10rem;
   color: white;
   margin: 0 auto;
+  margin-bottom: 7rem;
 }

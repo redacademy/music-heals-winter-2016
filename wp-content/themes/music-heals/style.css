@@ -500,12 +500,16 @@ button {
   color: #000;
   height: 4rem;
   font-size: 20px;
-  width: 10rem; }
+  width: 10rem;
+  margin-top: 1.5rem; }
 
 .box-padding {
   border-bottom: 1.3rem solid white;
-  border-bottom: 1.3rem solid white;
   height: 400px; }
+
+@media only screen and (min-width: 1080px) {
+  .box-padding {
+    border: none; } }
 
 @media only screen and (min-width: 1080px) {
   .container {
@@ -937,7 +941,9 @@ object {
   .header-text h1 {
     opacity: 1;
     color: black;
-    margin: .25em 0; }
+    margin: .25em 0;
+    width: 15rem;
+    margin: 0 auto; }
 
 .tagline-text {
   text-align: center;
@@ -946,8 +952,11 @@ object {
   .tagline-text p {
     opacity: 1;
     color: black;
-    font-weight: 500;
-    margin: .25em 0; }
+    font-weight: 800;
+    margin: .25em 0;
+    width: 17rem;
+    line-height: 1.4rem;
+    font-size: 1.2rem; }
   .tagline-text span {
     font-style: italic; }
 
@@ -978,7 +987,9 @@ object {
     font-weight: 700;
     text-transform: uppercase;
     padding: 0 1rem;
-    line-height: 1.25; }
+    line-height: 1.25;
+    width: 16rem;
+    font-size: 2.9rem; }
   .donations-box .give {
     color: #DB1921;
     padding: .75rem 2.5rem; }
@@ -989,19 +1000,23 @@ object {
   margin: 0; }
 
 .slider-image-1 {
-  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
 
 .slider-image-2 {
-  background: url(../../assets/online-donations-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
 
 .slider-image-3 {
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.5) 100%);
-  background-size: cover, contain;
-  height: 60vh; }
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh; }
+
+@media only screen and (min-width: 1080px) {
+  .slider-image-1, .slider-image-2, .slider-image-3 {
+    height: 100vh; } }
 
 .news-and-events-section {
   width: 100%;
@@ -1028,12 +1043,13 @@ object {
   .news-and-events h1 {
     width: 300px;
     text-transform: uppercase;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     margin-bottom: -1.5rem;
     line-height: 3.1rem;
-    font-size: 2.5rem; }
+    font-size: 2.9rem; }
   .news-and-events h2 {
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    font-size: 1.7rem; }
     .news-and-events h2 .sub-heading {
       width: 17rem; }
   .news-and-events span {
@@ -1157,6 +1173,16 @@ object {
     -webkit-flex-basis: 33%;
         -ms-flex-preferred-size: 33%;
             flex-basis: 33%; }
+    .news-and-events-section .news-and-events h2 {
+      font-size: 1.2rem;
+      margin-top: 3.5rem; }
+  .header-text h1 {
+    width: 23rem; }
+  .tagline-text p {
+    width: 28rem;
+    line-height: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem; }
   .about-us {
     -webkit-flex-basis: 33%;
         -ms-flex-preferred-size: 33%;
@@ -1590,6 +1616,9 @@ object {
   margin: .75rem 0; }
 
 .merch-category {
+<<<<<<< HEAD
+  text-decoration: underline; }
+=======
   text-decoration: underline;
   font-size: 2rem;
   padding-left: 2rem; }
@@ -1753,6 +1782,7 @@ object {
   font-size: 30px;
   font-weight: 700;
   text-align: center; }
+>>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f
 
 .entry-content {
   display: -webkit-flex;
@@ -1792,7 +1822,20 @@ object {
           flex-direction: column; }
 
 .home-button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.home-button {
   background-color: #DB1919;
   width: 10rem;
   color: white;
+<<<<<<< HEAD
+  margin: 0 auto;
+  margin-bottom: 7rem; }
+=======
   margin: 0 auto; }
+>>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f
