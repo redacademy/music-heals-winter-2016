@@ -55,6 +55,8 @@
     opacity: 1;
     color: black;
     margin: .25em 0;
+    width: 15rem;
+    margin: 0 auto;
   }
 }
 
@@ -65,8 +67,11 @@
   p {
     opacity: 1;
     color: black;
-    font-weight: 500;
+    font-weight: 800;
     margin: .25em 0;
+    width: 17rem;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
   }
 
   span {
@@ -96,6 +101,8 @@
     text-transform: uppercase;
     padding: 0 1rem;
     line-height: 1.25;
+    width: 16rem;
+    font-size: 2.9rem;
   }
 
   .give {
@@ -160,11 +167,12 @@
     margin-top: 0.5rem;
     margin-bottom: -1.5rem;
     line-height: 3.1rem;
-    font-size: 1.9rem;
+    font-size: 2.9rem;
   }
 
   h2 {
     text-transform: capitalize;
+    font-size: 1.7rem;
 
   .sub-heading {
     width: 17rem;
@@ -173,10 +181,6 @@
 
   span {
     font-size: 20px;
-  }
-
-  .sub-heading {
-    margin-top: 4rem;
   }
 }
 
@@ -194,8 +198,8 @@
 
   h2 {
     color: #fff;
-    font-size: 1.9rem;
-    margin-top: 3.7rem;
+    font-size: 50px;
+    margin-top: 3rem;
     text-transform: uppercase;
   }
 }
@@ -214,8 +218,8 @@
 
   h2 {
     color: #fff;
-    font-size: 1.9rem;
-    margin-top: 3.7rem;
+    font-size: 50px;
+    margin-top: 3rem;
     text-transform: uppercase;
   }
 }
