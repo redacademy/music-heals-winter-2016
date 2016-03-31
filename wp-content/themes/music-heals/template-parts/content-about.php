@@ -24,6 +24,7 @@
       <button type="button" class="donate-button">Give</button>
     </div>
   </div>
+  
 </section>
 
 <!--  HOW WE HELP -->
