@@ -1,3 +1,9 @@
+.single-product {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 .product-header {
   display: flex;
   flex-direction: column;
@@ -6,6 +12,29 @@
   width: 100%;
 }
 
+.image-wrapper {
+  display: flex;
+    justify-content: center;
+  @include desktop {
+   border: 2px solid $light_grey;
+  }
+}
+
 .entry-title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
   text-align: center;
+}
+
+.entry-content {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-wrapper {
+  @include desktop {
+   border: 2px solid $main_red;
+  }
 }
