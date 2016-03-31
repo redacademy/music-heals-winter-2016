@@ -267,7 +267,7 @@
 
   .video-box {
     display: flex;
-    flex: 1 0 65%;
+    flex: 1 0 66.5%;
     margin: 0 0;
   }
 
@@ -297,12 +297,13 @@
 
 
   .bx-viewport {
-    width: 98%;
+    margin-left: 0.3rem;
   }
 
   .bx-wrapper {
+    max-width: 99%;
+    width: 22.56rem;
     flex: 0 1 50%;
-
   }
 
   .slider-image-1 {
