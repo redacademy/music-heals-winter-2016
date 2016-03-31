@@ -3,8 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: url('../../assets/Header_imagebanner.jpg') no-repeat;
-  height: 60px;
+  background: url('../../assets/Header_imagebanner.jpg') no-repeat center;
+  background-size: cover;
+  height: 75px;
   width: 100%;
 }
 
@@ -25,5 +26,5 @@
 }
 
 .cart {
-  padding-right: 1rem;
+  margin-right: 1rem;
 }

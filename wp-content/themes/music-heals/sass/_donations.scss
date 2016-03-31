@@ -97,8 +97,7 @@
 .donation-grid {
   display:flex;
     flex-direction: column-reverse;
-  margin-left:  2rem;
-  margin-right: 2rem;
+
   @include desktop {
     display: flex;
       flex-direction: row-reverse;

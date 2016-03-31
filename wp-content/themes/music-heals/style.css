@@ -595,8 +595,9 @@ button {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../../assets/Header_imagebanner.jpg") no-repeat;
-  height: 60px;
+  background: url("../../assets/Header_imagebanner.jpg") no-repeat center;
+  background-size: cover;
+  height: 75px;
   width: 100%; }
 
 .menu {
@@ -612,7 +613,7 @@ button {
     background: transparent; }
 
 .cart {
-  padding-right: 1rem; }
+  margin-right: 1rem; }
 
 /*--------------------------------------------------------------
 # Content
@@ -654,10 +655,6 @@ button {
 
 .site-footer {
   background-color: #9b9b9b;
-<<<<<<< HEAD
-  width: 100%;
-=======
->>>>>>> e83de3428e10c28f2fe1155b4e8a490b8ead0c9d
   width: 100%; }
 
 .site-info {
@@ -1459,9 +1456,7 @@ object {
   display: flex;
   -webkit-flex-direction: column-reverse;
       -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  margin-left: 2rem;
-  margin-right: 2rem; }
+          flex-direction: column-reverse; }
   @media (min-width: 1080px) {
     .donation-grid {
       display: -webkit-flex;
@@ -1580,7 +1575,6 @@ object {
   margin: .75rem 0; }
 
 .merch-category {
-<<<<<<< HEAD
   text-decoration: underline;
   font-size: 2rem;
   padding-left: 2rem; }
@@ -1716,9 +1710,6 @@ object {
 
 .entry-title {
   text-align: center; }
-=======
-  text-decoration: underline; }
->>>>>>> e83de3428e10c28f2fe1155b4e8a490b8ead0c9d
 
 .page-content {
   display: -webkit-flex;
