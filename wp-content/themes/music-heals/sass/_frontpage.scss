@@ -1,4 +1,3 @@
-
 //===FrontPage PHP===//
 
 .home .site-header {
@@ -56,6 +55,8 @@
     opacity: 1;
     color: black;
     margin: .25em 0;
+    width: 15rem;
+    margin: 0 auto;
   }
 }
 
@@ -66,8 +67,11 @@
   p {
     opacity: 1;
     color: black;
-    font-weight: 500;
+    font-weight: 800;
     margin: .25em 0;
+    width: 17rem;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
   }
 
   span {
@@ -97,6 +101,8 @@
     text-transform: uppercase;
     padding: 0 1rem;
     line-height: 1.25;
+    width: 16rem;
+    font-size: 2.9rem;
   }
 
   .give {
@@ -114,24 +120,27 @@
 }
 
 .slider-image-1 {
-  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px,
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: cover, contain;
-  height: 60vh;
+  background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh;
 }
 
 .slider-image-2 {
-  background: url(../../assets/online-donations-image.svg) no-repeat center 1px,
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: cover, contain;
-  height: 60vh;
+  background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh;
 }
 
 .slider-image-3 {
-  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px,
-  linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.50) 100% );
-  background-size: cover, contain;
-  height: 60vh;
+  background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
+  background-size: contain, cover;
+  height: 48vh;
+}
+
+@media only screen and (min-width: 1080px) {
+.slider-image-1, .slider-image-2, .slider-image-3 {
+    height: 100vh;
+}
 }
 
 // NEWS AND EVENTS SECTION
@@ -155,14 +164,15 @@
   h1 {
     width: 300px;
     text-transform: uppercase;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     margin-bottom: -1.5rem;
     line-height: 3.1rem;
-    font-size: 2.5rem;
+    font-size: 2.9rem;
   }
 
   h2 {
     text-transform: capitalize;
+    font-size: 1.7rem;
 
   .sub-heading {
     width: 17rem;
@@ -285,6 +295,28 @@
 
   .news-and-events-section {
     flex-basis: 33%;
+
+      .news-and-events {
+        h2 {
+          font-size: 1.2rem;
+          margin-top: 3.5rem;
+        }
+      }
+  }
+
+  .header-text {
+    h1 {
+      width: 23rem;
+    }
+  }
+
+  .tagline-text {
+    p {
+      width: 28rem;
+      line-height: 1.7rem;
+      margin-top: 1rem;
+      margin-bottom: 4rem;
+    }
   }
 
   .about-us {

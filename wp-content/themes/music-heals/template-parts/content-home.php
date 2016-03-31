@@ -25,23 +25,25 @@
          <h1>The Gift of Music</h1>
          <a href="<?php bloginfo('url')?>/donation/"><button class="common-btn give">Give</button></a>
        </section>
-
-       <ul class="bxslider box-padding">
-         <li>
-          <div class="slider-image-1">
-          </div>
-        </li>
-        <li>
-          <div class="slider-image-2">
-          </div>
-        </li>
-        <li>
-          <div class="slider-image-3">
-          </div>
-        </li>
-       </ul>
      </div>
-    </div>
+     </div>
+
+       <div class="bxdiv">
+         <ul class="bxslider box-padding">
+           <li>
+            <div class="slider-image-1">
+            </div>
+          </li>
+          <li>
+            <div class="slider-image-2">
+            </div>
+          </li>
+          <li>
+            <div class="slider-image-3">
+            </div>
+          </li>
+         </ul>
+       </div>
 
     <div class="desktop-wrapper-4">
       <section class="news-and-events-section box-padding">
