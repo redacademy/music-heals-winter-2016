@@ -1,4 +1,4 @@
-
+<!-- <div class="container"> -->
 <?php
 /**
  * The main template file.
@@ -10,7 +10,6 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<!-- <div class="container"> -->
 
 			<?php if ( have_posts() ) : ?>
 
@@ -47,7 +46,7 @@ get_header(); ?>
 						<div class="donation-image-wrapper">
 
 							<?php if ( has_post_thumbnail() ) : ?>
-								<a href="<?php the_permalink();?>"><?php the_post_thumbnail( 'large' ); ?></a>
+								<?php the_post_thumbnail( 'large' ); ?></a>
 							<?php endif; ?>
 						</div>
 
@@ -60,10 +59,6 @@ get_header(); ?>
 
 							<button class="donation-btn">Donate</button>
 						</div>
-
-
-
-
 					</div>
 
 			    <?php endwhile; ?>
@@ -79,8 +74,9 @@ get_header(); ?>
 	   	<?php endif; ?>
 
 		  </div>
-		<!-- </div> -->
+
 	 </main><!-- #main -->
  </div><!-- #primary -->
 
 <?php get_footer(); ?>
+<!-- </div> -->

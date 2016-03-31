@@ -26,8 +26,6 @@
       justify-content: flex-end;
       height: 650px;
       border-bottom: 0;
-      // position: absolute;
-      // z-index: 0;
     }
   }
 
@@ -38,8 +36,9 @@
     width: 60%;
     @include desktop {
       background-color: rgba(255,255,255,0.50);
+      margin-top: -250px;
+      padding: 0.5rem;
       text-align:left;
-      padding: 1rem;
       width: 60%;
      }
 
@@ -64,11 +63,10 @@
     flex-direction: column;
     justify-content: center;
     @include desktop {
-      background-color: $light_grey;
+      background-color: rgba(255,255,255,0.20);
       display: flex;
         flex-direction: row;
-      // position: relative;
-      //  z-index: 1;
+      margin-top: -280px;
     }
 
     .donation-step-wrapper {
@@ -103,6 +101,8 @@
     display: flex;
       flex-direction: row-reverse;
       flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .donation-wrapper {
@@ -126,30 +126,32 @@
 
 .donation-image-wrapper {
   display: none;
-  // display: flex;
-  //   align-self: flex-end;
-  // margin-right: 2rem;
-  // margin-top: 2rem;
-  // height: 40px;
-  // width: 35px;
   @include desktop {
     display: flex;
       flex: 0 1 50%;
       max-width: 50%;
-    // height: 60px;
-    // width: 50px;
-    height: auto;
-    width: auto;
+  }
+
+  img {
+    @include desktop {
+      height: 19rem;
+      margin: 1rem;
+      width: 16rem;
+    }
   }
 }
   .donation-info-wrapper {
     text-align: left;
     @include desktop {
       background-color: #fff;
+      border: 2px solid $dark_grey;
       display: flex;
         flex-direction: column;
         flex: 0 1 50%;
         max-width: 50%;
+      height: 19rem;
+      margin: 1rem;
+      width: 19rem;
     }
 
     .price-wrapper {
