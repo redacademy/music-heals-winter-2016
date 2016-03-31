@@ -1777,7 +1777,7 @@ object {
     .image-wrapper {
       border: 2px solid #C9C9C9; } }
 
-.product-wrapper {
+.single-product-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1791,7 +1791,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   @media (min-width: 1080px) {
-    .product-wrapper {
+    .single-product-wrapper {
       border: 2px solid #DB1921; } }
 
 .product-details {

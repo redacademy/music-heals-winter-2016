@@ -13,7 +13,7 @@
 			<?php the_post_thumbnail( 'large' ); ?>
 			<?php endif; ?>
 	</div>
-	<section class="product-wrapper">
+	<section class="single-product-wrapper">
 		<header class="product-header">
 			<span><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header><!-- .entry-header -->
