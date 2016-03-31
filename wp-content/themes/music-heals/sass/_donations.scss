@@ -24,19 +24,17 @@
     @include desktop {
       background-size: cover, cover;
       height: 650px;
-
+      position: absolute;
+      z-index: 0;
     }
   }
 
   .donation-banner-steps {
     @include desktop {
       display: flex;
-        align-content: center;
+      align-content: center;
         flex-direction: column;
         justify-content: space-between;
-      height: 650px;
-      position: absolute;
-      z-index: 0;
     }
   }
 
@@ -48,10 +46,10 @@
     height: 70%;
     text-align: center;
     width: 70%;
-    @include desktop {
-      display: flex;
-      width: auto;
-    }
+    // @include desktop {
+    //   flex-direction: row;
+    //   align-self: flex-start;
+    // }
   }
 
   .donation-info {
@@ -59,8 +57,8 @@
     text-align: center;
     width: 100%;
     @include desktop {
-      background-color: rgba(255,255,255,0.50);
-      text-align:center;
+      background-color: rgba(255,255,255,0.75);
+      text-align:right;
 
      }
 
@@ -74,7 +72,7 @@
       display: none;
       @include desktop {
         display: block;
-        margin: 1rem;
+        margin:1rem;
     }
   }
 }
@@ -97,6 +95,10 @@
         flex-direction: column;
         justify-content: center;
       width: 100%;
+      @include desktop {
+        height: 200px;
+        width: 180px;
+      }
     }
 
     h2 {
