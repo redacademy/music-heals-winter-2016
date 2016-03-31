@@ -994,6 +994,9 @@ object {
     color: #DB1921;
     padding: .75rem 2.5rem; }
 
+.bx-viewport {
+  border: 0px !important; }
+
 .bxslider {
   list-style: none;
   padding: 0;
@@ -1015,10 +1018,15 @@ object {
   height: 48vh; }
 
 @media only screen and (min-width: 1080px) {
-  .slider-image-1, .slider-image-2, .slider-image-3 {
-    height: 100vh; } }
+  .slider-image-1, .slider-image-2 {
+    height: 100vh;
+    background-color: #DB1921; }
+  .slider-image-3 {
+    height: 100vh;
+    background-color: #D8D8D8; } }
 
 .news-and-events-section {
+  margin-top: 22rem;
   width: 100%;
   background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain; }
@@ -1154,6 +1162,17 @@ object {
     -webkit-flex: 0 1 50%;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%; }
+    .donations-box h1 {
+      font-size: 1.9rem;
+      width: 12rem;
+      margin-bottom: 0rem; }
+    .donations-box .common-btn {
+      margin-top: 0.5rem;
+      height: 3rem;
+      font-size: 20px;
+      width: 8rem; }
+  .bx-viewport {
+    width: 98%; }
   .bx-wrapper {
     -webkit-flex: 0 1 50%;
         -ms-flex: 0 1 50%;
@@ -1172,7 +1191,8 @@ object {
   .news-and-events-section {
     -webkit-flex-basis: 33%;
         -ms-flex-preferred-size: 33%;
-            flex-basis: 33%; }
+            flex-basis: 33%;
+    margin-top: 0rem; }
     .news-and-events-section .news-and-events h2 {
       font-size: 1.2rem;
       margin-top: 3.5rem; }
@@ -1789,6 +1809,7 @@ object {
   font-size: 28px;
   font-weight: 700;
   text-align: center; }
+<<<<<<< HEAD
 
 .entry-content {
   display: -webkit-flex;
@@ -1825,6 +1846,8 @@ object {
     font-weight: 300;
     margin-bottom: 1.5rem;
     text-align: center; }
+=======
+>>>>>>> about-page
 
 .page-content {
   display: -webkit-flex;
