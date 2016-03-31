@@ -616,7 +616,26 @@ button {
   margin-right: 1rem; }
 
 .main-navigation {
-  display: none; }
+  display: none;
+  position: absolute;
+  width: 200px;
+  z-index: 0;
+  top: 100;
+  background: white; }
+  .main-navigation ul {
+    width: 100%; }
+  .main-navigation li {
+    background: #db1921;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center; }
+
+.menu {
+  width: 100%; }
+
+.page_item a {
+  color: white;
+  font-size: 1.5rem; }
 
 /*--------------------------------------------------------------
 # Content
@@ -1094,7 +1113,7 @@ object {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
             align-items: flex-start; }
-  .menu {
+  .menu-button {
     width: 70px; }
   .logo {
     margin-left: 8rem; }

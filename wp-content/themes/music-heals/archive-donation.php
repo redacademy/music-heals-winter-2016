@@ -35,20 +35,15 @@ get_header(); ?>
 				<div class="donation-step-wrapper">
 					<img src="<?php echo get_template_directory_uri() . '/assets\/donation-page\/Gifts_that_Heal_step3'?>.svg" alt="Step Three" />
 					<h2 class="donation-step-notes">Share Gifts that Heal</h2>
-
 				</div>
-				<div class="donation-grid">
-					<?php /* Start the Loop */ ?>
-					<?php while ( have_posts() ) : the_post(); ?>
+			</div>
+			<div class="donation-grid">
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-						<div class="donation-wrapper">
+					<div class="donation-wrapper">
 
-							<div class="donation-image-wrapper">
-
-
-								<?php if ( has_post_thumbnail() ) : ?>
-									<a href="<?php the_permalink();?>"><?php the_post_thumbnail( 'large' ); ?></a>
-								<?php endif; ?>
+						<div class="donation-image-wrapper">
 
 							<?php if ( has_post_thumbnail() ) : ?>
 								<?php the_post_thumbnail( 'large' ); ?></a>
@@ -58,47 +53,30 @@ get_header(); ?>
 						<div class="donation-info-wrapper">
 							<div class="price-wrapper">
 								<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
-
 							</div>
-
-
-							<div class="donation-info-wrapper">
-								<div class="price-wrapper">
-									<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
-								</div>
-		        		<span class="donation-title"><?php the_title(); ?></span>
-								<p><?php echo CFS()->get( 'donation_description' ); ?></p>
-
-								<button class="donation-btn">Donate</button>
-							</div>
-
-
-
+	        		<span class="donation-title"><?php the_title(); ?></span>
+							<p><?php echo CFS()->get( 'donation_description' ); ?></p>
 
 							<button class="donation-btn">Donate</button>
 						</div>
 					</div>
 
+			    <?php endwhile; ?>
 
-						</div>
+		    	<?php the_posts_navigation(); ?>
 
-				    <?php endwhile; ?>
+	    	<?php else : ?>
 
-			    	<?php the_posts_navigation(); ?>
-
-		    	<?php else : ?>
-
-				 <?php get_template_part( 'template-parts/content', 'none' ); ?>
-				 	<?php wp_reset_postdata(); ?>
+			 <?php get_template_part( 'template-parts/content', 'none' ); ?>
+			 	<?php wp_reset_postdata(); ?>
 
 
-		   	<?php endif; ?>
+	   	<?php endif; ?>
 
+		  </div>
 
-			  </div>
-			<!-- </div> -->
-		 </main><!-- #main -->
-	 </div><!-- #primary -->
+	 </main><!-- #main -->
+ </div><!-- #primary -->
 
-	<?php get_footer(); ?>
+<?php get_footer(); ?>
 </div>

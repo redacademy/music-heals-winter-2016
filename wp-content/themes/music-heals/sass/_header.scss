@@ -30,6 +30,35 @@
 }
 
 .main-navigation {
-  display: block;
-  z-index: 100;
+  display: none;
+  position: absolute;
+  width: 200px;
+  z-index: 0;
+  top: 100;
+  background: white;
+
+  ul {
+    width: 100%;
+  }
+
+  li {
+    background: #db1921;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+.menu {
+  width: 100%;
+}
+.page_item {
+
+  a {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+
+
 }
