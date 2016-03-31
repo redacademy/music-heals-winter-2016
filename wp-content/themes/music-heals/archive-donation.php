@@ -10,7 +10,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="container">
+			<!-- <div class="container"> -->
 
 			<?php if ( have_posts() ) : ?>
 
@@ -57,9 +57,12 @@ get_header(); ?>
 							</div>
 	        		<span class="donation-title"><?php the_title(); ?></span>
 							<p><?php echo CFS()->get( 'donation_description' ); ?></p>
+
+							<button class="donation-btn">Donate</button>
 						</div>
 
-						<button class="donation-btn">Donate</button>
+
+
 
 					</div>
 
@@ -76,7 +79,7 @@ get_header(); ?>
 	   	<?php endif; ?>
 
 		  </div>
-		</div>
+		<!-- </div> -->
 	 </main><!-- #main -->
  </div><!-- #primary -->
 
