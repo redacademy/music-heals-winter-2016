@@ -3,13 +3,19 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+  @include desktop {
+    display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
 }
 
 .image-wrapper {
   display: flex;
     justify-content: center;
   @include desktop {
-   border: 2px solid $light_grey;
+   border: 3px solid $light_grey;
+   width: 13rem;
   }
 }
 
@@ -19,7 +25,7 @@
     flex-direction: column;
     justify-content: center;
   @include desktop {
-   border: 2px solid $main_red;
+   border: 3px solid $main_red;
   }
 }
 
