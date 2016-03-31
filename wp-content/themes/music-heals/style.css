@@ -620,7 +620,8 @@ button {
   margin-right: 1rem; }
 
 .main-navigation {
-  display: none; }
+  display: block;
+  z-index: 100; }
 
 /*--------------------------------------------------------------
 # Content
@@ -993,6 +994,9 @@ object {
     color: #DB1921;
     padding: .75rem 2.5rem; }
 
+.bx-viewport {
+  border: 0px !important; }
+
 .bxslider {
   list-style: none;
   padding: 0;
@@ -1014,10 +1018,15 @@ object {
   height: 48vh; }
 
 @media only screen and (min-width: 1080px) {
-  .slider-image-1, .slider-image-2, .slider-image-3 {
-    height: 100vh; } }
+  .slider-image-1, .slider-image-2 {
+    height: 100vh;
+    background-color: #DB1921; }
+  .slider-image-3 {
+    height: 100vh;
+    background-color: #D8D8D8; } }
 
 .news-and-events-section {
+  margin-top: 22rem;
   width: 100%;
   background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain; }
@@ -1153,6 +1162,17 @@ object {
     -webkit-flex: 0 1 50%;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%; }
+    .donations-box h1 {
+      font-size: 1.9rem;
+      width: 12rem;
+      margin-bottom: 0rem; }
+    .donations-box .common-btn {
+      margin-top: 0.5rem;
+      height: 3rem;
+      font-size: 20px;
+      width: 8rem; }
+  .bx-viewport {
+    width: 98%; }
   .bx-wrapper {
     -webkit-flex: 0 1 50%;
         -ms-flex: 0 1 50%;
@@ -1171,7 +1191,8 @@ object {
   .news-and-events-section {
     -webkit-flex-basis: 33%;
         -ms-flex-preferred-size: 33%;
-            flex-basis: 33%; }
+            flex-basis: 33%;
+    margin-top: 0rem; }
     .news-and-events-section .news-and-events h2 {
       font-size: 1.2rem;
       margin-top: 3.5rem; }
@@ -1615,9 +1636,6 @@ object {
   margin: .75rem 0; }
 
 .merch-category {
-<<<<<<< HEAD
-  text-decoration: underline; }
-=======
   text-decoration: underline;
   font-size: 2rem;
   padding-left: 2rem; }
@@ -1753,7 +1771,6 @@ object {
 
 .entry-title {
   text-align: center; }
->>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f
 
 .page-content {
   display: -webkit-flex;
@@ -1789,9 +1806,5 @@ object {
   background-color: #DB1919;
   width: 10rem;
   color: white;
-<<<<<<< HEAD
   margin: 0 auto;
   margin-bottom: 7rem; }
-=======
-  margin: 0 auto; }
->>>>>>> 85a7d0832c4b7d6583b7139d5e0b7536963bff0f
