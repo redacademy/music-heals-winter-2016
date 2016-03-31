@@ -33,7 +33,17 @@
 			<div class="product-price">
 				<?php echo CFS()->get( 'price' ); ?></span>
 			</div>
-		</div><!-- .entry-content -->
+		</div>
+			<div class="size-buttons">
+				<button>SM</button>
+				<button>MED</button>
+				<button>LRG</button>
+			</div>
+			<div class="shopping-buttons">
+				<button>Continue Shopping</button>
+				<button>Add to Bag</button>
+			</div>
+		<!-- .entry-content -->
 	</section>
 
 	<footer class="entry-footer">
