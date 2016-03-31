@@ -1775,6 +1775,24 @@ object {
     height: 175px;
     width: 175px; } }
 
+.product-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+
+.entry-title {
+  text-align: center; }
+
 .page-content {
   display: -webkit-flex;
   display: -ms-flexbox;
