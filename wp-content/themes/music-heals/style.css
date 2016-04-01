@@ -47,7 +47,7 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
-  
+
 body {
   margin: 0; }
 
@@ -697,7 +697,8 @@ button {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+  padding-bottom: 0; }
   @media (min-width: 1080px) {
     .site-info {
       background: url("../../assets/Footer_guitar.svg") no-repeat;
@@ -713,6 +714,7 @@ button {
 
 .signup {
   margin: 1rem;
+  max-width: 25rem;
   width: 85%; }
   @media (min-width: 1080px) {
     .signup {
@@ -723,7 +725,8 @@ button {
       -webkit-order: 3;
           -ms-flex-order: 3;
               order: 3;
-      width: 200px; } }
+      margin-top: -1.8rem;
+      max-width: 15rem; } }
 
 .signup span {
   color: #000; }
@@ -815,7 +818,8 @@ input[type="submit"] {
       margin: 1rem;
       -webkit-order: 4;
           -ms-flex-order: 4;
-              order: 4; } }
+              order: 4;
+      margin-top: -1rem; } }
   .social-icons li {
     background-color: transparent;
     margin: 5px; }
@@ -1772,7 +1776,7 @@ object {
     height: 175px;
     width: 175px; } }
 
-.single-product {
+.type-product {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1786,16 +1790,19 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   @media (min-width: 1080px) {
-    .single-product {
+    .type-product {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      -webkit-justify-content: space-around;
-          -ms-flex-pack: distribute;
-              justify-content: space-around; } }
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .image-wrapper {
   display: -webkit-flex;
@@ -1807,7 +1814,14 @@ object {
   @media (min-width: 1080px) {
     .image-wrapper {
       border: 3px solid #C9C9C9;
-      width: 13rem; } }
+      position: absolute;
+      top: 33%;
+      left: 6%;
+      width: 21rem; } }
+  @media (min-width: 1080px) {
+    .image-wrapper img {
+      height: 20rem;
+      width: 29rem; } }
 
 .single-product-wrapper {
   display: -webkit-flex;
@@ -1823,21 +1837,11 @@ object {
       -ms-flex-pack: center;
           justify-content: center; }
   @media (min-width: 1080px) {
-
-    .product-wrapper {
-      border: 3px solid #DB1921; } }
-
     .single-product-wrapper {
-      border: 2px solid #DB1921; } }
-
-
-.product-details {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+      border: 3px solid #DB1921;
+      height: 28rem;
+      padding-left: 12rem;
+      width: 63%; } }
 
 .entry-title {
   color: #000;
@@ -1858,13 +1862,68 @@ object {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 0;
-  width: 80%; }
+  margin-top: 0; }
+  @media (min-width: 1080px) {
+    .entry-content {
+      width: 75%; } }
+
+.product-details {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: .5rem; }
+  @media (min-width: 1080px) {
+    .product-details {
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      margin-bottom: 2rem; } }
+  .product-details p {
+    margin: 0; }
+    @media (min-width: 1080px) {
+      .product-details p {
+        margin: .5rem; } }
+
+.product-price {
+  font-weight: 700; }
+  @media (min-width: 1080px) {
+    .product-price {
+      font-size: 2rem;
+      margin-top: -183px; } }
 
 .size-buttons {
   margin-bottom: 1rem; }
   .size-buttons button {
     margin: .5rem; }
+    @media (min-width: 1080px) {
+      .size-buttons button {
+        margin: 1rem;
+        padding: 1.25rem 2.5rem; } }
+
+.quantity {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  width: 15.5rem; }
+  @media (min-width: 1080px) {
+    .quantity {
+      font-size: 2rem;
+      margin-right: 10rem;
+      width: 18rem; } }
+  .quantity .quantity-box {
+    color: #9B9B9B;
+    height: 1rem; }
 
 .shopping-buttons {
   display: -webkit-flex;
@@ -1873,13 +1932,23 @@ object {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
+  @media (min-width: 1080px) {
+    .shopping-buttons {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
   .shopping-buttons button {
     background-color: #DB1921;
     color: #fff;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
-    text-align: center; }
+    text-align: center;
+    width: 12rem; }
+    @media (min-width: 1080px) {
+      .shopping-buttons button {
+        margin: 1rem;
+        padding: .75rem; } }
 
 .page-content {
   display: -webkit-flex;
