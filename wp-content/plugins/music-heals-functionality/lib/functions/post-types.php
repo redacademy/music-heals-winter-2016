@@ -13,8 +13,8 @@ function register_product_post_type() {
 	$labels = array(
 		'name'                  => 'Products',
 		'singular_name'         => 'Product',
-		'menu_name'             => 'Product',
-		'name_admin_bar'        => 'Product',
+		'menu_name'             => 'Products',
+		'name_admin_bar'        => 'Products',
 		'archives'              => 'Product Archives',
 		'parent_item_colon'     => 'Parent Product:',
 		'all_items'             => 'All Products',
@@ -63,7 +63,7 @@ function register_product_post_type() {
 		'rewrite'               => $rewrite,
 		'capability_type'       => 'post',
 	);
-	register_post_type( 'products', $args );
+	register_post_type( 'product', $args );
 
 }
 add_action( 'init', 'register_product_post_type', 0 );
@@ -74,8 +74,8 @@ function register_donation_post_type() {
 	$labels = array(
 		'name'                  => 'Donations',
 		'singular_name'         => 'Donation',
-		'menu_name'             => 'Donation',
-		'name_admin_bar'        => 'Donation',
+		'menu_name'             => 'Donations',
+		'name_admin_bar'        => 'Donations',
 		'archives'              => 'Donation Archives',
 		'parent_item_colon'     => 'Parent Donation:',
 		'all_items'             => 'All Donations',
