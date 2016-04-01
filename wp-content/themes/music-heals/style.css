@@ -637,7 +637,7 @@ button {
 .menu {
   width: 100%; }
 
-.page_item a {
+.menu-item a {
   color: white;
   font-size: 1.5rem; }
 
@@ -1720,7 +1720,8 @@ object {
           align-items: center;
   -webkit-flex-basis: 50%;
       -ms-flex-preferred-size: 50%;
-          flex-basis: 50%; }
+          flex-basis: 50%;
+  border: 3px solid white; }
   .single-product-category:hover {
     border: 3px solid #db1921; }
 

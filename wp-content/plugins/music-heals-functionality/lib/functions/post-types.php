@@ -44,7 +44,7 @@ function register_product_post_type() {
 		'feeds'                 => true,
 	);
 	$args = array(
-		'label'                 => 'Products',
+		'label'                 => 'Product',
 		'description'           => 'Products on the website',
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', ),
@@ -105,7 +105,7 @@ function register_donation_post_type() {
 		'feeds'                 => true,
 	);
 	$args = array(
-		'label'                 => 'Donations',
+		'label'                 => 'Donation',
 		'description'           => 'Donations on the website.',
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', ),
@@ -125,7 +125,7 @@ function register_donation_post_type() {
 		'rewrite'               => $rewrite,
 		'capability_type'       => 'post',
 	);
-	register_post_type( 'donations', $args );
+	register_post_type( 'donation', $args );
 
 }
 add_action( 'init', 'register_donation_post_type', 0 );
