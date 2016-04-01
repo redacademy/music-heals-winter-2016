@@ -44,7 +44,7 @@ function register_product_post_type() {
 		'feeds'                 => true,
 	);
 	$args = array(
-		'label'                 => 'Product',
+		'label'                 => 'Products',
 		'description'           => 'Products on the website',
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', ),
@@ -105,7 +105,7 @@ function register_donation_post_type() {
 		'feeds'                 => true,
 	);
 	$args = array(
-		'label'                 => 'Donation',
+		'label'                 => 'Donations',
 		'description'           => 'Donations on the website.',
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail', 'custom-fields', ),
