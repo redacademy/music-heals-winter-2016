@@ -63,7 +63,7 @@ function register_product_post_type() {
 		'rewrite'               => $rewrite,
 		'capability_type'       => 'post',
 	);
-	register_post_type( 'product', $args );
+	register_post_type( 'products', $args );
 
 }
 add_action( 'init', 'register_product_post_type', 0 );
@@ -125,7 +125,7 @@ function register_donation_post_type() {
 		'rewrite'               => $rewrite,
 		'capability_type'       => 'post',
 	);
-	register_post_type( 'donation', $args );
+	register_post_type( 'donations', $args );
 
 }
 add_action( 'init', 'register_donation_post_type', 0 );
