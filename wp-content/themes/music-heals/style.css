@@ -1161,9 +1161,9 @@ object {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex: 1 0 65%;
-        -ms-flex: 1 0 65%;
-            flex: 1 0 65%;
+    -webkit-flex: 1 0 66.5%;
+        -ms-flex: 1 0 66.5%;
+            flex: 1 0 66.5%;
     margin: 0 0; }
   .desktop-wrapper-3 {
     display: -webkit-flex;
@@ -1190,8 +1190,10 @@ object {
       font-size: 20px;
       width: 8rem; }
   .bx-viewport {
-    width: 98%; }
+    margin-left: 0.3rem; }
   .bx-wrapper {
+    max-width: 99%;
+    width: 22.56rem;
     -webkit-flex: 0 1 50%;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%; }
