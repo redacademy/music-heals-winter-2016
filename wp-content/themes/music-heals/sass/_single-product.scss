@@ -56,6 +56,7 @@
     flex-direction: row;
     justify-content: space-between;
   margin-top: 0;
+  width: 85%;
   @include desktop {
     width: 75%;
   }
@@ -90,6 +91,11 @@
   margin-bottom: 1rem;
   button {
     margin: .5rem;
+
+    &:active, &:hover {
+      border-color: $main_red;
+      color: $main_red;
+    }
     @include desktop {
       margin: 1rem;
       padding: 1.25rem 2.5rem;
@@ -111,8 +117,13 @@
   }
 
   .quantity-box {
-    color: $med_grey;
-    height: 1rem;
+    border: 3px solid $med_grey;
+    height: 1.5rem;
+    width: 2rem;
+    @include desktop {
+      height: 2rem;
+      width: 3.5rem;
+    }
   }
 }
 

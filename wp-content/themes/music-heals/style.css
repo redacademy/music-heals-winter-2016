@@ -1862,7 +1862,8 @@ object {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 0; }
+  margin-top: 0;
+  width: 85%; }
   @media (min-width: 1080px) {
     .entry-content {
       width: 75%; } }
@@ -1898,6 +1899,9 @@ object {
   margin-bottom: 1rem; }
   .size-buttons button {
     margin: .5rem; }
+    .size-buttons button:active, .size-buttons button:hover {
+      border-color: #DB1921;
+      color: #DB1921; }
     @media (min-width: 1080px) {
       .size-buttons button {
         margin: 1rem;
@@ -1922,8 +1926,13 @@ object {
       margin-right: 10rem;
       width: 18rem; } }
   .quantity .quantity-box {
-    color: #9B9B9B;
-    height: 1rem; }
+    border: 3px solid #9B9B9B;
+    height: 1.5rem;
+    width: 2rem; }
+    @media (min-width: 1080px) {
+      .quantity .quantity-box {
+        height: 2rem;
+        width: 3.5rem; } }
 
 .shopping-buttons {
   display: -webkit-flex;
