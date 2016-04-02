@@ -33,7 +33,7 @@ get_header(); ?>
 	      <h1 class="merch-category">Kids</h1>
 
 				      <?php
-				        $args= array(
+				        $kids= array(
 	                'post_type'=> 'product',
 	                'posts_per_page' => 4,
 	                'tax_query'=> array (
@@ -44,11 +44,11 @@ get_header(); ?>
 	                ),
 	              ),
 	            );
-	            $query = get_posts($args);
+	            $kidsection = get_posts($kids);
 
 				      ?>
 							<div class="products-list">
-				        <?php foreach($query as $post) : setup_postdata($post); ?>
+				        <?php foreach($kidsection as $post) : setup_postdata($post); ?>
 				          <?php if (has_post_thumbnail()) : ?>
 											<div class="single-product-category">
 							          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
@@ -64,7 +64,7 @@ get_header(); ?>
 
 	          <h1 class="merch-category">Womens</h1>
 	            <?php
-				        $args= array(
+				        $womens= array(
 	                'post_type'=> 'product',
 	                'posts_per_page' => 4,
 	                'tax_query'=> array (
@@ -75,11 +75,11 @@ get_header(); ?>
 	                ),
 	              ),
 	            );
-	            $query = get_posts($args);
+	            $womensection = get_posts($womens);
 
 				      ?>
 							<div class="products-list">
-				        <?php foreach($query as $post) : setup_postdata($post); ?>
+				        <?php foreach($womensection as $post) : setup_postdata($post); ?>
 				          <?php if (has_post_thumbnail()) : ?>
 											<div class="single-product-category">
 							          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
@@ -95,7 +95,7 @@ get_header(); ?>
 
 	          <h1 class="merch-category">Mens</h1>
 	            <?php
-				        $args= array(
+				        $men= array(
 	                'post_type'=> 'product',
 	                'posts_per_page' => 4,
 	                'tax_query'=> array (
@@ -106,11 +106,11 @@ get_header(); ?>
 	                ),
 	              ),
 	            );
-	            $query = get_posts($args);
+	            $mensection = get_posts($men);
 
 				      ?>
 							<div class="products-list">
-				        <?php foreach($query as $post) : setup_postdata($post); ?>
+				        <?php foreach($mensection as $post) : setup_postdata($post); ?>
 				          <?php if (has_post_thumbnail()) : ?>
 											<div class="single-product-category">
 							          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
