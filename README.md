@@ -1,4 +1,4 @@
-#Music Heals - A Custom Wordpress theme
+#Music Heals - A Custom Wordpress Theme
 
 ##Project Summary
 
