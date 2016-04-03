@@ -1,4 +1,4 @@
-#Music Heals - A Custom Wordpress theme
+#Music Heals - A Custom Wordpress Theme
 
 ##Project Summary
 
@@ -7,7 +7,6 @@ This custom Wordpress theme was created for Music Heals Charitable Foundation, b
 ##Tools Used
 - HTML/CSS/SASS
 - Wordpress Plugins
-  - Contact Form 7
   - Custom Field Suite
   - Theme Check
 - Custom Donations and Products pages, Product Type taxonomy
