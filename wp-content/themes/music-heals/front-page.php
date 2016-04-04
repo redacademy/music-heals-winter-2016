@@ -13,9 +13,9 @@
 	 <div class="desktop-wrapper-2">
 		<section class="video-box box-padding">
 			<div class="menu-logo-wrapper">
-				<div class="menu-button"><img src="<?php echo get_template_directory_uri();?>  /assets/Hamburger_menu_01.svg" alt="Hamburger Menu"/></div>
+				<div class="menu-button"><img src="<?php echo get_template_directory_uri();?>/assets/Hamburger_menu_01.svg" alt="Hamburger Menu"/></div>
 
-				<div class="logo"><img src="<?php echo get_template_directory_uri();?>  /assets/musicheals.png" alt="Music Heals Logo"/></div>
+				<div class="logo"><img src="<?php echo get_template_directory_uri();?>/assets/musicheals.png" alt="Music Heals Logo"/></div>
 			</div>
 			<div class="text-wrapper">
 				<div class="header-text"><h1>Think about all the ways that music helps you.</h1></div>
