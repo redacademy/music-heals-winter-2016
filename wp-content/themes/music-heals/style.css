@@ -919,10 +919,10 @@ object {
       -webkit-justify-content: flex-start;
           -ms-flex-pack: start;
               justify-content: flex-start;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-                  -ms-grid-row-align: center;
-              align-items: center; } }
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+                  -ms-grid-row-align: flex-start;
+              align-items: flex-start; } }
 
 .home-menu-button {
   width: 55px;
@@ -931,7 +931,7 @@ object {
   margin-left: 2.5rem; }
   @media (min-width: 1080px) {
     .home-menu-button {
-      width: 60px; } }
+      width: 55px; } }
 
 .home .logo {
   margin: 0 auto; }
