@@ -73,11 +73,11 @@
 		 <section class="about-us box-padding">
 
 			 <h2>How We Help</h2>
-			 <a href="<?php home_url()?>musicheals/about/"><button class="common-btn">About Us</button></a>
+			 <a href="<?php home_url()?>/musicheals/about/"><button class="common-btn">About Us</button></a>
 		 </section>
 		 <section class="shop box-padding">
 			 <h2>Merch</h2>
-			 <a href="<?php bloginfo('url')?>/products/"><button class="common-btn">Shop</button></a>
+			 <a href="<?php home_url()?>musicheals/products/"><button class="common-btn">Shop</button></a>
 		 </section>
 	 </div>
  </div>
