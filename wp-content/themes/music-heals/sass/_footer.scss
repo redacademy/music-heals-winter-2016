@@ -1,4 +1,16 @@
 
+.footer-wrapper {
+  width: 100%;
+
+  @include desktop {
+    padding: 0 4%;
+  }
+}
+
+.home .footer-wrapper {
+  padding:0;
+}
+
 .site-footer {
   background-color: #9b9b9b;
   width: 100%;
