@@ -297,12 +297,17 @@
 
   .bx-viewport {
     margin-left: 0.3rem;
+    width: 91%;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
   }
 
   .bx-wrapper {
     max-width: 99%;
     width: 22.56rem;
     flex: 0 1 50%;
+    margin: 0px;
   }
 
   .slider-image-1 {

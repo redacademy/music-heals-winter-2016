@@ -1190,13 +1190,18 @@ object {
       font-size: 20px;
       width: 8rem; }
   .bx-viewport {
-    margin-left: 0.3rem; }
+    margin-left: 0.3rem;
+    width: 91%;
+    overflow: hidden;
+    position: relative;
+    height: 200px; }
   .bx-wrapper {
     max-width: 99%;
     width: 22.56rem;
     -webkit-flex: 0 1 50%;
         -ms-flex: 0 1 50%;
-            flex: 0 1 50%; }
+            flex: 0 1 50%;
+    margin: 0px; }
   .slider-image-1 {
     height: 200px; }
   .slider-image-2 {
