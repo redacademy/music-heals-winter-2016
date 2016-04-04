@@ -30,3 +30,14 @@ function lrb_archive_title($title) {
 	return $title;
 }
 add_filter('get_the_archive_title', 'lrb_archive_title');
+
+//filter archive donation loop
+
+function lrb_modify_archive_loop( $query ) {
+	if ( is_post_type_archive( array( 'donation' ) ) && !is_admin() && $query->is_main_query() ){
+		$query->set( 'orderby', 'price' );
+		$query->set( 'order', 'ASC' );
+		$query->set( 'posts_per_page', 6);
+	}
+}
+add_action( 'pre_get_posts', 'lrb_modify_archive_loop' );

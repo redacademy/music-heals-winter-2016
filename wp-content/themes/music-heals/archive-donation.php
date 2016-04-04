@@ -13,9 +13,9 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-			<div class="common-header">
-				<h1 class="common-title">Gifts that Heal</h1>
-			</div>
+			<section class="donation-header">
+				<h1 class="page-title">Gifts that Heal</h1>
+			</section>
 			<section class="donation-banner box-padding">
 			  <div class="donation-info">
 					<h2>100% of your donation will support music therapy</h2>
@@ -39,6 +39,7 @@ get_header(); ?>
 			</div>
 			<div class="donation-grid">
 				<?php /* Start the Loop */ ?>
+
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<div class="donation-wrapper">

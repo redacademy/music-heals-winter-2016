@@ -15,17 +15,15 @@
   align-items: center;
   @include desktop {
     justify-content: flex-start;
-    align-items: flex-start;
   }
 }
 
-.home .menu-button {
-  width: 55px;
+.menu-button {
+  width: 60px;
   position: fixed;
   z-index: 100;
-  margin-left: 2.5rem;
   @include desktop {
-    width:55px;
+    width:70px;
   }
 }
 
@@ -435,28 +433,6 @@
     }
   }
 
-  .desktop-wrapper-4 {
-    display: flex;
-    width: 100%;
-  }
-
-  .news-and-events-section {
-    flex-basis: 33%;
-    margin-top: 0rem;
-
-      .news-and-events {
-        h2 {
-          font-size: 1.2rem;
-          margin-top: 3.5rem;
-        }
-      }
-  }
-
-  .header-text {
-    h1 {
-      width: 23rem;
-    }
-
   .blog-info {
     font-size: 1.1rem;
     font-weight: 600;
@@ -464,7 +440,7 @@
     @include desktop {
       padding-left: 3rem;
     }
-  }
+}
 
     p {
       margin-bottom: .5rem;
@@ -474,5 +450,4 @@
       color: $main_red;
       margin-bottom: 1rem;
     }
-  }
 }
