@@ -1742,11 +1742,12 @@ object {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column-reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse; }
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
   @media (min-width: 1080px) {
     .donation-grid {
+      background-color: #ebebeb;
       -webkit-flex-flow: row wrap;
           -ms-flex-flow: row wrap;
               flex-flow: row wrap;
@@ -1773,7 +1774,7 @@ object {
   margin-right: none; }
   @media (min-width: 1080px) {
     .donation-wrapper {
-      background-color: #C9C9C9;
+      background-color: #9B9B9B;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -1785,9 +1786,23 @@ object {
               flex: 0 1 50%;
       max-width: 50%; } }
 
+.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5) {
+  background-color: #9B9B9B; }
+
+.donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6) {
+  background-color: #ededed; }
+  .donation-wrapper:nth-child(2) .donation-info-inner, .donation-wrapper:nth-child(2) p, .donation-wrapper:nth-child(3) .donation-info-inner, .donation-wrapper:nth-child(3) p, .donation-wrapper:nth-child(6) .donation-info-inner, .donation-wrapper:nth-child(6) p {
+    background-color: #4A4A4A;
+    color: #fff; }
+
 @media (min-width: 1080px) {
-  .donation-wrapper:nth-child(odd) {
-    background-color: #fff; } }
+  .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; } }
+
+.donation-info-inner {
+  padding-bottom: 1.5rem; }
 
 .donation-image-wrapper {
   display: none; }
@@ -1811,7 +1826,6 @@ object {
   @media (min-width: 1080px) {
     .donation-info-wrapper {
       background-color: #fff;
-      border: 2px solid #4A4A4A;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -1824,32 +1838,26 @@ object {
       max-width: 50%;
       height: 19rem;
       margin: 1rem;
-      width: 19rem; }
-      .donation-info-wrapper::after {
-        position: relative;
-        display: block;
-        height: 0px;
-        width: 0px;
-        border-right: 25px solid #fff;
-        border-left: 25px solid transparent;
-        border-top: 25px solid transparent;
-        border-bottom: 25px solid transparent; } }
+      width: 16rem; } }
   .donation-info-wrapper .price-wrapper {
     font-size: 3rem;
     margin: 1rem;
     padding-left: 1rem; }
     @media (min-width: 1080px) {
       .donation-info-wrapper .price-wrapper {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: .5rem;
         text-align: right; } }
   .donation-info-wrapper .donation-title {
-    font-size: 22px;
+    font-size: 1.6rem;
     font-weight: 600;
     padding-left: 1rem;
     text-transform: uppercase; }
     @media (min-width: 1080px) {
       .donation-info-wrapper .donation-title {
-        font-size: 18px; } }
+        font-weight: 600; } }
   .donation-info-wrapper p {
     display: block;
     color: #000;
@@ -1860,7 +1868,9 @@ object {
     padding-left: 1rem; }
     @media (min-width: 1080px) {
       .donation-info-wrapper p {
-        font-size: 18px; } }
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: .25rem; } }
 
 .donation-btn {
   background-color: #DB1921;
@@ -1872,8 +1882,9 @@ object {
   width: 100%; }
   @media (min-width: 1080px) {
     .donation-btn {
-      font-size: 30px;
-      margin-bottom: 0; } }
+      font-size: 1.75rem;
+      margin-bottom: 0;
+      margin-top: auto; } }
 
 .merch-category {
   text-decoration: underline;

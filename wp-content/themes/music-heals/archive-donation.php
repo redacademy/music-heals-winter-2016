@@ -52,14 +52,16 @@ get_header(); ?>
 						</div>
 
 						<div class="donation-info-wrapper">
+							<div class="donation-info-inner">
 							<div class="price-wrapper">
 								<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
 							</div>
 	        		<span class="donation-title"><?php the_title(); ?></span>
-							<p><?php echo CFS()->get( 'donation_description' ); ?></p>
-
+							<?php echo CFS()->get( 'donation_description' ); ?>
+						</div>
 							<button class="donation-btn">Donate</button>
 						</div>
+
 					</div>
 
 			    <?php endwhile; ?>
