@@ -20,12 +20,14 @@
 		 <div class="who-we-are-banner">
 			 <div class="who-we-are-content-box">
 				 <h1>Who we are</h1>
-					 <div class="text-overflow-control">
+					 <div class="text-overflow-control content-text">
 						 <?php echo CFS()->get( 'who_we_are_copy' ); ?>
 					 </div>
 
+					 <button type="button" class="donate-button">
+						 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a>
+					 </button>
 
-					 <button type="button" class="donate-button"><a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a></button>
 
 			 </div>
 		 </div>
@@ -37,7 +39,7 @@
 		 <div class="how-we-help-banner">
 			 <div class="how-we-help-content-box">
 				 <h1>How we help</h1>
-				 <div class="text-overflow-control">
+				 <div class="text-overflow-control content-text">
 				 <?php echo CFS()->get( 'how_we_help_copy' ); ?>
 				 </div>
 			 </div>
@@ -50,12 +52,14 @@
 		 <div class="programs-banner">
 			 <div class="programs-content-box">
 				 <h1>Programs</h1>
-				 <div class="text-overflow-control">
+				 <div class="text-overflow-control content-text">
 					 <?php echo CFS()->get( 'programs_copy' ); ?>
 				 </div>
 
 
-					 <button type="button" class="donate-button"><a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a></button>
+					 <button type="button" class="donate-button">
+						 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a>
+					 </button>
 
 
 			 </div>
@@ -83,7 +87,7 @@
 
 			 <div class="success-stories-content-box">
 				 <h1>Success Stories</h1>
-				 <div class="text-overflow-control">
+				 <div class="text-overflow-control content-text">
 				 <?php echo CFS()->get( 'success_stories_copy' ); ?>
 				 </div>
 			 </div>
