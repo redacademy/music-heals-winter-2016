@@ -111,7 +111,7 @@ require get_template_directory() . '/inc/extras.php';
 
 function loadbxslider()
 {
-		wp_enqueue_scripts('jquery', get_template_directory_uri() . '/js/jquery/jquery-2.2.2.js' );
+		wp_enqueue_script('jquery');
     wp_enqueue_style('bxstyle', get_template_directory_uri() . '/js/jquery-slider/jquery.bxslider.css' );
     wp_enqueue_script('bxscript', get_template_directory_uri() . '/js/jquery-slider/jquery.bxslider.min.js', array('jquery'));
 }
