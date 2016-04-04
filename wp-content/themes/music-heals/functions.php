@@ -106,20 +106,3 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
-<<<<<<< HEAD
-=======
-
-
-// JQUERY BXSLIDER
-
-// LOAD BX SLIDER
-// *********************************************************
-
-function loadbxslider()
-{
-		wp_enqueue_script('jquery');
-    wp_enqueue_style('bxstyle', get_template_directory_uri() . '/js/jquery-slider/jquery.bxslider.css' );
-    wp_enqueue_script('bxscript', get_template_directory_uri() . '/js/jquery-slider/jquery.bxslider.min.js', array('jquery'));
-}
-add_action('init', 'loadbxslider');
->>>>>>> issue-fix

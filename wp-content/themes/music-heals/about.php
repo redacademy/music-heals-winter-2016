@@ -24,9 +24,10 @@
 						 <?php echo CFS()->get( 'who_we_are_copy' ); ?>
 					 </div>
 
-				 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">
-					 <button type="button" class="donate-button">Give</button>
-				 </a>
+					 <button type="button" class="donate-button">
+						 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a>
+					 </button>
+
 			 </div>
 		 </div>
 	 </section>
@@ -54,10 +55,10 @@
 					 <?php echo CFS()->get( 'programs_copy' ); ?>
 				 </div>
 
-				 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">
-					 <button type="button" class="donate-button">Give</button>
-				 </a>
-
+					 <button type="button" class="donate-button">
+						 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a>
+					 </button>
+				 
 			 </div>
 		 </div>
 	 </section>
