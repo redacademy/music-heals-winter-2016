@@ -83,8 +83,7 @@
   display:flex;
     flex-direction: column-reverse;
   @include desktop {
-    display: flex;
-      flex-flow: row-reverse wrap;
+    flex-flow: row wrap;
     margin-left: 0;
     margin-right: 0;
   }
