@@ -47,7 +47,9 @@
 				<div class="site-banner">
 						<div class="menu-button"><img src="<?php echo get_template_directory_uri();?>/assets/Hamburger_menu_01.svg" alt="Hamburger Menu"/></div>
 
-						<div class="logo"><img src="<?php echo get_template_directory_uri();?>/assets/musicheals.png" alt="Music Heals Logo"/></div>
+						<a href="<?php home_url()?>/musicheals/">
+							<div class="logo"><img src="<?php echo get_template_directory_uri();?>/assets/musicheals.png" alt="Music Heals Logo"/></div>
+						</a>
 
 						<div class="cart"><img src="<?php echo get_template_directory_uri();?>/assets/Icon_Shopping_Cart_empty.svg" alt="Empty Shopping Cart"/></div>
 				</div><!-- .site-branding -->

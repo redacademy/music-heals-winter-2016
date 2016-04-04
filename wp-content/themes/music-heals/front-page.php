@@ -25,10 +25,9 @@
 		<div class="desktop-wrapper-3 box-padding">
 			<section class="donations-box box-padding">
 				<h1>The Gift of Music</h1>
-				<a href="<?php bloginfo('url')?>/donation/"><button class="common-btn give">Give</button></a>
+				<a href="<?php home_url()?>/musicheals/donation/"><button class="common-btn give">Give</button></a>
 			</section>
 
-			<div class="bxdiv">
 				<ul class="bxslider box-padding">
 					<li>
 					 <div class="slider-image-1">
@@ -43,7 +42,6 @@
 					 </div>
 				 </li>
 				</ul>
-			</div>
 		</div>
 		</div>
 
@@ -73,11 +71,11 @@
 		 <section class="about-us box-padding">
 
 			 <h2>How We Help</h2>
-			 <a href="<?php bloginfo('url')?>/about/"><button class="common-btn">About Us</button></a>
+			 <a href="<?php home_url()?>/musicheals/about/"><button class="common-btn">About Us</button></a>
 		 </section>
 		 <section class="shop box-padding">
 			 <h2>Merch</h2>
-			 <a href="<?php bloginfo('url')?>/products/"><button class="common-btn">Shop</button></a>
+			 <a href="<?php home_url()?>/musicheals/products/"><button class="common-btn">Shop</button></a>
 		 </section>
 	 </div>
 
