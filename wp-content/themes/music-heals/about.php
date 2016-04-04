@@ -1,4 +1,4 @@
-<div class="container">
+
 	<?php
 	/**
 	 * Template Name: about
@@ -8,7 +8,7 @@
 	 */
 		get_header();
 	 ?>
-
+<div class="container">
 	<div class="common-header">
 		<h1 class="common-title">About Us</h1>
 	</div>
@@ -92,6 +92,5 @@
 			 </div>
 		 </div>
 	 </section>
-
-	<?php get_footer(); ?>
 </div>
+<?php get_footer(); ?>
