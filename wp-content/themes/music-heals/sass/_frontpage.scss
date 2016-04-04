@@ -475,6 +475,7 @@
   .header-text {
     h1 {
       width: 23rem;
+    }
 
   .blog-info {
     font-size: 1.1rem;
@@ -483,6 +484,7 @@
     @include desktop {
       padding-left: 3rem;
     }
+  }
 
     p {
       margin-bottom: .5rem;
