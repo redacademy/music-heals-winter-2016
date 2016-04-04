@@ -28,7 +28,6 @@
 				<a href="<?php home_url()?>/musicheals/donation/"><button class="common-btn give">Give</button></a>
 			</section>
 
-			<div class="bxdiv">
 				<ul class="bxslider box-padding">
 					<li>
 					 <div class="slider-image-1">
@@ -43,7 +42,6 @@
 					 </div>
 				 </li>
 				</ul>
-			</div>
 		</div>
 		</div>
 
@@ -77,7 +75,7 @@
 		 </section>
 		 <section class="shop box-padding">
 			 <h2>Merch</h2>
-			 <a href="<?php home_url()?>musicheals/products/"><button class="common-btn">Shop</button></a>
+			 <a href="<?php home_url()?>/musicheals/products/"><button class="common-btn">Shop</button></a>
 		 </section>
 	 </div>
  </div>
