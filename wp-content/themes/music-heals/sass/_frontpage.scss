@@ -15,15 +15,17 @@
   align-items: center;
   @include desktop {
     justify-content: flex-start;
+    align-items: flex-start;
   }
 }
 
-.menu-button {
-  width: 60px;
+.home .menu-button {
+  width: 55px;
   position: fixed;
   z-index: 100;
+  margin-left: 2.5rem;
   @include desktop {
-    width:70px;
+    width:55px;
   }
 }
 
