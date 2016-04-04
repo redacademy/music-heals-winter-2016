@@ -1690,6 +1690,9 @@ object {
           flex-direction: column-reverse; }
   @media (min-width: 1080px) {
     .donation-grid {
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
       margin-left: 0;
       margin-right: 0; } }
 
@@ -1720,9 +1723,9 @@ object {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      -webkit-flex: 1 0 50%;
-          -ms-flex: 1 0 50%;
-              flex: 1 0 50%;
+      -webkit-flex: 0 1 50%;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%;
       max-width: 50%; } }
 
 @media (min-width: 1080px) {
