@@ -51,7 +51,7 @@ get_header(); ?>
 				        <?php foreach($kidsection as $post) : setup_postdata($post); ?>
 				          <?php if (has_post_thumbnail()) : ?>
 											<div class="single-product-category">
-							          <div class="product-image"><?php the_post_thumbnail('large'); ?></div>
+							          <div class="product-image"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large'); ?></a></div>
 							          <?php endif; ?>
 												<div class="product-info">
 								          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
