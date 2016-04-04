@@ -1,3 +1,20 @@
+.single-common-header {
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background: #E7E5E1;
+
+  @include desktop {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
+
+.single-common-title {
+  margin:0;
+}
+
 .type-product {
   display: flex;
     align-items: center;
@@ -8,6 +25,7 @@
       align-items: center;
       flex-direction: row;
       justify-content: center;
+      margin-top: 4rem;
   }
 }
 

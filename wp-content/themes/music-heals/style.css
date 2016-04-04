@@ -625,6 +625,9 @@ button {
   background-size: cover;
   height: 75px;
   width: 100%; }
+  @media (min-width: 1080px) {
+    .site-banner {
+      padding-top: 1rem; } }
 
 .menu-button {
   width: 50px;
@@ -632,13 +635,17 @@ button {
   margin-left: 1rem; }
   @media (min-width: 1080px) {
     .menu-button {
-      margin-left: 2rem; } }
+      margin-left: 2rem;
+      margin-top: 0; } }
 
 .logo {
   width: 100px;
   margin-right: 1rem; }
   .logo img {
     background: transparent; }
+  @media (min-width: 1080px) {
+    .logo {
+      margin-right: 38rem; } }
 
 .cart {
   margin-right: 1rem; }
@@ -1026,7 +1033,8 @@ object {
                   -ms-grid-row-align: center;
               align-items: center;
       background-color: rgba(255, 255, 255, 0.7);
-      padding: 2.5rem 1rem; } }
+      padding: 2.5rem 1rem;
+      margin: 4rem 0; } }
 
 .header-text {
   text-align: center;
@@ -1950,6 +1958,20 @@ object {
     height: 175px;
     width: 175px; } }
 
+.single-common-header {
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background: #E7E5E1; }
+  @media (min-width: 1080px) {
+    .single-common-header {
+      margin-left: 4%;
+      margin-right: 4%; } }
+
+.single-common-title {
+  margin: 0; }
+
 .type-product {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1976,7 +1998,8 @@ object {
               flex-direction: row;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
-              justify-content: center; } }
+              justify-content: center;
+      margin-top: 4rem; } }
 
 .image-wrapper {
   display: -webkit-flex;

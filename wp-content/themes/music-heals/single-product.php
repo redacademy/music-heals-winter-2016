@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="merch-header"><h1 class="merch-title">Merch</h1></div>
+			<div class="single-common-header"><h1 class="single-common-title">Merch</h1></div>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
