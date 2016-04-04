@@ -97,8 +97,8 @@
   line-height: 1;
   @include desktop {
     line-height: 1.3;
-
   }
+
   p {
     opacity: 1;
     color: black;
@@ -204,7 +204,7 @@
     margin-top: 1rem;
     height: 3rem;
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 525;
     width: 8rem;
   }
 }
@@ -395,10 +395,9 @@
 }
 
 .boy-image-wrapper {
-  background:
-  url('../../assets/music_heals_boy.png') center center no-repeat;
-  background-size: cover;
   @include desktop {
+    background:
+    url('../../assets/music_heals_boy.png') center center no-repeat;
     background-size: cover;
     flex-basis: 50%;
   }
@@ -427,54 +426,6 @@
       text-align: left;
     }
   }
-
-  .bx-viewport {
-    margin-left: 0.3rem;
-    width: 91%;
-    overflow: hidden;
-    position: relative;
-    height: 200px;
-  }
-
-  .bx-wrapper {
-    max-width: 99%;
-    width: 22.56rem;
-    flex: 0 1 50%;
-    margin: 0px;
-  }
-
-  .slider-image-1 {
-    height: 200px;
-  }
-
-  .slider-image-2 {
-    height: 200px;
-  }
-
-  .slider-image-3 {
-    height: 200px;
-  }
-
-  .desktop-wrapper-4 {
-    display: flex;
-    width: 100%;
-  }
-
-  .news-and-events-section {
-    flex-basis: 33%;
-    margin-top: 0rem;
-
-      .news-and-events {
-        h2 {
-          font-size: 1.2rem;
-          margin-top: 3.5rem;
-        }
-      }
-  }
-
-  .header-text {
-    h1 {
-      width: 23rem;
 
   .blog-info {
     font-size: 1.1rem;

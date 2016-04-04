@@ -1131,7 +1131,7 @@ object {
     margin-top: 1rem;
     height: 3rem;
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 525;
     width: 8rem; } }
 
 .bx-viewport {
@@ -1307,111 +1307,22 @@ object {
         line-height: 1;
         margin-top: 5rem; } }
 
-<<<<<<< HEAD
-@media only screen and (min-width: 1080px) {
-  .menu-logo-wrapper {
-    width: 100%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start; }
-  .menu-button {
-    width: 70px; }
-  .logo {
-    margin-left: 8rem; }
-  .desktop-wrapper-1 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    width: 100%; }
-  .desktop-wrapper-2 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap; }
-  .video-box {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex: 1 0 66.5%;
-        -ms-flex: 1 0 66.5%;
-            flex: 1 0 66.5%;
-    margin: 0 0; }
-  .desktop-wrapper-3 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-flex: 0 1 35%;
-        -ms-flex: 0 1 35%;
-            flex: 0 1 35%;
-    margin: 0 0; }
-  .donations-box {
-    -webkit-flex: 0 1 50%;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%; }
-    .donations-box h1 {
-      font-size: 1.9rem;
-      width: 12rem;
-      margin-bottom: 0rem; }
-    .donations-box .common-btn {
-      margin-top: 0.5rem;
-      height: 3rem;
-      font-size: 20px;
-      width: 8rem; }
-  .bx-viewport {
-    margin-left: 0.3rem;
-    width: 91%;
-    overflow: hidden;
-    position: relative;
-    height: 200px; }
-  .bx-wrapper {
-    max-width: 99%;
-    width: 22.56rem;
-    -webkit-flex: 0 1 50%;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%;
-    margin: 0px; }
-  .slider-image-1 {
-    height: 200px; }
-  .slider-image-2 {
-    height: 200px; }
-  .slider-image-3 {
-    height: 200px; }
-  .desktop-wrapper-4 {
-=======
 @media (min-width: 1080px) {
   .frontpage-blog {
     border-bottom: 0.5rem solid #fff;
->>>>>>> ec1fc256a943461c9ef254c7be56824ca211976b
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     height: 20.5rem;
     width: 100%; } }
 
-.boy-image-wrapper {
-  background: url("../../assets/music_heals_boy.png") center center no-repeat;
-  background-size: cover; }
-  @media (min-width: 1080px) {
-    .boy-image-wrapper {
-      background-size: cover;
-      -webkit-flex-basis: 50%;
-          -ms-flex-preferred-size: 50%;
-              flex-basis: 50%; } }
+@media (min-width: 1080px) {
+  .boy-image-wrapper {
+    background: url("../../assets/music_heals_boy.png") center center no-repeat;
+    background-size: cover;
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
 
 .blog-box {
   background-color: #C9C9C9; }
@@ -1751,9 +1662,9 @@ object {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-flex-direction: row-reverse;
-          -ms-flex-direction: row-reverse;
-              flex-direction: row-reverse;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
       -webkit-flex-wrap: wrap;
           -ms-flex-wrap: wrap;
               flex-wrap: wrap;
