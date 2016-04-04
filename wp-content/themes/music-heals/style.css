@@ -902,6 +902,37 @@ object {
 .home .site-header {
   display: none; }
 
+.menu-logo-wrapper {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (min-width: 1080px) {
+    .menu-logo-wrapper {
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
+
+.menu-button {
+  width: 60px;
+  position: fixed;
+  z-index: 100; }
+  @media (min-width: 1080px) {
+    .menu-button {
+      width: 70px; } }
+
+.home .logo {
+  margin: 0 auto; }
+  @media (min-width: 1080px) {
+    .home .logo {
+      margin-left: 8rem; } }
+
 .video-box {
   background: url("../../assets/Home_image1.jpg") no-repeat center;
   background-size: cover;
@@ -921,26 +952,17 @@ object {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
   max-width: 100%; }
-
-.menu-logo-wrapper {
-  width: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.menu-button {
-  width: 60px;
-  position: fixed;
-  z-index: 100; }
-
-.home .logo {
-  margin: 0 auto; }
+  @media (min-width: 1080px) {
+    .video-box {
+      border-right: 0.5rem solid #fff;
+      border-bottom: 0.5rem solid #fff;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex: 1 0 67%;
+          -ms-flex: 1 0 67%;
+              flex: 1 0 67%;
+      height: 100%; } }
 
 .text-wrapper {
   background-color: rgba(255, 255, 255, 0.6);
@@ -959,22 +981,43 @@ object {
           align-self: center;
   letter-spacing: 1px;
   padding-top: 2.5rem; }
+  @media (min-width: 1080px) {
+    .text-wrapper {
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+                  -ms-grid-row-align: center;
+              align-items: center;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 2.5rem 1rem; } }
 
 .header-text {
   text-align: center;
   padding: 0 2rem;
   line-height: 1; }
+  @media (min-width: 1080px) {
+    .header-text {
+      text-align: center;
+      line-height: 1.3;
+      padding-bottom: 1rem; } }
   .header-text h1 {
     opacity: 1;
     color: black;
     margin: .25em 0;
     width: 15rem;
     margin: 0 auto; }
+    @media (min-width: 1080px) {
+      .header-text h1 {
+        font-size: 2.9rem;
+        font-weight: 400;
+        width: 34rem; } }
 
 .tagline-text {
   text-align: center;
   padding: .5rem 2rem;
   line-height: 1; }
+  @media (min-width: 1080px) {
+    .tagline-text {
+      line-height: 1.3; } }
   .tagline-text p {
     opacity: 1;
     color: black;
@@ -983,8 +1026,56 @@ object {
     width: 17rem;
     line-height: 1.4rem;
     font-size: 1.2rem; }
+    @media (min-width: 1080px) {
+      .tagline-text p {
+        line-height: 1.6;
+        font-size: 1.4rem;
+        width: 30rem; } }
   .tagline-text span {
     font-style: italic; }
+
+@media (min-width: 1080px) {
+  .desktop-wrapper-1 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    width: 100%; } }
+
+@media (min-width: 1080px) {
+  .desktop-wrapper-2 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    width: 100%;
+    height: 33rem; } }
+
+@media (min-width: 1080px) {
+  .desktop-wrapper-3 {
+    border-bottom: 0.5rem solid #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex: 0 1 33%;
+        -ms-flex: 0 1 33%;
+            flex: 0 1 33%;
+    height: 33rem; } }
+
+@media (min-width: 1080px) {
+  .desktop-wrapper-4 {
+    border-bottom: 0.5rem solid #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; } }
 
 .donations-box {
   background: url("../../assets/Home_Gift_box.svg") no-repeat center;
@@ -992,21 +1083,28 @@ object {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 100%;
   letter-spacing: 1px;
   text-align: center; }
+  @media (min-width: 1080px) {
+    .donations-box {
+      border-bottom: 0.5rem solid #fff;
+      -webkit-flex: 0 1 60%;
+          -ms-flex: 0 1 60%;
+              flex: 0 1 60%;
+      height: 30rem; } }
   .donations-box h1 {
     color: white;
     font-size: 36px;
@@ -1016,12 +1114,39 @@ object {
     line-height: 1.25;
     width: 16rem;
     font-size: 2.9rem; }
-  .donations-box .give {
-    color: #DB1921;
-    padding: .75rem 2.5rem; }
+    @media (min-width: 1080px) {
+      .donations-box h1 {
+        font-size: 3rem;
+        letter-spacing: 2px;
+        line-height: 1;
+        margin-bottom: 0;
+        margin-top: 0; } }
+
+.give {
+  color: #DB1921;
+  padding: .75rem 2.5rem; }
+
+@media (min-width: 1080px) {
+  .common-btn {
+    margin-top: 1rem;
+    height: 3rem;
+    font-size: 18px;
+    font-weight: 550;
+    width: 8rem; } }
 
 .bx-viewport {
   border: 0px !important; }
+  @media (min-width: 1080px) {
+    .bx-viewport {
+      margin-left: 0.3rem; } }
+
+@media (min-width: 1080px) {
+  .bx-wrapper {
+    max-width: 99%;
+    width: 22.56rem;
+    -webkit-flex: 0 1 40%;
+        -ms-flex: 0 1 40%;
+            flex: 0 1 40%; } }
 
 .bxslider {
   list-style: none;
@@ -1032,30 +1157,39 @@ object {
   background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
   background-size: contain, cover;
   height: 48vh; }
+  @media (min-width: 1080px) {
+    .slider-image-1 {
+      height: 200px; } }
 
 .slider-image-2 {
   background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
   background-size: contain, cover;
   height: 48vh; }
+  @media (min-width: 1080px) {
+    .slider-image-2 {
+      height: 200px; } }
 
 .slider-image-3 {
   background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
   background-size: contain, cover;
   height: 48vh; }
-
-@media only screen and (min-width: 1080px) {
-  .slider-image-1, .slider-image-2 {
-    height: 100vh;
-    background-color: #DB1921; }
-  .slider-image-3 {
-    height: 100vh;
-    background-color: #D8D8D8; } }
+  @media (min-width: 1080px) {
+    .slider-image-3 {
+      height: 200px; } }
 
 .news-and-events-section {
   margin-top: 22rem;
   width: 100%;
   background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain; }
+  @media (min-width: 1080px) {
+    .news-and-events-section {
+      border-right: 0.5rem solid #fff;
+      -webkit-flex-basis: 33%;
+          -ms-flex-preferred-size: 33%;
+              flex-basis: 33%;
+      height: 21rem;
+      margin-top: 0; } }
 
 .news-and-events {
   width: 80%;
@@ -1069,21 +1203,32 @@ object {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-flex-wrap: no-wrap;
-      -ms-flex-wrap: no-wrap;
-          flex-wrap: no-wrap;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
   margin: 0 auto;
   padding-top: 3rem; }
   .news-and-events h1 {
-    width: 300px;
     text-transform: uppercase;
     margin-top: 0.5rem;
     margin-bottom: -1.5rem;
     line-height: 3.1rem;
     font-size: 2.9rem; }
+    @media (min-width: 1080px) {
+      .news-and-events h1 {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin-top: 2rem; } }
   .news-and-events h2 {
     text-transform: capitalize;
     font-size: 1.7rem; }
+    @media (min-width: 1080px) {
+      .news-and-events h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-top: 1.5rem; } }
     .news-and-events h2 .sub-heading {
       width: 17rem; }
   .news-and-events span {
@@ -1105,11 +1250,23 @@ object {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
   max-width: 100%; }
+  @media (min-width: 1080px) {
+    .about-us {
+      -webkit-flex-basis: 33%;
+          -ms-flex-preferred-size: 33%;
+              flex-basis: 33%;
+      height: 21rem; } }
   .about-us h2 {
     color: #fff;
     font-size: 50px;
     margin-top: 3rem;
     text-transform: uppercase; }
+    @media (min-width: 1080px) {
+      .about-us h2 {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin-top: 5rem; } }
 
 .shop {
   -webkit-align-items: center;
@@ -1127,118 +1284,41 @@ object {
       -ms-flex: 1 0 100%;
           flex: 1 0 100%;
   max-width: 100%; }
+  @media (min-width: 1080px) {
+    .shop {
+      border-left: 0.5rem solid #fff;
+      -webkit-flex-basis: 33%;
+          -ms-flex-preferred-size: 33%;
+              flex-basis: 33%;
+      height: 21rem; } }
   .shop h2 {
     color: #fff;
     font-size: 50px;
     margin-top: 3rem;
     text-transform: uppercase; }
+    @media (min-width: 1080px) {
+      .shop h2 {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin-top: 5rem; } }
 
-@media only screen and (min-width: 1080px) {
-  .menu-logo-wrapper {
-    width: 100%;
+@media (min-width: 1080px) {
+  .frontpage-blog {
+    border-bottom: 0.5rem solid #fff;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: flex-start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start; }
-  .menu-button {
-    width: 70px; }
-  .logo {
-    margin-left: 8rem; }
-  .desktop-wrapper-1 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    width: 100%; }
-  .desktop-wrapper-2 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap; }
-  .video-box {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex: 1 0 66.5%;
-        -ms-flex: 1 0 66.5%;
-            flex: 1 0 66.5%;
-    margin: 0 0; }
-  .desktop-wrapper-3 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-flex: 0 1 35%;
-        -ms-flex: 0 1 35%;
-            flex: 0 1 35%;
-    margin: 0 0; }
-  .donations-box {
-    -webkit-flex: 0 1 50%;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%; }
-    .donations-box h1 {
-      font-size: 1.9rem;
-      width: 12rem;
-      margin-bottom: 0rem; }
-    .donations-box .common-btn {
-      margin-top: 0.5rem;
-      height: 3rem;
-      font-size: 20px;
-      width: 8rem; }
-  .bx-viewport {
-    margin-left: 0.3rem; }
-  .bx-wrapper {
-    max-width: 99%;
-    width: 22.56rem;
-    -webkit-flex: 0 1 50%;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%; }
-  .slider-image-1 {
-    height: 200px; }
-  .slider-image-2 {
-    height: 200px; }
-  .slider-image-3 {
-    height: 200px; }
-  .desktop-wrapper-4 {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%; }
-  .news-and-events-section {
-    -webkit-flex-basis: 33%;
-        -ms-flex-preferred-size: 33%;
-            flex-basis: 33%;
-    margin-top: 0rem; }
-    .news-and-events-section .news-and-events h2 {
-      font-size: 1.2rem;
-      margin-top: 3.5rem; }
-  .header-text h1 {
-    width: 23rem; }
-  .tagline-text p {
-    width: 28rem;
-    line-height: 1.7rem;
-    margin-top: 1rem;
-    margin-bottom: 4rem; }
-  .about-us {
-    -webkit-flex-basis: 33%;
-        -ms-flex-preferred-size: 33%;
-            flex-basis: 33%; }
-  .shop {
-    -webkit-flex-basis: 33%;
-        -ms-flex-preferred-size: 33%;
-            flex-basis: 33%; } }
+    height: 21rem;
+    width: 100%; } }
+
+.boy-image-wrapper {
+  background: url("../../assets/music_heals_boy.png") center center no-repeat; }
+  @media (min-width: 1080px) {
+    .boy-image-wrapper {
+      -webkit-flex: 1 0 50%;
+          -ms-flex: 1 0 50%;
+              flex: 1 0 50%; } }
 
 .text-overflow-control {
   overflow: auto;
