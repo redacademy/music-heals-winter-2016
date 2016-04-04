@@ -1156,28 +1156,28 @@ object {
 .slider-image-1 {
   background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
   background-size: contain, cover;
-  height: 48vh; }
+  height: 48vh;
+  background-color: #DB1921; }
   @media (min-width: 1080px) {
     .slider-image-1 {
-      background-color: #DB1921;
       height: 200px; } }
 
 .slider-image-2 {
   background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
   background-size: contain, cover;
-  height: 48vh; }
+  height: 48vh;
+  background-color: #DB1921; }
   @media (min-width: 1080px) {
     .slider-image-2 {
-      background-color: #DB1921;
       height: 200px; } }
 
 .slider-image-3 {
   background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
   background-size: contain, cover;
-  height: 48vh; }
+  height: 48vh;
+  background-color: #D8D8D8; }
   @media (min-width: 1080px) {
     .slider-image-3 {
-      background-color: #D8D8D8;
       height: 200px; } }
 
 .news-and-events-section {
