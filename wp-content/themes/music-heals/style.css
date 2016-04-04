@@ -924,13 +924,13 @@ object {
                   -ms-grid-row-align: flex-start;
               align-items: flex-start; } }
 
-.home-menu-button {
+.home .menu-button {
   width: 55px;
   position: fixed;
   z-index: 100;
   margin-left: 2.5rem; }
   @media (min-width: 1080px) {
-    .home-menu-button {
+    .home .menu-button {
       width: 55px; } }
 
 .home .logo {
