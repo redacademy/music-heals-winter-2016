@@ -1868,6 +1868,9 @@ object {
   .navbar li:hover {
     text-decoration: underline; }
 
+.smoothScroll {
+  color: black !important; }
+
 .product-wrapper {
   margin-bottom: 2rem; }
 
