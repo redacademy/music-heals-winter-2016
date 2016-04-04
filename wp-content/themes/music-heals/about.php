@@ -9,10 +9,9 @@
 		get_header();
 	 ?>
 
-	 <div>
-		 <?php echo CFS()->get( 'tagline' ); ?>
-		 <!-- <span>About Us</span> -->
-	 </div>
+	<div class="common-header">
+		<h1 class="common-title">About Us</h1>
+	</div>
 
 	 <!--  WHO WE ARE -->
 

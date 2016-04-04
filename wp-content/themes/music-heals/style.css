@@ -507,6 +507,15 @@ button {
   width: 10rem;
   margin-top: 1.5rem; }
 
+.common-header {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background: #E7E5E1; }
+
+.common-title {
+  margin: 0; }
+
 .box-padding {
   border-bottom: 1.3rem solid white;
   height: 400px; }
@@ -1591,16 +1600,6 @@ object {
     border: 3px solid white;
     border-bottom: 1px solid white; }
 
-.post-type-archive-donation .donation-header {
-  text-align: center; }
-
-.post-type-archive-donation .page-title {
-  font-size: 45px;
-  margin: 10px; }
-  @media (min-width: 1080px) {
-    .post-type-archive-donation .page-title {
-      font-size: 30px; } }
-
 .donation-banner {
   background: url("../../assets/donation-page/Gifts_that_Heal.jpg") no-repeat center;
   background-size: cover, contain;
@@ -1822,13 +1821,6 @@ object {
       .donation-grid .donation-btn {
         font-size: 30px;
         margin-bottom: 0; } }
-
-.merch-header {
-  text-align: center;
-  font-size: 1.25rem; }
-
-.merch-title {
-  margin: .75rem 0; }
 
 .merch-category {
   text-decoration: underline;
