@@ -9,10 +9,9 @@
 		get_header();
 	 ?>
 
-	 <div>
-		 <?php echo CFS()->get( 'tagline' ); ?>
-		 <!-- <span>About Us</span> -->
-	 </div>
+	<div class="common-header">
+		<h1 class="common-title">About Us</h1>
+	</div>
 
 	 <!--  WHO WE ARE -->
 
@@ -27,6 +26,7 @@
 					 <button type="button" class="donate-button">
 						 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a>
 					 </button>
+
 
 			 </div>
 		 </div>
@@ -55,9 +55,11 @@
 					 <?php echo CFS()->get( 'programs_copy' ); ?>
 				 </div>
 
+
 					 <button type="button" class="donate-button">
 						 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">Give</a>
 					 </button>
+
 
 			 </div>
 		 </div>
