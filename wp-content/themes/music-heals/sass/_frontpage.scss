@@ -18,12 +18,12 @@
   }
 }
 
-.menu-button {
+.home .menu-button {
   width: 60px;
   position: fixed;
   z-index: 100;
   @include desktop {
-    width:70px;
+    width:60px;
   }
 }
 
