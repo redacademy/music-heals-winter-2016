@@ -34,7 +34,7 @@
 
 	$desktop-width: 1080px;
 	@media (min-width: $desktop-width) {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
   font-weight: 100;
 }
 }
@@ -56,7 +56,9 @@
 	$desktop-width: 1080px;
 	@media (min-width: $desktop-width) {
     margin: 2.9em 1.4rem 0rem 0rem;
-		}
+		padding: 1rem 4rem;
+
+	}
 }
 
 // Media Query Mixins
@@ -70,14 +72,15 @@
 // CONTENT BOX MIXINS
 
 @mixin content-box {
-  height: 60vh;
+  height: 50vh;
   width: 80vw;
 	padding-left: 2rem;
 
 	h1 {
 		text-align: left;
 		text-transform: uppercase;
-		font-size: 2.7rem;
+		font-size: 2rem;
+		font-weight: 600;
 	}
 
 	$desktop-width: 1080px;
@@ -89,6 +92,7 @@
 			margin-bottom: 0rem;
 			letter-spacing: 0.1rem;
 			font-weight: 300;
+			font-size: 2.7rem;
 		}
 	}
 
@@ -110,7 +114,7 @@
 
 @mixin banner-dimensions {
   background-size: cover, contain;
-  height: 60vh;
+  height: 75vh;
 
 	$desktop-width: 1080px;
 	@media (min-width: $desktop-width) {
