@@ -996,7 +996,8 @@ object {
       -webkit-flex: 1 0 67%;
           -ms-flex: 1 0 67%;
               flex: 1 0 67%;
-      height: 100%; } }
+      height: 100%;
+      width: 67.3%; } }
 
 .text-wrapper {
   background-color: rgba(255, 255, 255, 0.6);
@@ -1101,7 +1102,8 @@ object {
     -webkit-flex: 0 1 33%;
         -ms-flex: 0 1 33%;
             flex: 0 1 33%;
-    height: 33rem; } }
+    height: 33rem;
+    width: 32%; } }
 
 @media (min-width: 1080px) {
   .desktop-wrapper-4 {
@@ -1190,28 +1192,28 @@ object {
 .slider-image-1 {
   background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
   background-size: contain, cover;
-  height: 48vh; }
+  height: 48vh;
+  background-color: #DB1921; }
   @media (min-width: 1080px) {
     .slider-image-1 {
-      background-color: #DB1921;
       height: 200px; } }
 
 .slider-image-2 {
   background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
   background-size: contain, cover;
-  height: 48vh; }
+  height: 48vh;
+  background-color: #DB1921; }
   @media (min-width: 1080px) {
     .slider-image-2 {
-      background-color: #DB1921;
       height: 200px; } }
 
 .slider-image-3 {
   background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
   background-size: contain, cover;
-  height: 48vh; }
+  height: 48vh;
+  background-color: #D8D8D8; }
   @media (min-width: 1080px) {
     .slider-image-3 {
-      background-color: #D8D8D8;
       height: 200px; } }
 
 .news-and-events-section {
@@ -1381,25 +1383,6 @@ object {
         letter-spacing: 1px;
         padding-left: 3rem;
         text-align: left; } }
-  .blog-box .bx-viewport {
-    margin-left: 0.3rem;
-    width: 91%;
-    overflow: hidden;
-    position: relative;
-    height: 200px; }
-  .blog-box .bx-wrapper {
-    max-width: 99%;
-    width: 22.56rem;
-    -webkit-flex: 0 1 50%;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%;
-    margin: 0px; }
-  .blog-box .slider-image-1 {
-    height: 200px; }
-  .blog-box .slider-image-2 {
-    height: 200px; }
-  .blog-box .slider-image-3 {
-    height: 200px; }
   .blog-box .desktop-wrapper-4 {
     display: -webkit-flex;
     display: -ms-flexbox;

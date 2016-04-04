@@ -51,6 +51,7 @@
     display: flex;
       flex: 1 0 67%;
     height: 100%;
+    width: 67.3%;
   }
 }
 
@@ -147,6 +148,7 @@
       flex-direction: column;
       flex: 0 1 33%;
     height: 33rem;
+    width: 32%;
   }
 }
 
@@ -238,8 +240,9 @@
   background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
   background-size: contain, cover;
   height: 48vh;
+  background-color: #DB1921;
+
   @include desktop {
-    background-color: #DB1921;
     height: 200px;
   }
 }
@@ -248,8 +251,9 @@
   background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
   background-size: contain, cover;
   height: 48vh;
+  background-color: #DB1921;
+
   @include desktop {
-    background-color: #DB1921;
     height: 200px;
   }
 }
@@ -258,8 +262,9 @@
   background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
   background-size: contain, cover;
   height: 48vh;
+  background-color: #D8D8D8;
+
   @include desktop {
-    background-color: #D8D8D8;
     height: 200px;
   }
 }
@@ -427,33 +432,6 @@
       padding-left: 3rem;
       text-align: left;
     }
-  }
-
-  .bx-viewport {
-    margin-left: 0.3rem;
-    width: 91%;
-    overflow: hidden;
-    position: relative;
-    height: 200px;
-  }
-
-  .bx-wrapper {
-    max-width: 99%;
-    width: 22.56rem;
-    flex: 0 1 50%;
-    margin: 0px;
-  }
-
-  .slider-image-1 {
-    height: 200px;
-  }
-
-  .slider-image-2 {
-    height: 200px;
-  }
-
-  .slider-image-3 {
-    height: 200px;
   }
 
   .desktop-wrapper-4 {
