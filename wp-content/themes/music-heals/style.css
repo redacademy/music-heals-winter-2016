@@ -656,10 +656,12 @@ button {
 .main-navigation {
   display: none;
   position: absolute;
-  width: 200px;
+  width: 400px;
   z-index: 0;
-  top: 110px;
-  background: white; }
+  top: 75px;
+  left: 45px;
+  background: white;
+  box-shadow: 22px 10px 61px -2px rgba(0, 0, 0, 0.75); }
   .main-navigation ul {
     width: 100%; }
   .main-navigation li {
@@ -667,6 +669,8 @@ button {
     width: 100%;
     margin-bottom: 1rem;
     text-align: center; }
+  .main-navigation li:last-child {
+    margin: 0; }
 
 .menu {
   width: 100%; }

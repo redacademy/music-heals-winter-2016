@@ -58,10 +58,12 @@
 .main-navigation {
   display: none;
   position: absolute;
-  width: 200px;
+  width: 400px;
   z-index: 0;
-  top: 110px;
+  top: 75px;
+  left: 45px;
   background: white;
+  box-shadow: 22px 10px 61px -2px rgba(0,0,0,0.75);
 
   ul {
     width: 100%;
@@ -72,6 +74,10 @@
     width: 100%;
     margin-bottom: 1rem;
     text-align: center;
+  }
+
+  li:last-child {
+    margin:0;
   }
 }
 
