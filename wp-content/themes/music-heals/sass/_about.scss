@@ -4,6 +4,10 @@
   @include text-overflow-control-mixin;
 }
 
+.content-text {
+  @include content-text-mixin;
+}
+
 // WHO WE ARE
 
 .who-we-are-banner {
