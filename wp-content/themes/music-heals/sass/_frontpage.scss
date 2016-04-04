@@ -237,6 +237,7 @@
   background-size: contain, cover;
   height: 48vh;
   @include desktop {
+    background-color: #DB1921;
     height: 200px;
   }
 }
@@ -246,6 +247,7 @@
   background-size: contain, cover;
   height: 48vh;
   @include desktop {
+    background-color: #DB1921;
     height: 200px;
   }
 }
@@ -255,16 +257,10 @@
   background-size: contain, cover;
   height: 48vh;
   @include desktop {
+    background-color: #D8D8D8;
     height: 200px;
   }
 }
-
-// .slider-image-1, .slider-image-2, .slider-image-3 {
-//   @include desktop {
-//     height: 100vh;
-//     background-color: #DB1921;
-//   }
-// }
 
 // NEWS AND EVENTS SECTION
 
@@ -310,9 +306,10 @@
     font-size: 1.7rem;
     margin-top: 2rem;
     @include desktop {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-weight: 500;
       letter-spacing: 1px;
+      margin-top: 3.5rem;
     }
 
   .sub-heading {

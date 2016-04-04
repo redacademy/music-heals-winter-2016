@@ -1159,6 +1159,7 @@ object {
   height: 48vh; }
   @media (min-width: 1080px) {
     .slider-image-1 {
+      background-color: #DB1921;
       height: 200px; } }
 
 .slider-image-2 {
@@ -1167,6 +1168,7 @@ object {
   height: 48vh; }
   @media (min-width: 1080px) {
     .slider-image-2 {
+      background-color: #DB1921;
       height: 200px; } }
 
 .slider-image-3 {
@@ -1175,6 +1177,7 @@ object {
   height: 48vh; }
   @media (min-width: 1080px) {
     .slider-image-3 {
+      background-color: #D8D8D8;
       height: 200px; } }
 
 .news-and-events-section {
@@ -1226,9 +1229,10 @@ object {
     margin-top: 2rem; }
     @media (min-width: 1080px) {
       .news-and-events h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 500;
-        letter-spacing: 1px; } }
+        letter-spacing: 1px;
+        margin-top: 3.5rem; } }
     .news-and-events h2 .sub-heading {
       width: 17rem; }
   .news-and-events span {
