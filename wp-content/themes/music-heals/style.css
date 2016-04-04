@@ -1703,118 +1703,133 @@ object {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-flex-flow: column-reverse wrap;
-          -ms-flex-flow: column-reverse wrap;
-              flex-flow: column-reverse wrap;
+      -webkit-flex-flow: row-reverse wrap;
+          -ms-flex-flow: row-reverse wrap;
+              flex-flow: row-reverse wrap;
       margin-left: 0;
       margin-right: 0; } }
-  .donation-grid .donation-wrapper {
-    background-color: #fff;
-    border: 2px solid #4A4A4A;
-    color: #000;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 2rem;
-    margin-right: none; }
-    @media (min-width: 1080px) {
-      .donation-grid .donation-wrapper {
-        background-color: #C9C9C9;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-flex: 0 1 50%;
-            -ms-flex: 0 1 50%;
-                flex: 0 1 50%;
-        max-width: 50%; } }
-  .donation-grid .donation-wrapper:nth-child(odd) {
-    background-color: #fff; }
-  .donation-grid .donation-image-wrapper {
-    display: none; }
-    @media (min-width: 1080px) {
-      .donation-grid .donation-image-wrapper {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex: 0 1 50%;
-            -ms-flex: 0 1 50%;
-                flex: 0 1 50%;
-        max-width: 50%; } }
-    @media (min-width: 1080px) {
-      .donation-grid .donation-image-wrapper img {
-        height: 19rem;
-        margin: 1rem;
-        width: 16rem; } }
-  .donation-grid .donation-info-wrapper {
-    text-align: left; }
-    @media (min-width: 1080px) {
-      .donation-grid .donation-info-wrapper {
-        background-color: #fff;
-        border: 2px solid #4A4A4A;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-flex: 0 1 50%;
-            -ms-flex: 0 1 50%;
-                flex: 0 1 50%;
-        max-width: 50%;
-        height: 19rem;
-        margin: 1rem;
-        width: 19rem; } }
-    .donation-grid .donation-info-wrapper .price-wrapper {
-      font-size: 3rem;
+
+.donation-wrapper {
+  background-color: #fff;
+  border: 2px solid #4A4A4A;
+  color: #000;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: none; }
+  @media (min-width: 1080px) {
+    .donation-wrapper {
+      background-color: #C9C9C9;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-flex: 0 1 50%;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%;
+      max-width: 50%; } }
+
+.donation-wrapper:nth-child(odd) {
+  background-color: #fff; }
+
+.donation-image-wrapper {
+  display: none; }
+  @media (min-width: 1080px) {
+    .donation-image-wrapper {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex: 0 1 50%;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%;
+      max-width: 50%; } }
+  @media (min-width: 1080px) {
+    .donation-image-wrapper img {
+      height: 19rem;
       margin: 1rem;
-      padding-left: 1rem; }
-      @media (min-width: 1080px) {
-        .donation-grid .donation-info-wrapper .price-wrapper {
-          font-size: 2rem;
-          text-align: right; } }
-    .donation-grid .donation-info-wrapper .donation-title {
-      font-size: 22px;
-      font-weight: 600;
-      padding-left: 1rem;
-      text-transform: uppercase; }
-      @media (min-width: 1080px) {
-        .donation-grid .donation-info-wrapper .donation-title {
-          font-size: 18px; } }
-    .donation-grid .donation-info-wrapper p {
-      display: block;
-      color: #000;
-      font-size: 22px;
-      font-weight: 400;
-      margin: 0;
-      padding-bottom: 1rem;
-      padding-left: 1rem; }
-      @media (min-width: 1080px) {
-        .donation-grid .donation-info-wrapper p {
-          font-size: 18px; } }
-  .donation-grid .donation-btn {
-    background-color: #DB1921;
-    color: #fff;
-    font-size: 34px;
-    font-weight: 300;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    width: 100%; }
+      width: 16rem; } }
+
+.donation-info-wrapper {
+  text-align: left; }
+  @media (min-width: 1080px) {
+    .donation-info-wrapper {
+      background-color: #fff;
+      border: 2px solid #4A4A4A;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-flex: 0 1 50%;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%;
+      max-width: 50%;
+      height: 19rem;
+      margin: 1rem;
+      width: 19rem; } }
+  .donation-info-wrapper .price-wrapper {
+    font-size: 3rem;
+    margin: 1rem;
+    padding-left: 1rem; }
     @media (min-width: 1080px) {
-      .donation-grid .donation-btn {
-        font-size: 30px;
-        margin-bottom: 0; } }
+      .donation-info-wrapper .price-wrapper {
+        font-size: 2rem;
+        text-align: right; } }
+  .donation-info-wrapper .donation-title {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 1rem;
+    text-transform: uppercase; }
+    @media (min-width: 1080px) {
+      .donation-info-wrapper .donation-title {
+        font-size: 18px; } }
+  .donation-info-wrapper p {
+    display: block;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 1rem;
+    padding-left: 1rem; }
+    @media (min-width: 1080px) {
+      .donation-info-wrapper p {
+        font-size: 18px; } }
+
+@media (min-width: 1080px) {
+  .donation-info-wrapper:after {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-right: 25px solid #fff;
+    border-left: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; } }
+
+.donation-btn {
+  background-color: #DB1921;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 100%; }
+  @media (min-width: 1080px) {
+    .donation-btn {
+      font-size: 30px;
+      margin-bottom: 0; } }
 
 .merch-header {
   text-align: center;

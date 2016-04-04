@@ -97,10 +97,11 @@
     flex-direction: column-reverse;
   @include desktop {
     display: flex;
-      flex-flow: column-reverse wrap;
+      flex-flow: row-reverse wrap;
     margin-left: 0;
     margin-right: 0;
   }
+}
 
   .donation-wrapper {
     background-color: #fff;
@@ -119,7 +120,7 @@
       flex: 0 1 50%;
       max-width: 50%;
     }
-  }
+}
 
   .donation-wrapper:nth-child(odd){
       background-color: #fff;
@@ -189,6 +190,18 @@
     }
   }
 
+.donation-info-wrapper:after {
+  @include desktop {
+    position:relative;
+    height:0px;
+    width:0px;
+    border-right: 25px solid #fff;
+    border-left: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+  }
+}
+
   .donation-btn {
     background-color: $main_red;
     color: #fff;
@@ -201,5 +214,4 @@
       font-size: 30px;
       margin-bottom: 0;
     }
-  }
 }
