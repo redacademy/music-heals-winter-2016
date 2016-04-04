@@ -23,7 +23,10 @@
 					 <div class="text-overflow-control">
 						 <?php echo CFS()->get( 'who_we_are_copy' ); ?>
 					 </div>
-				 <button type="button" class="donate-button"><a href="<?php bloginfo('url')?>/donation/" class="donation-link">Give</a></button>
+
+				 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">
+					 <button type="button" class="donate-button">Give</button>
+				 </a>
 			 </div>
 		 </div>
 	 </section>
@@ -50,7 +53,11 @@
 				 <div class="text-overflow-control">
 					 <?php echo CFS()->get( 'programs_copy' ); ?>
 				 </div>
-				 <button type="button" class="donate-button"><a href="<?php bloginfo('url')?>/donation/" class="donation-link">Give</a></button>
+
+				 <a href="<?php home_url()?>/musicheals/donation/" class="donation-link">
+					 <button type="button" class="donate-button">Give</button>
+				 </a>
+
 			 </div>
 		 </div>
 	 </section>
