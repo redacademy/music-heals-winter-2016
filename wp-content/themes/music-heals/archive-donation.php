@@ -52,6 +52,7 @@ get_header(); ?>
 						</div>
 
 						<div class="donation-info-wrapper">
+							<!-- <div class="triangle"></div> -->
 							<div class="price-wrapper">
 								<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
 							</div>

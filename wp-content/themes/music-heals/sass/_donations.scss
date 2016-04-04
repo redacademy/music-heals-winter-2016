@@ -81,8 +81,9 @@
 
 .donation-grid {
   display:flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   @include desktop {
+    background-color: #ebebeb;
     flex-flow: row wrap;
     margin-left: 0;
     margin-right: 0;
@@ -100,7 +101,7 @@
     margin-bottom: 2rem;
     margin-right: none;
     @include desktop {
-      background-color: $light_grey;
+      background-color: $med_grey;
       display: flex;
         flex-direction: row;
       flex: 0 1 50%;
@@ -108,11 +109,19 @@
     }
 }
 
-  .donation-wrapper:nth-child(odd){
-    @include desktop {
-      background-color: #fff;
-    }
+.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5){
+  background-color: $med_grey;
+}
+
+.donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6){
+  background-color: #ededed;
+
+  .donation-info-wrapper, p {
+    background-color: $dark_grey;
+    color: #fff;
   }
+}
+
 
 .donation-image-wrapper {
   display: none;
@@ -142,17 +151,6 @@
       height: 19rem;
       margin: 1rem;
       width: 19rem;
-
-      &::after {
-        position:relative;
-        display: block;
-        height:0px;
-        width:0px;
-        border-right: 25px solid #fff;
-        border-left: 25px solid transparent;
-        border-top: 25px solid transparent;
-        border-bottom: 25px solid transparent;
-      }
     }
 
     .price-wrapper {
