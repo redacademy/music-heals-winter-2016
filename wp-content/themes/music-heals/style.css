@@ -1222,13 +1222,13 @@ object {
         margin-top: 2rem; } }
   .news-and-events h2 {
     text-transform: capitalize;
-    font-size: 1.7rem; }
+    font-size: 1.7rem;
+    margin-top: 2rem; }
     @media (min-width: 1080px) {
       .news-and-events h2 {
         font-size: 1.5rem;
         font-weight: 500;
-        letter-spacing: 1px;
-        margin-top: 1.5rem; } }
+        letter-spacing: 1px; } }
     .news-and-events h2 .sub-heading {
       width: 17rem; }
   .news-and-events span {
@@ -1309,16 +1309,52 @@ object {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 21rem;
+    height: 20.5rem;
     width: 100%; } }
 
 .boy-image-wrapper {
   background: url("../../assets/music_heals_boy.png") center center no-repeat; }
   @media (min-width: 1080px) {
     .boy-image-wrapper {
-      -webkit-flex: 1 0 50%;
-          -ms-flex: 1 0 50%;
-              flex: 1 0 50%; } }
+      -webkit-flex-basis: 50%;
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%; } }
+
+.blog-box {
+  background-color: #C9C9C9; }
+  @media (min-width: 1080px) {
+    .blog-box {
+      border-left: 0.5rem solid #fff;
+      -webkit-flex-basis: 50%;
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%; } }
+  .blog-box .blog-header {
+    background-color: #DB1921;
+    color: #fff;
+    font-size: 2.6rem;
+    margin-bottom: .5rem;
+    margin-top: 0;
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: uppercase; }
+    @media (min-width: 1080px) {
+      .blog-box .blog-header {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+        padding-left: 3rem;
+        text-align: left; } }
+  .blog-box .blog-info {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 2rem; }
+    @media (min-width: 1080px) {
+      .blog-box .blog-info {
+        padding-left: 3rem; } }
+    .blog-box .blog-info p {
+      margin-bottom: .5rem; }
+    .blog-box .blog-info a {
+      color: #DB1921;
+      margin-bottom: 1rem; }
 
 .text-overflow-control {
   overflow: auto;

@@ -81,16 +81,18 @@
 		 </section>
 	 </div>
 
-	 <section class="frontpage-blog">
+	 <section class="frontpage-blog box-padding">
 		 <div class="boy-image-wrapper">
 		 </div>
-	 	 <div class="blog-info">
-			<h2>Blog</h2>
-		  <p>Music Education and Music Therapy are not the same thing. </br>
-		  	Making the important distinction.</p>
-		  <a href="#">Read More...</a>
-		  <p>Music and Social Media</p>
-		  <a href="#">Read More...</a>
+	 	 <div class="blog-box">
+			<h2 class="blog-header">Blog</h2>
+			<div class="blog-info">
+			  <p>Music Education and Music Therapy are not the same thing. </br>
+			  	Making the important distinction.</p>
+			  <a href="#">+ More</a>
+			  <p>Music and Social Media</p>
+			  <a href="#">+ More</a>
+			</div>
  		</div>
 	 </section>
  </div>
