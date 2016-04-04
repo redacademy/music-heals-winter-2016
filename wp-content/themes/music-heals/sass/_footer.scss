@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
   padding: 1.5rem;
+  padding-bottom: 0;
   @include desktop {
     background: url('../../assets/Footer_guitar.svg') no-repeat;
     display: flex;
@@ -21,12 +22,14 @@
 
 .signup {
   margin: 1rem;
+  max-width: 25rem;
   width: 85%;
   @include desktop {
     font-size: 10px;
     flex-basis: 200px;
     order: 3;
-    width: 200px;
+    margin-top: -1.8rem;
+    max-width: 15rem;
   }
 }
 
@@ -114,6 +117,7 @@ input[type="submit"] {
   @include desktop {
     margin: 1rem;
     order: 4;
+    margin-top: -1rem;
   }
 
   li {

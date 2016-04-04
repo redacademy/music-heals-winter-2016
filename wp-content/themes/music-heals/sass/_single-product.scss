@@ -1,15 +1,32 @@
-.single-product {
+.type-product {
   display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+  @include desktop {
+    display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+  }
 }
 
 .image-wrapper {
   display: flex;
     justify-content: center;
   @include desktop {
-   border: 2px solid $light_grey;
+   border: 3px solid $light_grey;
+   position: absolute;
+   top: 33%;
+   left: 6%;
+   width: 21rem;
+  }
+
+  img {
+    @include desktop {
+      height: 20rem;
+      width: 29rem;
+    }
   }
 }
 
@@ -19,14 +36,13 @@
     flex-direction: column;
     justify-content: center;
   @include desktop {
-   border: 2px solid $main_red;
+   border: 3px solid $main_red;
+   height: 28rem;
+   padding-left: 12rem;
+   width: 63%;
   }
 }
 
-.product-details {
-  display: flex;
-    flex-direction: column;
-}
 .entry-title {
   color: #000;
   font-size: 28px;
@@ -40,26 +56,94 @@
     flex-direction: row;
     justify-content: space-between;
   margin-top: 0;
-  width: 80%;
+  width: 85%;
+  @include desktop {
+    width: 75%;
+  }
+}
+
+.product-details {
+  display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+    @include desktop {
+      justify-content: space-around;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin: 0;
+      @include desktop {
+        margin: .5rem;
+      }
+    }
+}
+
+.product-price {
+  font-weight: 700;
+  @include desktop {
+    font-size: 2rem;
+    margin-top: -183px;
+  }
 }
 
 .size-buttons {
   margin-bottom: 1rem;
-
   button {
     margin: .5rem;
+
+    &:active, &:hover {
+      border-color: $main_red;
+      color: $main_red;
+    }
+    @include desktop {
+      margin: 1rem;
+      padding: 1.25rem 2.5rem;
+    }
+  }
+}
+
+.quantity {
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  width: 15.5rem;
+  @include desktop {
+    font-size: 2rem;
+    margin-right: 10rem;
+    width: 18rem;
+  }
+
+  .quantity-box {
+    border: 3px solid $med_grey;
+    height: 1.5rem;
+    width: 2rem;
+    @include desktop {
+      height: 2rem;
+      width: 3.5rem;
+    }
   }
 }
 
 .shopping-buttons {
   display: flex;
     flex-direction: column;
+  @include desktop {
+    flex-direction: row;
+  }
   button {
     background-color: $main_red;
     color: #fff;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
     text-align: center;
+    width: 12rem;
+    @include desktop {
+      margin: 1rem;
+      padding: .75rem;
+    }
   }
 }

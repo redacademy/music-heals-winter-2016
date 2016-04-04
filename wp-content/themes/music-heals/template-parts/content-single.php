@@ -31,13 +31,16 @@
 				<p>100% Rock & Roll</p>
 			</div>
 			<div class="product-price">
-				<?php echo CFS()->get( 'price' ); ?></span>
+				<span><?php echo CFS()->get( 'price' ); ?></span>
 			</div>
 		</div>
 			<div class="size-buttons">
 				<button>SM</button>
 				<button>MED</button>
 				<button>LRG</button>
+			</div>
+			<div class="quantity">
+				<span>Qty:</span><span> - </span><div class="quantity-box"></div><span> + </span>
 			</div>
 			<div class="shopping-buttons">
 				<button>Continue Shopping</button>

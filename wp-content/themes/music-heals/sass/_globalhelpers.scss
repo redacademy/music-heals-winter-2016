@@ -1,6 +1,10 @@
+a, a:visited {
+  color:white;
+  text-decoration: none;
+}
+
 body {
   font-family: 'Catamaran', sans-serif;
-
 }
 
 button {
@@ -31,6 +35,7 @@ button {
     border: none;
   }
 }
+
 
 @media only screen and (min-width: 1080px) {
 
