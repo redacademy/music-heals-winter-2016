@@ -110,7 +110,9 @@
 }
 
   .donation-wrapper:nth-child(odd){
+    @include desktop {
       background-color: #fff;
+    }
   }
 
 .donation-image-wrapper {
@@ -141,6 +143,17 @@
       height: 19rem;
       margin: 1rem;
       width: 19rem;
+
+      &::after {
+        position:relative;
+        display: block;
+        height:0px;
+        width:0px;
+        border-right: 25px solid #fff;
+        border-left: 25px solid transparent;
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent;
+      }
     }
 
     .price-wrapper {
@@ -176,18 +189,6 @@
       }
     }
   }
-
-.donation-info-wrapper:after {
-  @include desktop {
-    position:relative;
-    height:0px;
-    width:0px;
-    border-right: 25px solid #fff;
-    border-left: 25px solid transparent;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-  }
-}
 
   .donation-btn {
     background-color: $main_red;
