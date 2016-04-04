@@ -397,7 +397,9 @@
 .boy-image-wrapper {
   background:
   url('../../assets/music_heals_boy.png') center center no-repeat;
+  background-size: cover;
   @include desktop {
+    background-size: cover;
     flex-basis: 50%;
   }
 }

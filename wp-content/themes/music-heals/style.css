@@ -1317,9 +1317,11 @@ object {
     width: 100%; } }
 
 .boy-image-wrapper {
-  background: url("../../assets/music_heals_boy.png") center center no-repeat; }
+  background: url("../../assets/music_heals_boy.png") center center no-repeat;
+  background-size: cover; }
   @media (min-width: 1080px) {
     .boy-image-wrapper {
+      background-size: cover;
       -webkit-flex-basis: 50%;
           -ms-flex-preferred-size: 50%;
               flex-basis: 50%; } }
