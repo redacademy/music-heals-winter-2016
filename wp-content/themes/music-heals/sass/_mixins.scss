@@ -21,7 +21,7 @@
 	$desktop-width: 1080px;
 	@media (min-width: $desktop-width) {
 	overflow: auto;
-	max-width: 29rem;
+	max-width: 49rem;
 	line-height: 1.7rem;
 	}
 }
@@ -31,6 +31,12 @@
 @mixin content-text-mixin {
 	font-size: 13px;
 	font-weight: bold;
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+	font-size: 1.4rem;
+  font-weight: 100;
+}
 }
 
 
@@ -71,12 +77,19 @@
 	h1 {
 		text-align: left;
 		text-transform: uppercase;
+		font-size: 2.7rem;
 	}
 
 	$desktop-width: 1080px;
 	@media (min-width: $desktop-width) {
-		height: 55vh;
-		width: 55vw;
+		height: 57vh;
+		width: 58vw;
+
+		h1 {
+			margin-bottom: 0rem;
+			letter-spacing: 0.1rem;
+			font-weight: 300;
+		}
 	}
 
 }
@@ -97,7 +110,12 @@
 
 @mixin banner-dimensions {
   background-size: cover, contain;
-  height: 100vh;
+  height: 60vh;
+
+	$desktop-width: 1080px;
+	@media (min-width: $desktop-width) {
+		height: 100vh;
+	}
 }
 
 @mixin banner-flex-left {

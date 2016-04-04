@@ -1421,17 +1421,21 @@ object {
   @media (min-width: 1080px) {
     .text-overflow-control {
       overflow: auto;
-      max-width: 29rem;
+      max-width: 49rem;
       line-height: 1.7rem; } }
 
 .content-text {
   font-size: 13px;
   font-weight: bold; }
+  @media (min-width: 1080px) {
+    .content-text {
+      font-size: 1.4rem;
+      font-weight: 100; } }
 
 .who-we-are-banner {
   background: url("../../assets/about-page/tonyeaganaba.jpg") no-repeat center;
   background-size: cover, contain;
-  height: 100vh;
+  height: 60vh;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1441,6 +1445,9 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .who-we-are-banner {
+      height: 100vh; } }
   @media (min-width: 1080px) {
     .who-we-are-banner {
       -webkit-justify-content: flex-start;
@@ -1461,11 +1468,16 @@ object {
           flex-direction: column; }
   .who-we-are-content-box h1 {
     text-align: left;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 2.7rem; }
   @media (min-width: 1080px) {
     .who-we-are-content-box {
-      height: 55vh;
-      width: 55vw; } }
+      height: 57vh;
+      width: 58vw; }
+      .who-we-are-content-box h1 {
+        margin-bottom: 0rem;
+        letter-spacing: 0.1rem;
+        font-weight: 300; } }
 
 .donate-button {
   background-color: #DB1919;
@@ -1485,7 +1497,7 @@ object {
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
   background-size: cover, contain;
-  height: 100vh;
+  height: 60vh;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1495,6 +1507,9 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .how-we-help-banner {
+      height: 100vh; } }
   @media (min-width: 1080px) {
     .how-we-help-banner {
       -webkit-justify-content: flex-end;
@@ -1509,16 +1524,21 @@ object {
   color: white; }
   .how-we-help-content-box h1 {
     text-align: left;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 2.7rem; }
   @media (min-width: 1080px) {
     .how-we-help-content-box {
-      height: 55vh;
-      width: 55vw; } }
+      height: 57vh;
+      width: 58vw; }
+      .how-we-help-content-box h1 {
+        margin-bottom: 0rem;
+        letter-spacing: 0.1rem;
+        font-weight: 300; } }
 
 .programs-banner {
   background: url("../../assets/about-page/MusicHealsInstagram-programs2.png") no-repeat center;
   background-size: cover, contain;
-  height: 100vh;
+  height: 60vh;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1528,6 +1548,9 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .programs-banner {
+      height: 100vh; } }
   @media (min-width: 1080px) {
     .programs-banner {
       -webkit-justify-content: flex-start;
@@ -1548,16 +1571,21 @@ object {
           flex-direction: column; }
   .programs-content-box h1 {
     text-align: left;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 2.7rem; }
   @media (min-width: 1080px) {
     .programs-content-box {
-      height: 55vh;
-      width: 55vw; } }
+      height: 57vh;
+      width: 58vw; }
+      .programs-content-box h1 {
+        margin-bottom: 0rem;
+        letter-spacing: 0.1rem;
+        font-weight: 300; } }
 
 .success-stories-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
   background-size: cover, contain;
-  height: 100vh;
+  height: 60vh;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1567,6 +1595,9 @@ object {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
+  @media (min-width: 1080px) {
+    .success-stories-banner {
+      height: 100vh; } }
   @media (min-width: 1080px) {
     .success-stories-banner {
       -webkit-justify-content: flex-end;
@@ -1581,11 +1612,16 @@ object {
   color: white; }
   .success-stories-content-box h1 {
     text-align: left;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 2.7rem; }
   @media (min-width: 1080px) {
     .success-stories-content-box {
-      height: 55vh;
-      width: 55vw; } }
+      height: 57vh;
+      width: 58vw; }
+      .success-stories-content-box h1 {
+        margin-bottom: 0rem;
+        letter-spacing: 0.1rem;
+        font-weight: 300; } }
 
 .video-wrapper {
   display: none; }
