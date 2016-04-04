@@ -609,7 +609,8 @@ button {
   width: 100%; }
 
 .menu-button {
-  width: 40px;
+  width: 60px;
+  padding-top: .6rem;
   padding-left: 1rem;
   position: fixed;
   z-index: 100; }
@@ -917,15 +918,20 @@ object {
     .menu-logo-wrapper {
       -webkit-justify-content: flex-start;
           -ms-flex-pack: start;
-              justify-content: flex-start; } }
+              justify-content: flex-start;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+                  -ms-grid-row-align: center;
+              align-items: center; } }
 
-.menu-button {
-  width: 60px;
+.home-menu-button {
+  width: 55px;
   position: fixed;
-  z-index: 100; }
+  z-index: 100;
+  margin-left: 2.5rem; }
   @media (min-width: 1080px) {
-    .menu-button {
-      width: 70px; } }
+    .home-menu-button {
+      width: 60px; } }
 
 .home .logo {
   margin: 0 auto; }
