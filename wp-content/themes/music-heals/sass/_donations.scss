@@ -95,11 +95,9 @@
 .donation-grid {
   display:flex;
     flex-direction: column-reverse;
-
   @include desktop {
     display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      flex-flow: column-reverse wrap;
     margin-left: 0;
     margin-right: 0;
   }
@@ -121,6 +119,10 @@
       flex: 0 1 50%;
       max-width: 50%;
     }
+  }
+
+  .donation-wrapper:nth-child(odd){
+      background-color: #fff;
   }
 
 .donation-image-wrapper {

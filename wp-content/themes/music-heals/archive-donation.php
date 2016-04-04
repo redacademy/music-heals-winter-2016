@@ -39,6 +39,7 @@ get_header(); ?>
 			</div>
 			<div class="donation-grid">
 				<?php /* Start the Loop */ ?>
+
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<div class="donation-wrapper">
