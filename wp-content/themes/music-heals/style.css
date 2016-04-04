@@ -1646,7 +1646,8 @@ object {
           -ms-flex-direction: column;
               flex-direction: column;
       margin: 0rem 1rem 0rem 0rem;
-      height: 55vh; } }
+      height: 57vh;
+      width: 29%; } }
   .video-wrapper .first-iframe {
     margin-bottom: 1rem; }
   .video-wrapper iframe {
