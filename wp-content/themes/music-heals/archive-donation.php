@@ -13,9 +13,9 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-			<section class="donation-header">
-				<h1 class="page-title">Gifts that Heal</h1>
-			</section>
+			<div class="common-header">
+				<h1 class="common-title">Gifts that Heal</h1>
+			</div>
 			<section class="donation-banner box-padding">
 			  <div class="donation-info">
 					<h2>100% of your donation will support music therapy</h2>

@@ -958,13 +958,13 @@ object {
           -ms-flex-pack: start;
               justify-content: flex-start; } }
 
-.menu-button {
+.home .menu-button {
   width: 60px;
   position: fixed;
   z-index: 100; }
   @media (min-width: 1080px) {
-    .menu-button {
-      width: 70px; } }
+    .home .menu-button {
+      width: 60px; } }
 
 .home .logo {
   margin: 0 auto; }
