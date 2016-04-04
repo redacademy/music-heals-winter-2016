@@ -17,6 +17,10 @@
   background-size: cover;
   height: 75px;
   width:100%;
+
+  @include desktop {
+    padding-top: 1rem;
+  }
 }
 
 .menu-button {
@@ -26,6 +30,7 @@
 
   @include desktop {
     margin-left: 2rem;
+    margin-top: 0;
   }
 }
 
@@ -35,6 +40,10 @@
 
   img {
     background: transparent;
+  }
+
+  @include desktop {
+    margin-right: 38rem;
   }
 }
 

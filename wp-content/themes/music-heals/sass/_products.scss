@@ -37,13 +37,17 @@
   }
 
   li {
-    font-weight: 600;
+    font-weight: 500;
     margin: .5rem 0;
   }
 
   li:hover {
     text-decoration: underline;
   }
+}
+
+.smoothScroll {
+  color: black !important;
 }
 
 //===Content===//
@@ -55,7 +59,7 @@
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .single-product-category {
@@ -127,7 +131,7 @@
   }
 
   .single-product-category {
-    flex-basis: 22%;
+    flex-basis: 25%;
   }
 
   .product-image img {

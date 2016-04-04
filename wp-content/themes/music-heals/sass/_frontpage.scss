@@ -18,12 +18,12 @@
   }
 }
 
-.menu-button {
+.home .menu-button {
   width: 60px;
   position: fixed;
   z-index: 100;
   @include desktop {
-    width:70px;
+    width:60px;
   }
 }
 
@@ -66,6 +66,7 @@
     align-items: center;
     background-color: rgba(255,255,255, 0.7);
     padding: 2.5rem 1rem;
+    margin: 4rem 0;
   }
 }
 

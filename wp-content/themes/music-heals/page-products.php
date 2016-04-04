@@ -23,16 +23,15 @@ get_header(); ?>
 				</div>
 				<nav class="navbar">
 					<ul>
-						<li>ALL</li>
-						<li>Kids</li>
-						<li>Womens</li>
-						<li>Mens</li>
+						<li><a href="#kids" class="smoothScroll">Kids</a></li>
+						<li><a href="#womens" class="smoothScroll">Womens</a></li>
+						<li><a href="#mens" class="smoothScroll">Mens</a></li>
 					</ul>
 				</nav>
 
 				<div class="product-wrapper">
 
-	      <h1 class="merch-category">Kids</h1>
+	      <h1 class="merch-category" id="kids">Kids</h1>
 
 				      <?php
 				        $kids= array(
@@ -64,7 +63,7 @@ get_header(); ?>
 				        <?php endforeach; wp_reset_postdata(); ?>
 							</div>
 
-	          <h1 class="merch-category">Womens</h1>
+	          <h1 class="merch-category" id="womens">Womens</h1>
 	            <?php
 				        $womens= array(
 	                'post_type'=> 'product',
@@ -95,7 +94,7 @@ get_header(); ?>
 				        <?php endforeach; wp_reset_postdata(); ?>
 							</div>
 
-	          <h1 class="merch-category">Mens</h1>
+	          <h1 class="merch-category" id="mens">Mens</h1>
 	            <?php
 				        $men= array(
 	                'post_type'=> 'product',
