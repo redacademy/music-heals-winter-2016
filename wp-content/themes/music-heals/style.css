@@ -1417,7 +1417,7 @@ object {
 .text-overflow-control {
   overflow: auto;
   height: 27vh;
-  max-width: 19rem; }
+  max-width: 100%; }
   @media (min-width: 1080px) {
     .text-overflow-control {
       overflow: auto;
@@ -1425,8 +1425,10 @@ object {
       line-height: 1.7rem; } }
 
 .content-text {
-  font-size: 13px;
-  font-weight: bold; }
+  font-size: 1.7rem;
+  font-weight: 300; }
+  .content-text p {
+    margin-top: 0rem; }
   @media (min-width: 1080px) {
     .content-text {
       font-size: 1.2rem;
@@ -1469,14 +1471,14 @@ object {
   .who-we-are-content-box h1 {
     text-align: left;
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 600; }
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 0rem; }
   @media (min-width: 1080px) {
     .who-we-are-content-box {
       height: 57vh;
       width: 58vw; }
       .who-we-are-content-box h1 {
-        margin-bottom: 0rem;
         letter-spacing: 0.1rem;
         font-weight: 300;
         font-size: 2.7rem; } }
@@ -1488,7 +1490,7 @@ object {
   -webkit-align-self: flex-end;
       -ms-flex-item-align: end;
           align-self: flex-end;
-  margin: 5rem 1rem 0rem 0rem;
+  margin: 1rem 1rem 0rem 0rem;
   border: 0.9px solid #000; }
   .donate-button a {
     font-weight: 200; }
@@ -1528,14 +1530,14 @@ object {
   .how-we-help-content-box h1 {
     text-align: left;
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 600; }
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 0rem; }
   @media (min-width: 1080px) {
     .how-we-help-content-box {
       height: 57vh;
       width: 58vw; }
       .how-we-help-content-box h1 {
-        margin-bottom: 0rem;
         letter-spacing: 0.1rem;
         font-weight: 300;
         font-size: 2.7rem; } }
@@ -1577,14 +1579,14 @@ object {
   .programs-content-box h1 {
     text-align: left;
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 600; }
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 0rem; }
   @media (min-width: 1080px) {
     .programs-content-box {
       height: 57vh;
       width: 58vw; }
       .programs-content-box h1 {
-        margin-bottom: 0rem;
         letter-spacing: 0.1rem;
         font-weight: 300;
         font-size: 2.7rem; } }
@@ -1620,14 +1622,14 @@ object {
   .success-stories-content-box h1 {
     text-align: left;
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 600; }
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 0rem; }
   @media (min-width: 1080px) {
     .success-stories-content-box {
       height: 57vh;
       width: 58vw; }
       .success-stories-content-box h1 {
-        margin-bottom: 0rem;
         letter-spacing: 0.1rem;
         font-weight: 300;
         font-size: 2.7rem; } }
