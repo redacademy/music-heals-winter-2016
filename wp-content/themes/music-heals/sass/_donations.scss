@@ -116,12 +116,21 @@
 .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6){
   background-color: #ededed;
 
-  .donation-info-wrapper, p {
+  .donation-info-inner, p {
     background-color: $dark_grey;
     color: #fff;
   }
 }
 
+.donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
+  @include desktop {
+    flex-direction: row-reverse;
+  }
+}
+
+.donation-info-inner {
+  padding-bottom: 1.5rem;
+}
 
 .donation-image-wrapper {
   display: none;
@@ -143,14 +152,13 @@
     text-align: left;
     @include desktop {
       background-color: #fff;
-      border: 2px solid $dark_grey;
       display: flex;
         flex-direction: column;
         flex: 0 1 50%;
         max-width: 50%;
       height: 19rem;
       margin: 1rem;
-      width: 19rem;
+      width: 16rem;
     }
 
     .price-wrapper {
@@ -158,18 +166,21 @@
       margin: 1rem;
       padding-left: 1rem;
       @include desktop {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: .5rem;
         text-align: right;
       }
     }
 
     .donation-title {
-      font-size: 22px;
+      font-size: 1.6rem;
       font-weight: 600;
       padding-left: 1rem;
       text-transform: uppercase;
       @include desktop {
-        font-size: 18px;
+        font-weight: 600;
       }
     }
 
@@ -183,6 +194,8 @@
       padding-left: 1rem;
       @include desktop {
         font-size: 18px;
+        font-weight:600;
+        padding-top: .25rem;
       }
     }
   }
@@ -196,7 +209,8 @@
     text-align: center;
     width: 100%;
     @include desktop {
-      font-size: 30px;
+      font-size: 1.75rem;
       margin-bottom: 0;
+      margin-top: auto;
     }
 }
