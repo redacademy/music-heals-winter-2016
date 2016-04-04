@@ -1364,25 +1364,6 @@ object {
         letter-spacing: 1px;
         padding-left: 3rem;
         text-align: left; } }
-  .blog-box .bx-viewport {
-    margin-left: 0.3rem;
-    width: 91%;
-    overflow: hidden;
-    position: relative;
-    height: 200px; }
-  .blog-box .bx-wrapper {
-    max-width: 99%;
-    width: 22.56rem;
-    -webkit-flex: 0 1 50%;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%;
-    margin: 0px; }
-  .blog-box .slider-image-1 {
-    height: 200px; }
-  .blog-box .slider-image-2 {
-    height: 200px; }
-  .blog-box .slider-image-3 {
-    height: 200px; }
   .blog-box .desktop-wrapper-4 {
     display: -webkit-flex;
     display: -ms-flexbox;
