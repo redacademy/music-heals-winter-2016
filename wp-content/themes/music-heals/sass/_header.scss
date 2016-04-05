@@ -58,14 +58,15 @@
 .main-navigation {
   display: none;
   position: fixed;
-  width: 400px;
+  width: 80%;
   z-index: 20;
   top: 140px;
-  left: 40px;
+  left: 35px;
   background: white;
   box-shadow: 22px 10px 61px -2px rgba(0,0,0,0.75);
 
   @include desktop {
+    width: 20%;
     top: 125px;
     left: 65px;
   }
