@@ -1669,14 +1669,14 @@ object {
     border-bottom: 1px solid white; }
 
 .donation-banner {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: url("../../assets/donation-page/Gifts_that_Heal.jpg") no-repeat center;
   background-size: cover, contain;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1684,12 +1684,12 @@ object {
   width: 100%; }
   @media (min-width: 1080px) {
     .donation-banner {
+      border-bottom: 0;
       background-size: cover, cover;
+      height: 650px;
       -webkit-justify-content: flex-end;
           -ms-flex-pack: end;
-              justify-content: flex-end;
-      height: 650px;
-      border-bottom: 0; } }
+              justify-content: flex-end; } }
 
 .donation-info {
   background-color: rgba(255, 255, 255, 0.75);
@@ -1730,12 +1730,12 @@ object {
         margin-right: 1rem; } }
 
 .donation-steps {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -2169,10 +2169,10 @@ object {
       border: 3px solid #C9C9C9;
       position: absolute;
       top: 33%;
-      left: 6%;
-      width: 21rem;
-      margin-left: 6rem;
-      margin-top: 2.3rem; } }
+      left: 13%;
+      width: 18rem;
+      margin-left: -1rem;
+      margin-top: 1rem; } }
   @media (min-width: 1080px) {
     .image-wrapper img {
       height: 20rem;
@@ -2195,8 +2195,11 @@ object {
     .single-product-wrapper {
       border: 3px solid #DB1921;
       height: 28rem;
-      padding-left: 12rem;
-      width: 51%; } }
+      padding-left: 5rem;
+      width: 66%; } }
+  @media (min-width: 1200px) {
+    .single-product-wrapper {
+      width: 56%; } }
 
 .entry-title {
   color: #000;

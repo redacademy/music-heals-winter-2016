@@ -38,15 +38,16 @@
 
 .image-wrapper {
   display: flex;
-    justify-content: center;
+  justify-content: center;
+
   @include desktop {
-   border: 3px solid $light_grey;
-   position: absolute;
-   top: 33%;
-   left: 6%;
-   width: 21rem;
-   margin-left: 6rem;
-   margin-top: 2.3rem;
+    border: 3px solid #C9C9C9;
+    position: absolute;
+    top: 33%;
+    left: 13%;
+    width: 18rem;
+    margin-left: -1rem;
+    margin-top: 1rem;
   }
 
   img {
@@ -62,11 +63,12 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+
   @include desktop {
    border: 3px solid $main_red;
    height: 28rem;
-   padding-left: 12rem;
-   width: 51%;
+   padding-left: 5rem;
+   width: 66%;
   }
 }
 
