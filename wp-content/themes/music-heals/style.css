@@ -850,14 +850,16 @@ input[type="submit"] {
             flex-grow: 1;
     -webkit-order: 2;
         -ms-flex-order: 2;
-            order: 2; } }
+            order: 2;
+    padding-bottom: 1.5rem; } }
 
 .contact p, .charity-info p {
   text-transform: uppercase;
-  margin-bottom: .3rem;
+  margin-bottom: .5rem;
   margin-top: .3rem; }
   @media (min-width: 1080px) {
     .contact p, .charity-info p {
+      color: #ebebeb;
       font-size: 10px; } }
 
 .social-icons {
@@ -1427,6 +1429,17 @@ object {
       max-width: 49rem;
       line-height: 1.7rem; } }
 
+.text-overflow-control::-webkit-scrollbar {
+  width: 12px; }
+
+.text-overflow-control::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px; }
+
+.text-overflow-control::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2); }
+
 .content-text {
   font-size: 1.7rem;
   font-weight: 300; }
@@ -1494,13 +1507,16 @@ object {
       -ms-flex-item-align: end;
           align-self: flex-end;
   margin: 1.5rem 1.2rem 0 0;
-  border: 0.9px solid #000;
-  padding: 0.7rem 2rem; }
+  border: 0.9px solid #000; }
   .donate-button a {
     font-weight: 200; }
   @media (min-width: 1080px) {
     .donate-button {
+<<<<<<< HEAD
+      margin: 3.3rem 1.4rem 0rem 0rem;
+=======
       margin: 2.9em 1.4rem 0rem 0rem;
+>>>>>>> a0ecfd4edd8817e03c4f8613a3e778607596989f
       width: 8rem;
       height: 3rem; } }
 
@@ -1689,20 +1705,35 @@ object {
   @media (min-width: 1080px) {
     .donation-info {
       background-color: rgba(255, 255, 255, 0.5);
-      margin-top: -250px;
-      padding: 0.5rem;
+      height: 50%;
+      margin-top: -215px;
+      max-height: 23rem;
+      padding: 1rem;
       text-align: left;
-      width: 60%; } }
+      text-overflow: auto;
+      width: 54%; } }
   .donation-info h2 {
     color: #000;
-    font-size: 28px;
+    font-size: 1.5rem;
     text-transform: uppercase; }
+    @media (min-width: 1080px) {
+      .donation-info h2 {
+        font-size: 1.4rem;
+        margin-bottom: .5rem;
+        margin-left: 1rem; } }
+  .donation-info span {
+    display: none; }
+    @media (min-width: 1080px) {
+      .donation-info span {
+        display: inline; } }
   .donation-info p {
     display: none; }
     @media (min-width: 1080px) {
       .donation-info p {
-        display: block;
-        margin: 1rem; } }
+        display: inline-block;
+        margin-bottom: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem; } }
 
 .donation-steps {
   display: -webkit-flex;
@@ -1726,7 +1757,13 @@ object {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      margin-top: -280px; } }
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      margin-top: -250px;
+      padding-left: 5rem;
+      padding-right: 6rem;
+      padding-top: 1rem; } }
   .donation-steps .donation-step-wrapper {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1741,6 +1778,9 @@ object {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%; }
+    @media (min-width: 1080px) {
+      .donation-steps .donation-step-wrapper {
+        width: 11rem; } }
   .donation-steps h2 {
     color: #9B9B9B;
     font-size: 30px;
@@ -1752,7 +1792,8 @@ object {
     @media (min-width: 1080px) {
       .donation-steps h2 {
         color: #fff;
-        text-shadow: 2px 1px 2px rgba(100, 100, 100, 0.75); } }
+        text-shadow: 2px 1px 2px #4A4A4A;
+        width: 13rem; } }
 
 .donation-grid {
   display: -webkit-flex;
@@ -1760,7 +1801,8 @@ object {
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  margin: 1.5rem; }
   @media (min-width: 1080px) {
     .donation-grid {
       background-color: #ebebeb;
@@ -1768,7 +1810,8 @@ object {
           -ms-flex-flow: row wrap;
               flex-flow: row wrap;
       margin-left: 0;
-      margin-right: 0; } }
+      margin-right: 0;
+      margin-top: 0; } }
 
 .donation-wrapper {
   background-color: #fff;
@@ -1802,23 +1845,49 @@ object {
               flex: 0 1 50%;
       max-width: 50%; } }
 
-.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5) {
+.donation-wrapper:nth-child(even) {
   background-color: #9B9B9B; }
 
-.donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6) {
-  background-color: #ededed; }
-  .donation-wrapper:nth-child(2) .donation-info-inner, .donation-wrapper:nth-child(2) p, .donation-wrapper:nth-child(3) .donation-info-inner, .donation-wrapper:nth-child(3) p, .donation-wrapper:nth-child(6) .donation-info-inner, .donation-wrapper:nth-child(6) p {
-    background-color: #4A4A4A;
-    color: #fff; }
+.donation-wrapper:nth-child(odd) {
+  background-color: #fff; }
+
+@media (min-width: 1080px) {
+  .donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5) {
+    background-color: #9B9B9B; }
+    .donation-wrapper:nth-child(1) .donation-info-wrapper, .donation-wrapper:nth-child(4) .donation-info-wrapper, .donation-wrapper:nth-child(5) .donation-info-wrapper {
+      background-color: #9B9B9B; }
+    .donation-wrapper:nth-child(1) .donation-info-inner, .donation-wrapper:nth-child(4) .donation-info-inner, .donation-wrapper:nth-child(5) .donation-info-inner {
+      background-color: #fff;
+      margin-top: -38px; }
+    .donation-wrapper:nth-child(1) .triangle, .donation-wrapper:nth-child(4) .triangle, .donation-wrapper:nth-child(5) .triangle {
+      border-right: 20px solid #fff; } }
+
+@media (min-width: 1080px) {
+  .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6) {
+    background-color: #ededed; }
+    .donation-wrapper:nth-child(2) .donation-info-wrapper, .donation-wrapper:nth-child(3) .donation-info-wrapper, .donation-wrapper:nth-child(6) .donation-info-wrapper {
+      background-color: #ededed; }
+    .donation-wrapper:nth-child(2) .donation-info-inner, .donation-wrapper:nth-child(3) .donation-info-inner, .donation-wrapper:nth-child(6) .donation-info-inner {
+      background-color: #4A4A4A;
+      color: #fff;
+      margin-top: -38px; }
+    .donation-wrapper:nth-child(2) p, .donation-wrapper:nth-child(3) p, .donation-wrapper:nth-child(6) p {
+      background-color: #4A4A4A;
+      color: #fff; }
+    .donation-wrapper:nth-child(2) .triangle, .donation-wrapper:nth-child(3) .triangle, .donation-wrapper:nth-child(6) .triangle {
+      border-right: 20px solid #4A4A4A; } }
 
 @media (min-width: 1080px) {
   .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
     -webkit-flex-direction: row-reverse;
         -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse; } }
-
-.donation-info-inner {
-  padding-bottom: 1.5rem; }
+            flex-direction: row-reverse; }
+    .donation-wrapper:nth-child(2) .triangle, .donation-wrapper:nth-child(3) .triangle {
+      border-left: 20px solid #4A4A4A;
+      border-right: 20px solid transparent;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      right: -263px; } }
 
 .donation-image-wrapper {
   display: none; }
@@ -1831,10 +1900,13 @@ object {
           -ms-flex: 0 1 50%;
               flex: 0 1 50%;
       max-width: 50%; } }
+  .donation-image-wrapper .donation-info-inner {
+    padding-bottom: 1.5rem; }
   @media (min-width: 1080px) {
     .donation-image-wrapper img {
       height: 19rem;
       margin: 1rem;
+      padding-right: 1rem;
       width: 16rem; } }
 
 .donation-info-wrapper {
@@ -1855,6 +1927,17 @@ object {
       height: 19rem;
       margin: 1rem;
       width: 16rem; } }
+  .donation-info-wrapper .triangle {
+    display: block;
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-right: 20px solid #fff;
+    border-left: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    top: 75px;
+    right: 40px; }
   .donation-info-wrapper .price-wrapper {
     font-size: 3rem;
     margin: 1rem;
@@ -1898,6 +1981,7 @@ object {
   width: 100%; }
   @media (min-width: 1080px) {
     .donation-btn {
+      border: 2px solid #000;
       font-size: 1.75rem;
       margin-bottom: 0;
       margin-top: auto; } }
@@ -2077,6 +2161,11 @@ object {
               justify-content: center;
       margin-top: 4rem; } }
 
+.product-header {
+  width: 73%; }
+  .product-header h1 {
+    text-align: left; }
+
 .image-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2090,7 +2179,9 @@ object {
       position: absolute;
       top: 33%;
       left: 6%;
-      width: 21rem; } }
+      width: 21rem;
+      margin-left: 6rem;
+      margin-top: 2.3rem; } }
   @media (min-width: 1080px) {
     .image-wrapper img {
       height: 20rem;
@@ -2114,7 +2205,7 @@ object {
       border: 3px solid #DB1921;
       height: 28rem;
       padding-left: 12rem;
-      width: 63%; } }
+      width: 51%; } }
 
 .entry-title {
   color: #000;
@@ -2159,19 +2250,22 @@ object {
     margin: 0; }
     @media (min-width: 1080px) {
       .product-details p {
-        margin: .5rem; } }
+        margin: .5rem;
+        font-weight: 900; } }
 
 .single-product-price {
   font-weight: 700; }
   @media (min-width: 1080px) {
     .single-product-price {
       font-size: 2rem;
-      margin-top: -183px; } }
+      margin-top: -183px;
+      width: 3rem; } }
 
 .size-buttons {
   margin-bottom: 1rem; }
   .size-buttons button {
-    margin: .5rem; }
+    margin: .5rem;
+    border: 1px solid #000; }
     .size-buttons button:active, .size-buttons button:hover {
       border-color: #DB1921;
       color: #DB1921; }
@@ -2199,13 +2293,13 @@ object {
       margin-right: 10rem;
       width: 18rem; } }
   .quantity .quantity-box {
-    border: 3px solid #9B9B9B;
+    border: 1px solid black;
     height: 1.5rem;
-    width: 2rem; }
+    width: 3.5rem; }
     @media (min-width: 1080px) {
       .quantity .quantity-box {
         height: 2rem;
-        width: 3.5rem; } }
+        width: 4.5rem; } }
 
 .shopping-buttons {
   display: -webkit-flex;
