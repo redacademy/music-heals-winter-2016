@@ -1510,11 +1510,7 @@ object {
     font-weight: 200; }
   @media (min-width: 1080px) {
     .donate-button {
-<<<<<<< HEAD
       margin: 3.3rem 1.4rem 0rem 0rem;
-=======
-      margin: 2.9em 1.4rem 0rem 0rem;
->>>>>>> a0ecfd4edd8817e03c4f8613a3e778607596989f
       width: 8rem;
       height: 3rem; } }
 
@@ -2327,10 +2323,21 @@ object {
   display: flex;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 80%; }
+  @media (min-width: 1080px) {
+    .page-content {
+      width: 100%; } }
 
 .page-title {
-  text-align: center; }
+  text-align: center;
+  font-size: 1rem;
+  color: black; }
+  @media (min-width: 1080px) {
+    .page-title {
+      font-size: 3rem; } }
 
 .404-wrapper {
   display: -webkit-flex;
@@ -2341,7 +2348,8 @@ object {
           justify-content: center;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  width: 80%; }
 
 .home-button {
   display: -webkit-flex;
@@ -2353,7 +2361,7 @@ object {
 
 .home-button {
   background-color: #DB1919;
-  width: 10rem;
+  width: 9rem;
   color: white;
   margin: 0 auto;
-  margin-bottom: 7rem; }
+  margin-bottom: 3rem; }
