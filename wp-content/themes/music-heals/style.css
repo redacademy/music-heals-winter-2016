@@ -834,14 +834,16 @@ input[type="submit"] {
             flex-grow: 1;
     -webkit-order: 2;
         -ms-flex-order: 2;
-            order: 2; } }
+            order: 2;
+    padding-bottom: 1.5rem; } }
 
 .contact p, .charity-info p {
   text-transform: uppercase;
-  margin-bottom: .3rem;
+  margin-bottom: .5rem;
   margin-top: .3rem; }
   @media (min-width: 1080px) {
     .contact p, .charity-info p {
+      color: #ebebeb;
       font-size: 10px; } }
 
 .social-icons {
@@ -1676,11 +1678,16 @@ object {
       margin-top: -250px;
       padding: 0.5rem;
       text-align: left;
-      width: 60%; } }
+      width: 55%; } }
   .donation-info h2 {
     color: #000;
     font-size: 28px;
     text-transform: uppercase; }
+  .donation-info span {
+    display: none; }
+    @media (min-width: 1080px) {
+      .donation-info span {
+        display: inline; } }
   .donation-info p {
     display: none; }
     @media (min-width: 1080px) {
@@ -1710,7 +1717,13 @@ object {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      margin-top: -280px; } }
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      margin-top: -250px;
+      padding-left: 5rem;
+      padding-right: 6rem;
+      padding-top: 1rem; } }
   .donation-steps .donation-step-wrapper {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1725,6 +1738,9 @@ object {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%; }
+    @media (min-width: 1080px) {
+      .donation-steps .donation-step-wrapper {
+        width: 11rem; } }
   .donation-steps h2 {
     color: #9B9B9B;
     font-size: 30px;
@@ -1736,7 +1752,8 @@ object {
     @media (min-width: 1080px) {
       .donation-steps h2 {
         color: #fff;
-        text-shadow: 2px 1px 2px rgba(100, 100, 100, 0.75); } }
+        text-shadow: 2px 1px 2px #4A4A4A;
+        width: 13rem; } }
 
 .donation-grid {
   display: -webkit-flex;
@@ -1753,7 +1770,8 @@ object {
           -ms-flex-flow: row wrap;
               flex-flow: row wrap;
       margin-left: 0;
-      margin-right: 0; } }
+      margin-right: 0;
+      margin-top: 0; } }
 
 .donation-wrapper {
   background-color: #fff;

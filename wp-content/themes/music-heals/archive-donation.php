@@ -18,7 +18,7 @@ get_header(); ?>
 			</div>
 			<section class="donation-banner box-padding">
 			  <div class="donation-info">
-					<h2>100% of your donation will support music therapy</h2>
+					<h2>100% of your donation will support <span> an underfunded </span>music therapy<span> program</span></h2>
 					<p>Music therapists help their patients achieve a number of goals through music, including improvement of communication, academic strengths, attention span, and motor skills. they may also assist with behavioural therapy and pain management.</p>
 					<p>Choose one of the music notes form the selection below and 100% o fyour donation will go towards a music therapy program. Keep sharing the good vibrations by sending music notes to anyone who appreciates the healing power of music.</p>
 				</div>
