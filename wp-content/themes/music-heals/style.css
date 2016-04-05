@@ -1867,11 +1867,16 @@ object {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
     .donation-wrapper:nth-child(2) .triangle, .donation-wrapper:nth-child(3) .triangle {
-      border-left: 20px solid #4A4A4A;
+      border-left: 20px solid red;
       border-right: 20px solid transparent;
       border-top: 20px solid transparent;
       border-bottom: 20px solid transparent;
-      right: -263px; } }
+      display: inline-block;
+      height: 0px;
+      position: relative;
+      left: 263px;
+      top: 75px;
+      width: 0px; } }
 
 .donation-image-wrapper {
   display: none; }
@@ -1912,16 +1917,19 @@ object {
       margin: 1rem;
       width: 16rem; } }
   .donation-info-wrapper .triangle {
-    display: block;
-    position: relative;
-    height: 0px;
-    width: 0px;
-    border-right: 20px solid #fff;
-    border-left: 20px solid transparent;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    top: 75px;
-    right: 40px; }
+    display: none; }
+    @media (min-width: 1080px) {
+      .donation-info-wrapper .triangle {
+        display: block;
+        position: relative;
+        height: 0px;
+        width: 0px;
+        border-right: 20px solid #fff;
+        border-left: 20px solid transparent;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        top: 75px;
+        right: 40px; } }
   .donation-info-wrapper .price-wrapper {
     font-size: 3rem;
     margin: 1rem;

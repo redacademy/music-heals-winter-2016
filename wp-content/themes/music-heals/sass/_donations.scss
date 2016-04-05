@@ -196,11 +196,16 @@
     flex-direction: row-reverse;
 
     .triangle {
-      border-left: 20px solid $dark_grey;
+      border-left: 20px solid red;
       border-right: 20px solid transparent;
       border-top: 20px solid transparent;
       border-bottom: 20px solid transparent;
-      right: -263px;
+      display: inline-block;
+      height:0px;
+      position: relative;
+      left: 263px;
+      top:75px;
+      width:0px;
     }
   }
 }
@@ -241,8 +246,9 @@
     width: 16rem;
   }
 
-
-      .triangle {
+  .triangle {
+    display: none;
+    @include desktop {
       display: block;
       position: relative;
       height:0px;
@@ -254,6 +260,7 @@
       top:75px;
       right: 40px;
     }
+  }
 
   .price-wrapper {
     font-size: 3rem;
