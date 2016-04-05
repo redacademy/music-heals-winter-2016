@@ -2171,11 +2171,12 @@ object {
     .image-wrapper {
       border: 3px solid #C9C9C9;
       position: absolute;
-      top: 33%;
-      left: 13%;
+      top: 35%;
+      left: 10%;
       width: 18rem;
       margin-left: -1rem;
-      margin-top: 1rem; } }
+      margin-top: 1rem;
+      z-index: 0; } }
   @media (min-width: 1080px) {
     .image-wrapper img {
       height: 20rem;
@@ -2200,9 +2201,6 @@ object {
       height: 28rem;
       padding-left: 5rem;
       width: 66%; } }
-  @media (min-width: 1200px) {
-    .single-product-wrapper {
-      width: 56%; } }
 
 .entry-title {
   color: #000;

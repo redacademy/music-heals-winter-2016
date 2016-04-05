@@ -43,11 +43,12 @@
   @include desktop {
     border: 3px solid #C9C9C9;
     position: absolute;
-    top: 33%;
-    left: 13%;
+    top: 35%;
+    left: 10%;
     width: 18rem;
     margin-left: -1rem;
     margin-top: 1rem;
+    z-index: 0;
   }
 
   img {
