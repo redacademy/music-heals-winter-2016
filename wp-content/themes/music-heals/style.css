@@ -1490,7 +1490,8 @@ object {
   @media (min-width: 1080px) {
     .donate-button {
       margin: 2.9em 1.4rem 0rem 0rem;
-      padding: 1rem 4rem; } }
+      width: 8rem;
+      height: 3rem; } }
 
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
