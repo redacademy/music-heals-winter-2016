@@ -148,7 +148,7 @@
         flex-direction: column;
         justify-content: center;
       margin-bottom: 2rem;
-      margin-right: none;
+      margin-right: 0;
 
       @include desktop {
         background-color: $med_grey;

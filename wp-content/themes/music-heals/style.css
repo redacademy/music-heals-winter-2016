@@ -1827,7 +1827,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 2rem;
-  margin-right: none; }
+  margin-right: 0; }
   @media (min-width: 1080px) {
     .donation-wrapper {
       background-color: #9B9B9B;
