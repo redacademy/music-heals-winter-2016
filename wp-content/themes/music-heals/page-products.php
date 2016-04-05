@@ -17,7 +17,7 @@ get_header(); ?>
 			<div class="merch-banner"></div>
 			<div class="merch-container">
 				<div class="merch-tagline">
-					<p>Merch the whole family will love.
+					<p>Merch the whole family will love.</p>
 					<p>All Merch profits go directly to the Music Heals Foundation.</p>
 					<p>Feel good with every purchase.</p>
 				</div>

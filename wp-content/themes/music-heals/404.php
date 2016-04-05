@@ -6,7 +6,7 @@
  *
  * @package RED_Starter_Theme
  */
-
+ get_header();
  ?>
 ​​
 			<section class="error-404 not-found">
@@ -15,12 +15,13 @@
 
 				<div class="404-wrapper">
 
-					<img src="<?php echo get_template_directory_uri() . '/assets\/Error_404' ?>.svg" alt="Stage set-up with drums"/>
+					<img src="<?php echo get_template_directory_uri();?>/assets/Error_404.svg" alt="Stage set-up with drums"/>
 
 					<h1 class="page-title"><?php echo esc_html( 'Oops! your stage isn&rsquo;t set up yet.' ); ?></h1>
 
-					<button class="home-button">Go Back Home</button>
-
+					<button class="home-button">
+            <a href="<?php home_url()?>/">Go Back Home</a>
+          </button>
 				</div>
 
 				</div><!-- .page-content -->
