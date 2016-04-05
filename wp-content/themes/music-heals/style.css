@@ -1744,7 +1744,8 @@ object {
   display: flex;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  margin: 1.5rem; }
   @media (min-width: 1080px) {
     .donation-grid {
       background-color: #ebebeb;
@@ -1786,14 +1787,28 @@ object {
               flex: 0 1 50%;
       max-width: 50%; } }
 
-.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5) {
+.donation-wrapper:nth-child(even) {
   background-color: #9B9B9B; }
 
-.donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6) {
-  background-color: #ededed; }
-  .donation-wrapper:nth-child(2) .donation-info-inner, .donation-wrapper:nth-child(2) p, .donation-wrapper:nth-child(3) .donation-info-inner, .donation-wrapper:nth-child(3) p, .donation-wrapper:nth-child(6) .donation-info-inner, .donation-wrapper:nth-child(6) p {
-    background-color: #4A4A4A;
-    color: #fff; }
+.donation-wrapper:nth-child(odd) {
+  background-color: #fff; }
+
+@media (min-width: 1080px) {
+  .donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5) {
+    background-color: #9B9B9B; }
+    .donation-wrapper:nth-child(1) .donation-info-wrapper, .donation-wrapper:nth-child(4) .donation-info-wrapper, .donation-wrapper:nth-child(5) .donation-info-wrapper {
+      background-color: #9B9B9B; }
+    .donation-wrapper:nth-child(1) .donation-info-inner, .donation-wrapper:nth-child(4) .donation-info-inner, .donation-wrapper:nth-child(5) .donation-info-inner {
+      background-color: #fff; } }
+
+@media (min-width: 1080px) {
+  .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6) {
+    background-color: #ededed; }
+    .donation-wrapper:nth-child(2) .donation-info-wrapper, .donation-wrapper:nth-child(3) .donation-info-wrapper, .donation-wrapper:nth-child(6) .donation-info-wrapper {
+      background-color: #ededed; }
+    .donation-wrapper:nth-child(2) .donation-info-inner, .donation-wrapper:nth-child(2) p, .donation-wrapper:nth-child(3) .donation-info-inner, .donation-wrapper:nth-child(3) p, .donation-wrapper:nth-child(6) .donation-info-inner, .donation-wrapper:nth-child(6) p {
+      background-color: #4A4A4A;
+      color: #fff; } }
 
 @media (min-width: 1080px) {
   .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
@@ -1882,6 +1897,7 @@ object {
   width: 100%; }
   @media (min-width: 1080px) {
     .donation-btn {
+      border: 2px solid #000;
       font-size: 1.75rem;
       margin-bottom: 0;
       margin-top: auto; } }

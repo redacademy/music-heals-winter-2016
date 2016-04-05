@@ -82,6 +82,7 @@
 .donation-grid {
   display:flex;
     flex-direction: column;
+  margin: 1.5rem;
   @include desktop {
     background-color: #ebebeb;
     flex-flow: row wrap;
@@ -109,17 +110,40 @@
     }
 }
 
-.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5){
+.donation-wrapper:nth-child(even) {
   background-color: $med_grey;
 }
 
+.donation-wrapper:nth-child(odd) {
+  background-color: #fff;
+}
+
+.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5){
+  @include desktop {
+  background-color: $med_grey;
+
+  .donation-info-wrapper {
+    background-color: $med_grey;
+  }
+
+  .donation-info-inner {
+    background-color: #fff;
+  }
+ }
+}
+
 .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6){
+  @include desktop {
   background-color: #ededed;
 
+  .donation-info-wrapper {
+    background-color: #ededed;
+  }
   .donation-info-inner, p {
     background-color: $dark_grey;
     color: #fff;
   }
+ }
 }
 
 .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
@@ -209,6 +233,7 @@
     text-align: center;
     width: 100%;
     @include desktop {
+      border: 2px solid #000;
       font-size: 1.75rem;
       margin-bottom: 0;
       margin-top: auto;
