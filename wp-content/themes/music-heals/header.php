@@ -31,8 +31,8 @@
 	    controls: true
 	  });
 
-		$('.menu-button').on('click', function() {
-			$('.main-navigation').toggle();
+		$('.menu-button').click(function() {
+			$('.main-navigation').toggle("slide");
 		});
 	});
 	</script>

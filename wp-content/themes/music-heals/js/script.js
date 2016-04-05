@@ -9,7 +9,7 @@ jQuery('a[href^="#"]').on('click',function (event) {
      var $target = jQuery(target);
 
      jQuery('html, body').stop().animate({
-         'scrollTop': $target.offset().top -93
+         'scrollTop': $target.offset().top -110
      }, 900, 'swing', function () {
          window.location.hash = target;
      });
