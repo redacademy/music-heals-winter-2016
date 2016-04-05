@@ -1412,6 +1412,17 @@ object {
       max-width: 49rem;
       line-height: 1.7rem; } }
 
+.text-overflow-control::-webkit-scrollbar {
+  width: 12px; }
+
+.text-overflow-control::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px; }
+
+.text-overflow-control::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2); }
+
 .content-text {
   font-size: 1.7rem;
   font-weight: 300; }
@@ -2052,6 +2063,11 @@ object {
               justify-content: center;
       margin-top: 4rem; } }
 
+.product-header {
+  width: 73%; }
+  .product-header h1 {
+    text-align: left; }
+
 .image-wrapper {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2065,7 +2081,9 @@ object {
       position: absolute;
       top: 33%;
       left: 6%;
-      width: 21rem; } }
+      width: 21rem;
+      margin-left: 6rem;
+      margin-top: 2.3rem; } }
   @media (min-width: 1080px) {
     .image-wrapper img {
       height: 20rem;
@@ -2089,7 +2107,7 @@ object {
       border: 3px solid #DB1921;
       height: 28rem;
       padding-left: 12rem;
-      width: 63%; } }
+      width: 51%; } }
 
 .entry-title {
   color: #000;
@@ -2134,19 +2152,22 @@ object {
     margin: 0; }
     @media (min-width: 1080px) {
       .product-details p {
-        margin: .5rem; } }
+        margin: .5rem;
+        font-weight: 900; } }
 
 .product-price {
   font-weight: 700; }
   @media (min-width: 1080px) {
     .product-price {
       font-size: 2rem;
-      margin-top: -183px; } }
+      margin-top: -183px;
+      width: 3rem; } }
 
 .size-buttons {
   margin-bottom: 1rem; }
   .size-buttons button {
-    margin: .5rem; }
+    margin: .5rem;
+    border: 1px solid #000; }
     .size-buttons button:active, .size-buttons button:hover {
       border-color: #DB1921;
       color: #DB1921; }
@@ -2174,13 +2195,13 @@ object {
       margin-right: 10rem;
       width: 18rem; } }
   .quantity .quantity-box {
-    border: 3px solid #9B9B9B;
+    border: 1px solid black;
     height: 1.5rem;
-    width: 2rem; }
+    width: 3.5rem; }
     @media (min-width: 1080px) {
       .quantity .quantity-box {
         height: 2rem;
-        width: 3.5rem; } }
+        width: 4.5rem; } }
 
 .shopping-buttons {
   display: -webkit-flex;

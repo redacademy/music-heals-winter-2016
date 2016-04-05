@@ -29,6 +29,13 @@
   }
 }
 
+.product-header {
+  width: 73%;
+  h1 {
+    text-align: left;
+  }
+}
+
 .image-wrapper {
   display: flex;
     justify-content: center;
@@ -38,6 +45,8 @@
    top: 33%;
    left: 6%;
    width: 21rem;
+   margin-left: 6rem;
+   margin-top: 2.3rem;
   }
 
   img {
@@ -57,7 +66,7 @@
    border: 3px solid $main_red;
    height: 28rem;
    padding-left: 12rem;
-   width: 63%;
+   width: 51%;
   }
 }
 
@@ -93,6 +102,7 @@
       margin: 0;
       @include desktop {
         margin: .5rem;
+        font-weight: 900;
       }
     }
 }
@@ -102,6 +112,7 @@
   @include desktop {
     font-size: 2rem;
     margin-top: -183px;
+    width: 3rem;
   }
 }
 
@@ -109,6 +120,7 @@
   margin-bottom: 1rem;
   button {
     margin: .5rem;
+    border: 1px solid #000;
 
     &:active, &:hover {
       border-color: $main_red;
@@ -135,12 +147,12 @@
   }
 
   .quantity-box {
-    border: 3px solid $med_grey;
+    border: 1px solid black;
     height: 1.5rem;
-    width: 2rem;
+    width: 3.5rem;
     @include desktop {
       height: 2rem;
-      width: 3.5rem;
+      width: 4.5rem;
     }
   }
 }

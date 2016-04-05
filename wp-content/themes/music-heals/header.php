@@ -48,7 +48,7 @@
 				<div class="site-banner">
 						<div class="menu-button"><img src="<?php echo get_template_directory_uri();?>/assets/Hamburger_menu_01.svg" alt="Hamburger Menu"/></div>
 
-						<a href="<?php home_url()?>/musicheals/">
+						<a href="<?php home_url()?>/">
 							<div class="logo"><img src="<?php echo get_template_directory_uri();?>/assets/musicheals.png" alt="Music Heals Logo"/></div>
 						</a>
 
