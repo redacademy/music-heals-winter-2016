@@ -74,8 +74,8 @@
 			 <a href="<?php home_url()?>/musicheals/about/"><button class="common-btn">About Us</button></a>
 		 </section>
 		 <section class="shop box-padding">
-			 <h2>Merch</h2>
-			 <a href="<?php home_url()?>/musicheals/products/"><button class="common-btn">Shop</button></a>
+			 <h2>Shop</h2>
+			 <a href="<?php home_url()?>/musicheals/products/"><button class="common-btn">Merch</button></a>
 		 </section>
 	 </div>
 

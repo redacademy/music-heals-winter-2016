@@ -69,7 +69,7 @@ input[type="submit"] {
 	background: #db1921;
   border: 1px solid #000;
   box-shadow: none;
-	color: white;
+	color: #ffffff;
 	cursor:pointer;
   font-size: .9rem;
 	font-weight: 700;
@@ -91,7 +91,7 @@ input[type="submit"] {
   flex-direction: column;
   margin: 1rem;
   @include desktop {
-    font-size: 10px;
+    font-size: .7rem;
 
   }
 }
@@ -116,7 +116,7 @@ input[type="submit"] {
   margin-top: .3rem;
   @include desktop {
     color: #ebebeb;
-    font-size: 10px;
+    font-size: .7rem;
   }
 }
 

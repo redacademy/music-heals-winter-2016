@@ -25,15 +25,15 @@ get_header(); ?>
 			</section>
 			<div class="donation-steps">
 				<div class="donation-step-wrapper">
-					<img src="<?php echo get_template_directory_uri() . '/assets\/donation-page\/Gifts_that_Heal_step1'?>.svg" alt="Step One" />
+					<img src="<?php echo get_template_directory_uri();?>/assets/donation-page/Gifts_that_Heal_step1.svg" alt="Step One"/>
 					<h2 class="donation-step-notes">Pick Your Music Note</h2>
 				</div>
 				<div class="donation-step-wrapper">
-					<img src="<?php echo get_template_directory_uri() . '/assets\/donation-page\/Gifts_that_Heal_step2'?>.svg" alt="Step Two" />
+					<img src="<?php echo get_template_directory_uri();?>/assets/donation-page/Gifts_that_Heal_step2.svg" alt="Step Two"/>
 					<h2 class="donation-step-notes">Personalize Your Message</h2>
 				</div>
 				<div class="donation-step-wrapper">
-					<img src="<?php echo get_template_directory_uri() . '/assets\/donation-page\/Gifts_that_Heal_step3'?>.svg" alt="Step Three" />
+					<img src="<?php echo get_template_directory_uri();?>/assets/donation-page/Gifts_that_Heal_step3.svg" alt="Step Three"/>
 					<h2 class="donation-step-notes">Share Gifts that Heal</h2>
 				</div>
 			</div>
