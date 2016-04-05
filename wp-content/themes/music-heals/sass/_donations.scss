@@ -23,23 +23,41 @@
     width: 60%;
     @include desktop {
       background-color: rgba(255,255,255,0.50);
-      margin-top: -250px;
-      padding: 0.5rem;
+      height: 50%;
+      margin-top: -215px;
+      max-height: 23rem;
+      padding: 1rem;
       text-align:left;
-      width: 60%;
+      text-overflow: auto;
+      width: 54%;
      }
 
     h2 {
       color: #000;
-      font-size: 28px;
+      font-size: 1.5rem;
       text-transform: uppercase;
+      @include desktop {
+        font-size: 1.4rem;
+        margin-bottom: .5rem;
+        margin-left: 1rem;
+      }
+    }
+
+    span {
+      display: none;
+      @include desktop {
+        display: inline;
+      }
     }
 
     p {
       display: none;
       @include desktop {
-        display: block;
-        margin: 1rem;
+        display: inline-block;
+        margin-bottom: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
     }
   }
 }
@@ -53,7 +71,11 @@
       background-color: rgba(255,255,255,0.20);
       display: flex;
         flex-direction: row;
-      margin-top: -280px;
+        justify-content: space-around;
+      margin-top: -250px;
+      padding-left: 5rem;
+      padding-right: 6rem;
+      padding-top: 1rem;
     }
 
     .donation-step-wrapper {
@@ -62,6 +84,9 @@
         flex-direction: column;
         justify-content: center;
       width: 100%;
+      @include desktop {
+        width: 11rem;
+      }
     }
 
     h2 {
@@ -74,7 +99,8 @@
       width: 70%;
       @include desktop {
         color: #fff;
-          text-shadow: 2px 1px 2px rgba(100,100,100,.75)
+        text-shadow: 2px 1px 2px $dark_grey;
+        width: 13rem;
       }
     }
   }
@@ -82,54 +108,101 @@
 .donation-grid {
   display:flex;
     flex-direction: column;
+  margin: 1.5rem;
   @include desktop {
     background-color: #ebebeb;
     flex-flow: row wrap;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
   }
 }
 
-  .donation-wrapper {
-    background-color: #fff;
-    border: 2px solid $dark_grey;
-    color: #000;
+.donation-wrapper {
+  background-color: #fff;
+  border: 2px solid $dark_grey;
+  color: #000;
+  display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: none;
+  @include desktop {
+    background-color: $med_grey;
     display: flex;
-      align-items: flex-start;
-      flex-direction: column;
-      justify-content: center;
-    margin-bottom: 2rem;
-    margin-right: none;
-    @include desktop {
-      background-color: $med_grey;
-      display: flex;
-        flex-direction: row;
-      flex: 0 1 50%;
-      max-width: 50%;
-    }
+      flex-direction: row;
+    flex: 0 1 50%;
+    max-width: 50%;
+  }
 }
 
-.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5){
+.donation-wrapper:nth-child(even) {
   background-color: $med_grey;
 }
 
+.donation-wrapper:nth-child(odd) {
+  background-color: #fff;
+}
+
+.donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5){
+  @include desktop {
+  background-color: $med_grey;
+
+  .donation-info-wrapper {
+    background-color: $med_grey;
+  }
+
+  .donation-info-inner {
+    background-color: #fff;
+    margin-top: -38px;
+  }
+
+  .triangle {
+    border-right: 20px solid #fff;
+  }
+ }
+}
+
 .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6){
+  @include desktop {
   background-color: #ededed;
 
-  .donation-info-inner, p {
+  .donation-info-wrapper {
+    background-color: #ededed;
+
+  }
+
+  .donation-info-inner {
+    background-color: $dark_grey;
+    color: #fff;
+    margin-top: -38px;
+  }
+
+  p {
     background-color: $dark_grey;
     color: #fff;
   }
+
+  .triangle {
+    border-right: 20px solid $dark_grey;
+  }
+
+ }
 }
 
 .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
   @include desktop {
     flex-direction: row-reverse;
-  }
-}
 
-.donation-info-inner {
-  padding-bottom: 1.5rem;
+    .triangle {
+      border-left: 20px solid $dark_grey;
+      border-right: 20px solid transparent;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      right: -263px;
+    }
+  }
 }
 
 .donation-image-wrapper {
@@ -140,65 +213,86 @@
       max-width: 50%;
   }
 
+  .donation-info-inner {
+    padding-bottom: 1.5rem;
+  }
+
+
   img {
     @include desktop {
       height: 19rem;
       margin: 1rem;
+      padding-right: 1rem;
       width: 16rem;
     }
   }
 }
-  .donation-info-wrapper {
-    text-align: left;
-    @include desktop {
-      background-color: #fff;
-      display: flex;
-        flex-direction: column;
-        flex: 0 1 50%;
-        max-width: 50%;
-      height: 19rem;
-      margin: 1rem;
-      width: 16rem;
-    }
 
-    .price-wrapper {
-      font-size: 3rem;
-      margin: 1rem;
-      padding-left: 1rem;
-      @include desktop {
-        font-size: 2.5rem;
-        font-weight: 600;
-        margin-bottom: 0;
-        margin-top: .5rem;
-        text-align: right;
-      }
-    }
+.donation-info-wrapper {
+  text-align: left;
+  @include desktop {
+    background-color: #fff;
+    display: flex;
+      flex-direction: column;
+      flex: 0 1 50%;
+      max-width: 50%;
+    height: 19rem;
+    margin: 1rem;
+    width: 16rem;
+  }
 
-    .donation-title {
-      font-size: 1.6rem;
-      font-weight: 600;
-      padding-left: 1rem;
-      text-transform: uppercase;
-      @include desktop {
-        font-weight: 600;
-      }
-    }
 
-    p  {
+      .triangle {
       display: block;
-      color: #000;
-      font-size: 22px;
-      font-weight: 400;
-      margin: 0;
-      padding-bottom: 1rem;
-      padding-left: 1rem;
-      @include desktop {
-        font-size: 18px;
-        font-weight:600;
-        padding-top: .25rem;
-      }
+      position: relative;
+      height:0px;
+      width:0px;
+      border-right: 20px solid #fff;
+      border-left: 20px solid transparent;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      top:75px;
+      right: 40px;
+    }
+
+  .price-wrapper {
+    font-size: 3rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    @include desktop {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 0;
+      margin-top: .5rem;
+      text-align: right;
     }
   }
+
+  .donation-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    @include desktop {
+      font-weight: 600;
+    }
+  }
+
+  p  {
+    display: block;
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    @include desktop {
+      font-size: 18px;
+      font-weight:600;
+      padding-top: .25rem;
+    }
+  }
+}
 
   .donation-btn {
     background-color: $main_red;
@@ -209,6 +303,7 @@
     text-align: center;
     width: 100%;
     @include desktop {
+      border: 2px solid #000;
       font-size: 1.75rem;
       margin-bottom: 0;
       margin-top: auto;

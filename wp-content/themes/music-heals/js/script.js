@@ -2,13 +2,16 @@
 
 jQuery(function(){
 
-  jQuery('a[href^="#"]').on('click',function (e) {
-         e.preventDefault();
+jQuery('a[href^="#"]').on('click',function (event) {
+     event.preventDefault();
 
-         var target = this.hash;
+     var target = this.hash;
+     var $target = jQuery(target);
 
-
-  jQuery('html, body').animate({
-    scrollTop: target.offset.top-90});
-});
+     jQuery('html, body').stop().animate({
+         'scrollTop': $target.offset().top -110
+     }, 900, 'swing', function () {
+         window.location.hash = target;
+     });
+ });
 });
