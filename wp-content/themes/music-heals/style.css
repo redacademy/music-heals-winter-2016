@@ -665,7 +665,7 @@ button {
   display: none;
   position: fixed;
   width: 400px;
-  z-index: 0;
+  z-index: 20;
   top: 140px;
   left: 40px;
   background: white;
@@ -969,7 +969,8 @@ object {
           justify-content: flex-start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
-          align-items: flex-start; }
+          align-items: flex-start;
+  padding-top: 1rem; }
   @media (min-width: 1080px) {
     .home-menu-logo-wrapper {
       -webkit-justify-content: flex-start;
@@ -1512,11 +1513,7 @@ object {
     font-weight: 200; }
   @media (min-width: 1080px) {
     .donate-button {
-<<<<<<< HEAD
       margin: 3.3rem 1.4rem 0rem 0rem;
-=======
-      margin: 2.9em 1.4rem 0rem 0rem;
->>>>>>> a0ecfd4edd8817e03c4f8613a3e778607596989f
       width: 8rem;
       height: 3rem; } }
 
