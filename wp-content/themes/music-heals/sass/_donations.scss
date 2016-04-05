@@ -17,32 +17,46 @@
     }
   }
 
-  .donation-info {
-    background-color: rgba(255,255,255,0.75);
-    border-color: rgba(255,255,255,0.60);
+  .donation-info-box {
+    background-color: rgba(255,255,255,0.50);
     text-align: center;
     width: 60%;
 
     @include desktop {
-      background-color: rgba(255,255,255,0.50);
+      background-color: rgba(255,255,255,0.70);
       height: 50%;
       margin-top: -215px;
       max-height: 23rem;
       padding: 1rem;
       text-align:left;
-      text-overflow: auto;
       width: 54%;
      }
+
+ .donation-info-text {
+    background-color: rgba(255,255,255,0.60);
+    height: 80%;
+    margin-bottom: 1.3rem;
+
+    @include desktop {
+      background-color: rgba(255,255,255,0);
+      max-height: 23rem;
+      margin-bottom: 1.2rem;
+      margin-left: 1.2rem;
+      text-align:left;
+    }
 
     h2 {
       color: #000;
       font-size: 1.5rem;
+      font-weight: 700;
+      padding-top: 1.2rem;
       text-transform: uppercase;
 
       @include desktop {
         font-size: 1.4rem;
         margin-bottom: .5rem;
         margin-left: 1rem;
+        margin-top: 0;
       }
     }
 
@@ -64,6 +78,7 @@
 
     }
   }
+}
 }
 
 .donation-steps {
@@ -164,12 +179,8 @@
 
     .donation-info-inner {
       background-color: #fff;
-      margin-top: -38px;
     }
 
-    .triangle {
-      border-right: 20px solid #fff;
-    }
  }
 }
 
@@ -185,32 +196,18 @@
     .donation-info-inner {
       background-color: $dark_grey;
       color: #fff;
-      margin-top: -38px;
     }
 
     p {
       background-color: $dark_grey;
       color: #fff;
     }
-
-    .triangle {
-      border-right: 20px solid $dark_grey;
-    }
-
    }
 }
 
     .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
       @include desktop {
         flex-direction: row-reverse;
-
-        .triangle {
-          border-left: 20px solid $dark_grey;
-          border-right: 20px solid transparent;
-          border-top: 20px solid transparent;
-          border-bottom: 20px solid transparent;
-          right: -263px;
-        }
       }
     }
 
@@ -249,20 +246,6 @@
         margin: 1rem;
         width: 16rem;
       }
-
-
-          .triangle {
-          display: block;
-          position: relative;
-          height:0px;
-          width:0px;
-          border-right: 20px solid #fff;
-          border-left: 20px solid transparent;
-          border-top: 20px solid transparent;
-          border-bottom: 20px solid transparent;
-          top:75px;
-          right: 40px;
-        }
 
       .price-wrapper {
         font-size: 3rem;

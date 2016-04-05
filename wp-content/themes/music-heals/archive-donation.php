@@ -17,10 +17,12 @@ get_header(); ?>
 				<h1 class="common-title">Gifts that Heal</h1>
 			</div>
 			<section class="donation-banner box-padding">
-			  <div class="donation-info">
-					<h2>100% of your donation will support <span> an underfunded </span>music therapy<span> program</span></h2>
-					<p class="first-p">Music therapists help their patients achieve a number of goals through music, including improvement of communication, academic strengths, attention span, and motor skills. they may also assist with behavioural therapy and pain management.</p></br>
-					<p class="second-p">Choose one of the music notes form the selection below and 100% of your donation will go towards a music therapy program. Keep sharing the good vibrations by sending music notes to anyone who appreciates the healing power of music.</p>
+			  <div class="donation-info-box">
+					<div class="donation-info-text">
+						<h2>100% of your donation will support <span> an underfunded </span>music therapy<span> program</span></h2>
+						<p class="first-p">Music therapists help their patients achieve a number of goals through music, including improvement of communication, academic strengths, attention span, and motor skills. they may also assist with behavioural therapy and pain management.</p></br>
+						<p class="second-p">Choose one of the music notes form the selection below and 100% of your donation will go towards a music therapy program. Keep sharing the good vibrations by sending music notes to anyone who appreciates the healing power of music.</p>
+					</div>
 				</div>
 			</section>
 			<div class="donation-steps">
@@ -52,9 +54,7 @@ get_header(); ?>
 						</div>
 
 						<div class="donation-info-wrapper">
-							<div class="triangle"></div>
 							<div class="donation-info-inner">
-
 								<div class="price-wrapper">
 									<span class="price"><?php echo CFS()->get( 'price' ); ?></span>
 								</div>
