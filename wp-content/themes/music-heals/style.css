@@ -1510,11 +1510,7 @@ object {
     font-weight: 200; }
   @media (min-width: 1080px) {
     .donate-button {
-<<<<<<< HEAD
       margin: 3.3rem 1.4rem 0rem 0rem;
-=======
-      margin: 2.9em 1.4rem 0rem 0rem;
->>>>>>> a0ecfd4edd8817e03c4f8613a3e778607596989f
       width: 8rem;
       height: 3rem; } }
 
@@ -1695,43 +1691,56 @@ object {
       height: 650px;
       border-bottom: 0; } }
 
-.donation-info {
-  background-color: rgba(255, 255, 255, 0.75);
-  border-color: rgba(255, 255, 255, 0.6);
-  text-align: center;
-  width: 60%; }
+.donation-info-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  text-align: center; }
   @media (min-width: 1080px) {
-    .donation-info {
-      background-color: rgba(255, 255, 255, 0.5);
+    .donation-info-box {
+      background-color: rgba(255, 255, 255, 0.7);
       height: 50%;
       margin-top: -215px;
       max-height: 23rem;
-      padding: 1rem;
       text-align: left;
       text-overflow: auto;
       width: 54%; } }
-  .donation-info h2 {
-    color: #000;
-    font-size: 1.5rem;
-    text-transform: uppercase; }
+  .donation-info-box .donation-info-text {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 80%;
+    margin-bottom: 1.3rem; }
     @media (min-width: 1080px) {
-      .donation-info h2 {
-        font-size: 1.4rem;
-        margin-bottom: .5rem;
-        margin-left: 1rem; } }
-  .donation-info span {
-    display: none; }
-    @media (min-width: 1080px) {
-      .donation-info span {
-        display: inline; } }
-  .donation-info p {
-    display: none; }
-    @media (min-width: 1080px) {
-      .donation-info p {
-        display: inline-block;
-        margin-bottom: 0rem;
-        margin-left: 1rem;
-        margin-right: 1rem; } }
+      .donation-info-box .donation-info-text {
+        background-color: rgba(255, 255, 255, 0);
+        max-height: 23rem;
+        margin-bottom: 1.2rem;
+        margin-left: 1.2rem;
+        text-align: left;
+        height: 80%; } }
+    .donation-info-box .donation-info-text h2 {
+      color: #000;
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding-top: 1.2rem;
+      text-transform: uppercase; }
+      @media (min-width: 1080px) {
+        .donation-info-box .donation-info-text h2 {
+          font-size: 1.4rem;
+          margin-bottom: .5rem;
+          margin-left: 1rem;
+          margin-top: 0; } }
+    .donation-info-box .donation-info-text span {
+      display: none; }
+      @media (min-width: 1080px) {
+        .donation-info-box .donation-info-text span {
+          display: inline; } }
+    .donation-info-box .donation-info-text p {
+      display: none; }
+      @media (min-width: 1080px) {
+        .donation-info-box .donation-info-text p {
+          display: inline-block;
+          margin-bottom: 0rem;
+          margin-left: 1rem;
+          margin-right: 1rem; } }
 
 .donation-steps {
   display: -webkit-flex;
@@ -1855,42 +1864,22 @@ object {
     .donation-wrapper:nth-child(1) .donation-info-wrapper, .donation-wrapper:nth-child(4) .donation-info-wrapper, .donation-wrapper:nth-child(5) .donation-info-wrapper {
       background-color: #9B9B9B; }
     .donation-wrapper:nth-child(1) .donation-info-inner, .donation-wrapper:nth-child(4) .donation-info-inner, .donation-wrapper:nth-child(5) .donation-info-inner {
-      background-color: #fff;
-      margin-top: -38px; }
-    .donation-wrapper:nth-child(1) .triangle, .donation-wrapper:nth-child(4) .triangle, .donation-wrapper:nth-child(5) .triangle {
-      border-right: 20px solid #fff; } }
+      background-color: #fff; } }
 
 @media (min-width: 1080px) {
   .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3), .donation-wrapper:nth-child(6) {
     background-color: #ededed; }
     .donation-wrapper:nth-child(2) .donation-info-wrapper, .donation-wrapper:nth-child(3) .donation-info-wrapper, .donation-wrapper:nth-child(6) .donation-info-wrapper {
       background-color: #ededed; }
-    .donation-wrapper:nth-child(2) .donation-info-inner, .donation-wrapper:nth-child(3) .donation-info-inner, .donation-wrapper:nth-child(6) .donation-info-inner {
+    .donation-wrapper:nth-child(2) .donation-info-inner, .donation-wrapper:nth-child(2) p, .donation-wrapper:nth-child(3) .donation-info-inner, .donation-wrapper:nth-child(3) p, .donation-wrapper:nth-child(6) .donation-info-inner, .donation-wrapper:nth-child(6) p {
       background-color: #4A4A4A;
-      color: #fff;
-      margin-top: -38px; }
-    .donation-wrapper:nth-child(2) p, .donation-wrapper:nth-child(3) p, .donation-wrapper:nth-child(6) p {
-      background-color: #4A4A4A;
-      color: #fff; }
-    .donation-wrapper:nth-child(2) .triangle, .donation-wrapper:nth-child(3) .triangle, .donation-wrapper:nth-child(6) .triangle {
-      border-right: 20px solid #4A4A4A; } }
+      color: #fff; } }
 
 @media (min-width: 1080px) {
   .donation-wrapper:nth-child(2), .donation-wrapper:nth-child(3) {
     -webkit-flex-direction: row-reverse;
         -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse; }
-    .donation-wrapper:nth-child(2) .triangle, .donation-wrapper:nth-child(3) .triangle {
-      border-left: 20px solid red;
-      border-right: 20px solid transparent;
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent;
-      display: inline-block;
-      height: 0px;
-      position: relative;
-      left: 263px;
-      top: 75px;
-      width: 0px; } }
+            flex-direction: row-reverse; } }
 
 .donation-image-wrapper {
   display: none; }
@@ -1930,20 +1919,6 @@ object {
       height: 19rem;
       margin: 1rem;
       width: 16rem; } }
-  .donation-info-wrapper .triangle {
-    display: none; }
-    @media (min-width: 1080px) {
-      .donation-info-wrapper .triangle {
-        display: block;
-        position: relative;
-        height: 0px;
-        width: 0px;
-        border-right: 20px solid #fff;
-        border-left: 20px solid transparent;
-        border-top: 20px solid transparent;
-        border-bottom: 20px solid transparent;
-        top: 75px;
-        right: 40px; } }
   .donation-info-wrapper .price-wrapper {
     font-size: 3rem;
     margin: 1rem;
