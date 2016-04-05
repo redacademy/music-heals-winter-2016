@@ -15,6 +15,7 @@
 .merch-tagline {
   text-align: center;
   font-size: 1.25rem;
+  font-weight: 500;
   margin: .5rem 0;
   line-height: 1.25;
 
@@ -24,8 +25,8 @@
 }
 
 .navbar {
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 2px solid #c9c9c9;
+  border-bottom: 2px solid #c9c9c9;
 
   ul {
     display: flex;
@@ -76,6 +77,10 @@
   &:hover {
     border:3px solid #db1921;
   }
+
+  @include desktop {
+    flex-basis: 25%;
+  }
 }
 
 .product-image {
@@ -106,13 +111,14 @@
 .product-type {
   display: block;
   color: #9b9b9b;
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .product-price {
   font-size: 1.75rem;
   font-weight: 600;
+  color: #000000;
 }
 
 @media only screen and (min-width: 1080px) {
@@ -133,10 +139,6 @@
   .merch-tagline {
     font-size: 1.75rem;
     margin: 1.5rem 2.5rem;
-  }
-
-  .single-product-category {
-    flex-basis: 25%;
   }
 
   .product-image img {

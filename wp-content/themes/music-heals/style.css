@@ -515,7 +515,9 @@ button {
   background: #E7E5E1; }
 
 .common-title {
-  margin: 0; }
+  margin: 0;
+  font-weight: 500;
+  color: #000000; }
 
 .box-padding {
   border-bottom: 1.3rem solid white;
@@ -1914,14 +1916,15 @@ object {
 .merch-tagline {
   text-align: center;
   font-size: 1.25rem;
+  font-weight: 500;
   margin: .5rem 0;
   line-height: 1.25; }
   .merch-tagline p {
     margin: 0; }
 
 .navbar {
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey; }
+  border-top: 2px solid #c9c9c9;
+  border-bottom: 2px solid #c9c9c9; }
   .navbar ul {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1979,6 +1982,11 @@ object {
   border: 3px solid white; }
   .single-product-category:hover {
     border: 3px solid #db1921; }
+  @media (min-width: 1080px) {
+    .single-product-category {
+      -webkit-flex-basis: 25%;
+          -ms-flex-preferred-size: 25%;
+              flex-basis: 25%; } }
 
 .product-image {
   display: -webkit-flex;
@@ -2003,12 +2011,13 @@ object {
 .product-type {
   display: block;
   color: #9b9b9b;
-  font-size: 1.25rem;
-  font-weight: 400; }
+  font-size: 1.2rem;
+  font-weight: 300; }
 
 .product-price {
   font-size: 1.75rem;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #000000; }
 
 @media only screen and (min-width: 1080px) {
   .merch-container {
@@ -2021,10 +2030,6 @@ object {
   .merch-tagline {
     font-size: 1.75rem;
     margin: 1.5rem 2.5rem; }
-  .single-product-category {
-    -webkit-flex-basis: 25%;
-        -ms-flex-preferred-size: 25%;
-            flex-basis: 25%; }
   .product-image img {
     height: 175px;
     width: 175px; } }
