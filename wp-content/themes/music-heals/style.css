@@ -629,23 +629,29 @@ button {
     .site-banner {
       padding-top: 1rem; } }
 
-.menu-button {
-  width: 50px;
-  margin-top: .6rem;
+.menu-logo-wrapper {
+  width: 250px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 1rem; }
   @media (min-width: 1080px) {
-    .menu-button {
-      margin-left: 2rem;
-      margin-top: 0; } }
+    .menu-logo-wrapper {
+      margin-left: 2rem; } }
+
+.menu-button {
+  width: 50px; }
 
 .logo {
-  width: 100px;
-  margin-right: 1rem; }
+  width: 100px; }
   .logo img {
     background: transparent; }
-  @media (min-width: 1080px) {
-    .logo {
-      margin-right: 38rem; } }
 
 .cart {
   margin-right: 1rem; }
@@ -656,10 +662,16 @@ button {
 .main-navigation {
   display: none;
   position: absolute;
-  width: 200px;
+  width: 400px;
   z-index: 0;
-  top: 110px;
-  background: white; }
+  top: 140px;
+  left: 40px;
+  background: white;
+  box-shadow: 22px 10px 61px -2px rgba(0, 0, 0, 0.75); }
+  @media (min-width: 1080px) {
+    .main-navigation {
+      top: 125px;
+      left: 65px; } }
   .main-navigation ul {
     width: 100%; }
   .main-navigation li {
@@ -667,6 +679,8 @@ button {
     width: 100%;
     margin-bottom: 1rem;
     text-align: center; }
+  .main-navigation li:last-child {
+    margin: 0; }
 
 .menu {
   width: 100%; }
@@ -943,7 +957,7 @@ object {
 .home .site-header {
   display: none; }
 
-.menu-logo-wrapper {
+.home-menu-logo-wrapper {
   width: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -951,25 +965,24 @@ object {
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
   @media (min-width: 1080px) {
-    .menu-logo-wrapper {
+    .home-menu-logo-wrapper {
       -webkit-justify-content: flex-start;
           -ms-flex-pack: start;
               justify-content: flex-start; } }
 
 .home .menu-button {
-  width: 60px;
+  width: 55px;
   position: fixed;
-  z-index: 100; }
-  @media (min-width: 1080px) {
-    .home .menu-button {
-      width: 60px; } }
+  z-index: 100;
+  margin-left: 1rem; }
 
 .home .logo {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: .2rem; }
   @media (min-width: 1080px) {
     .home .logo {
       margin-left: 8rem; } }
@@ -1488,7 +1501,8 @@ object {
   @media (min-width: 1080px) {
     .donate-button {
       margin: 2.9em 1.4rem 0rem 0rem;
-      padding: 1rem 4rem; } }
+      width: 8rem;
+      height: 3rem; } }
 
 .how-we-help-banner {
   background: url("../../assets/about-page/checksigning-redoverlay.jpg") no-repeat center;
@@ -2013,6 +2027,11 @@ object {
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start; }
+  @media (min-width: 1080px) {
+    .products-list {
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
 
 .single-product-category {
   display: -webkit-flex;
@@ -2046,7 +2065,7 @@ object {
   text-align: center; }
   .product-info h3 {
     margin: 0;
-    font-size: 1.25rem; }
+    font-size: 1.85rem; }
   .product-info a {
     text-decoration: none;
     color: black; }
@@ -2054,10 +2073,11 @@ object {
 .product-type {
   display: block;
   color: #9b9b9b;
-  font-size: 1rem; }
+  font-size: 1.25rem;
+  font-weight: 400; }
 
 .product-price {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: 600; }
 
 @media only screen and (min-width: 1080px) {
@@ -2206,10 +2226,10 @@ object {
       .product-details p {
         margin: .5rem; } }
 
-.product-price {
+.single-product-price {
   font-weight: 700; }
   @media (min-width: 1080px) {
-    .product-price {
+    .single-product-price {
       font-size: 2rem;
       margin-top: -183px; } }
 

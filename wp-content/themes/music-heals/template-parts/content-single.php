@@ -30,7 +30,7 @@
 				<p>100% Cotton</p>
 				<p>100% Rock & Roll</p>
 			</div>
-			<div class="product-price">
+			<div class="single-product-price">
 				<span><?php echo CFS()->get( 'price' ); ?></span>
 			</div>
 		</div>

@@ -60,6 +60,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+
+  @include desktop {
+    justify-content: space-around;
+  }
 }
 
 .single-product-category {
@@ -90,7 +94,7 @@
 
   h3 {
     margin:0;
-    font-size: 1.25rem;
+    font-size: 1.85rem;
   }
 
   a {
@@ -102,11 +106,12 @@
 .product-type {
   display: block;
   color: #9b9b9b;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 .product-price {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: 600;
 }
 

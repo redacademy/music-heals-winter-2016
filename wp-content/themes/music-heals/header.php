@@ -31,8 +31,8 @@
 	    controls: true
 	  });
 
-		$('.menu-button').on('click', function() {
-			$('.main-navigation').toggle();
+		$('.menu-button').click(function() {
+			$('.main-navigation').toggle("slide");
 		});
 	});
 	</script>
@@ -46,11 +46,13 @@
 			<header id="masthead" class="site-header" role="banner">
 			<div class="banner-wrapper">
 				<div class="site-banner">
+					<div class="menu-logo-wrapper">
 						<div class="menu-button"><img src="<?php echo get_template_directory_uri();?>/assets/Hamburger_menu_01.svg" alt="Hamburger Menu"/></div>
 
-						<a href="<?php home_url()?>/musicheals/">
+						<a href="<?php home_url()?>/">
 							<div class="logo"><img src="<?php echo get_template_directory_uri();?>/assets/musicheals.png" alt="Music Heals Logo"/></div>
 						</a>
+					</div>
 
 						<div class="cart"><img src="<?php echo get_template_directory_uri();?>/assets/Icon_Shopping_Cart_empty.svg" alt="Empty Shopping Cart"/></div>
 				</div><!-- .site-branding -->
