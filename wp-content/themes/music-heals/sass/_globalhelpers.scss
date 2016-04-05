@@ -8,35 +8,37 @@ body {
 }
 
 button {
-  font-size: 15px;
-  font-weight: 600;
   background-color: rgba(255,255,255, 0.7);
   border: 2px solid black;
-  text-shadow: none;
-  box-shadow: none;
   border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: none;
 }
 
 .common-btn {
-  color: #000;
-  height: 4rem;
-  font-size: 20px;
-  width: 10rem;
-  margin-top: 1.5rem;
+  color: #000000;
+  font-size: 1.15rem;
+  font-weight: 500;
+  height: 3rem;
+  margin-top: 1rem;
+  width: 8rem;
 }
 
 .common-header {
-  padding-top: 5rem;
-  text-align: center;
+  background: linear-gradient(to left, #DCD9D4, #E7E5E1, #DCD9D4);
+  color: #000000;
   font-size: 1.25rem;
   font-weight: 500;
-  background: #E7E5E1;
+  padding-top: 5rem;
+  text-align: center;
 }
 
 .common-title {
-  margin:0;
-  font-weight: 500;
   color: #000000;
+  font-weight: 500;
+  margin:0;
 }
 
 .box-padding {
@@ -45,13 +47,10 @@ button {
 }
 
 @media only screen and (min-width: 1080px) {
+
   .box-padding {
     border: none;
   }
-}
-
-
-@media only screen and (min-width: 1080px) {
 
   .container {
     width: 100%;

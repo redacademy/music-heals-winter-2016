@@ -1,23 +1,26 @@
 
 .merch-category {
-  text-decoration: underline;
+  color: #000000;
   font-size: 2rem;
+  font-weight: 600;
   padding-left: 2rem;
+  text-decoration: underline;
 }
 
 .merch-banner {
   background: url('../../assets/Merch_header.jpg') no-repeat center;
   background-size: cover;
-  width: 100%;
   height: 100px;
+  width: 100%;
 }
 
 .merch-tagline {
-  text-align: center;
+  color: #000000;
   font-size: 1.25rem;
   font-weight: 500;
-  margin: .5rem 0;
   line-height: 1.25;
+  margin: .5rem 0;
+  text-align: center;
 
   p {
     margin: 0;
@@ -28,10 +31,15 @@
   border-top: 2px solid #c9c9c9;
   border-bottom: 2px solid #c9c9c9;
 
+  @include desktop {
+    border-top: 1px solid #4a4a4a;
+    border-bottom: 1px solid #4a4a4a;
+  }
+
   ul {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     list-style: none;
     margin: 0 auto;
     padding: 5px 0 5px 0;
@@ -48,7 +56,7 @@
 }
 
 .smoothScroll {
-  color: black !important;
+  color: #000000 !important;
 }
 
 //===Content===//
@@ -68,11 +76,11 @@
 }
 
 .single-product-category {
+  border: 3px solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-basis: 50%;
-  border: 3px solid white;
 
   &:hover {
     border:3px solid #db1921;
@@ -91,7 +99,6 @@
     height:150px;
     width: 150px;
   }
-
 }
 
 .product-info {
@@ -103,22 +110,22 @@
   }
 
   a {
+    color: #000000;
     text-decoration: none;
-    color: black;
   }
 }
 
 .product-type {
-  display: block;
   color: #9b9b9b;
+  display: block;
   font-size: 1.2rem;
   font-weight: 300;
 }
 
 .product-price {
+  color: #000000;
   font-size: 1.75rem;
   font-weight: 600;
-  color: #000000;
 }
 
 @media only screen and (min-width: 1080px) {

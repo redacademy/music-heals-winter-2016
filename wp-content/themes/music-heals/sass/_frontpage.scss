@@ -9,21 +9,21 @@
 // Mission Statement //
 
 .home-menu-logo-wrapper {
-  width: 100%;
   display: flex;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   padding-top: 1rem;
+  width: 100%;
   @include desktop {
     justify-content: flex-start;
   }
 }
 
 .home &.menu-button {
-  width: 55px;
   position: fixed;
-  z-index: 100;
   margin-left: 1rem;
+  width: 55px;
+  z-index: 100;
 }
 
 .home .logo {
@@ -38,16 +38,16 @@
   background: url('../../assets/Home_image1.jpg') no-repeat center;
   background-size: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   flex-basis: 100%;
+  flex-direction: column;
+  justify-content: center;
   max-width: 100%;
   @include desktop {
     border-right: $desktop-border;
     border-bottom: $desktop-border;
     display: flex;
-      flex: 1 0 67%;
+    flex: 1 0 67%;
     height: 100%;
     width: 67.3%;
   }
@@ -55,36 +55,35 @@
 
 .text-wrapper {
   background-color: rgba(255,255,255, 0.6);
-  margin: 1rem 2rem;
   display: flex;
+  align-self: center;
   flex-direction: column;
   justify-content: center;
-  align-self: center;
   letter-spacing: 1px;
+  margin: 1rem 2rem;
   padding-top: 2.5rem;
   @include desktop {
     align-items: center;
     background-color: rgba(255,255,255, 0.7);
-    padding: 2.5rem 1rem;
     margin: 4rem 0;
+    padding: 2.5rem 1rem;
   }
 }
 
 .header-text {
-  text-align: center;
-  padding: 0 2rem;
+  font-weight: 500;
   line-height: 1;
+  padding: 0 2rem;
+  text-align: center;
   @include desktop {
-    text-align: center;
     line-height: 1.3;
     padding-bottom: 1rem;
   }
   h1 {
+    color: #000000;
     opacity: 1;
-    color: black;
-    margin: .25em 0;
-    width: 15rem;
     margin: 0 auto;
+    width: 15rem;
     @include desktop {
       font-size: 2.9rem;
       font-weight: 400;
@@ -94,24 +93,26 @@
 }
 
 .tagline-text {
-  text-align: center;
-  padding: .5rem 2rem;
   line-height: 1;
+  padding: .5rem 2rem;
+  text-align: center;
+
   @include desktop {
     line-height: 1.3;
   }
 
   p {
-    opacity: 1;
-    color: black;
-    font-weight: 800;
-    margin: .25em 0;
-    width: 17rem;
-    line-height: 1.4rem;
+    color: #000000;
     font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.4rem;
+    margin: .25em 0;
+    opacity: 1;
+    width: 17rem;
+
     @include desktop {
-      line-height: 1.6;
       font-size: 1.4rem;
+      line-height: 1.6;
       width: 30rem;
     }
   }
@@ -126,7 +127,7 @@
 .desktop-wrapper-1 {
   @include desktop {
     display: flex;
-      flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
   }
 }
@@ -134,9 +135,9 @@
 .desktop-wrapper-2 {
   @include desktop {
     display: flex;
-     flex-wrap: nowrap;
-    width: 100%;
+    flex-wrap: nowrap;
     height: 33rem;
+    width: 100%;
   }
 }
 
@@ -144,8 +145,8 @@
   @include desktop {
     border-bottom: $desktop-border;
     display: flex;
-      flex-direction: column;
-      flex: 0 1 33%;
+    flex-direction: column;
+    flex: 0 1 33%;
     height: 33rem;
     width: 32%;
   }
@@ -165,12 +166,12 @@
   background: url('../../assets/Home_Gift_box.svg') no-repeat center;
   background-size: cover;
   display: flex;
-    align-items: center;
-    flex-basis: 100%;
-    flex-direction: column;
-    justify-content: center;
-  max-width: 100%;
+  align-items: center;
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: center;
   letter-spacing: 1px;
+  max-width: 100%;
   text-align: center;
   @include desktop {
     border-bottom: $desktop-border;
@@ -179,14 +180,13 @@
   }
 
   h1 {
-    color: white;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 0 1rem;
-    line-height: 1.25;
-    width: 16rem;
+    color: #ffffff;
     font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 1.25;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    width: 16rem;
     @include desktop {
       font-size: 3rem;
       letter-spacing: 2px;
@@ -202,16 +202,6 @@
   padding: .75rem 2.5rem;
 }
 
-.common-btn {
-  @include desktop {
-    margin-top: 1rem;
-    height: 3rem;
-    font-size: 18px;
-    font-weight: 525;
-    width: 8rem;
-  }
-}
-
 //  SLIDER SECTION
 
 .bx-viewport {
@@ -223,23 +213,23 @@
 
 .bx-wrapper {
   @include desktop {
+    flex: 0 1 40%;
     max-width: 99%;
     width: 22.56rem;
-    flex: 0 1 40%;
   }
 }
 
 .bxslider {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .slider-image-1 {
   background: url(../../assets/donation-statistics-image.svg) no-repeat center 1px;
+  background-color: #DB1921;
   background-size: contain, cover;
   height: 48vh;
-  background-color: #DB1921;
 
   @include desktop {
     height: 200px;
@@ -248,9 +238,9 @@
 
 .slider-image-2 {
   background: url(../../assets/online-donations-image.svg) no-repeat center 1px;
+  background-color: #DB1921;
   background-size: contain, cover;
   height: 48vh;
-  background-color: #DB1921;
 
   @include desktop {
     height: 200px;
@@ -259,9 +249,9 @@
 
 .slider-image-3 {
   background: url(../../assets/proudly-canadian-image.svg) no-repeat center 1px;
+  background-color: #D8D8D8;
   background-size: contain, cover;
   height: 48vh;
-  background-color: #D8D8D8;
 
   @include desktop {
     height: 200px;
@@ -271,10 +261,11 @@
 // NEWS AND EVENTS SECTION
 
 .news-and-events-section {
-  margin-top: 22rem;
-  width: 100%;
   background: url(../../assets/Home_News-Events.jpg) no-repeat center;
   background-size: cover, contain;
+  margin-top: 22rem;
+  width: 100%;
+
   @include desktop {
     border-right: $desktop-border;
     flex-basis: 33%;
@@ -284,21 +275,22 @@
 }
 
 .news-and-events {
-  width: 80%;
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   flex-wrap: nowrap;
+  justify-content: center;
   margin: 0 auto;
   padding-top: 3rem;
+  width: 80%;
 
   h1 {
-    text-transform: uppercase;
+    font-size: 2.9rem;
+    line-height: 3.1rem;
     margin-top: 0.5rem;
     margin-bottom: -1.5rem;
-    line-height: 3.1rem;
-    font-size: 2.9rem;
+    text-transform: uppercase;
+
     @include desktop {
       font-size: 2.3rem;
       letter-spacing: 1px;
@@ -308,9 +300,9 @@
   }
 
   h2 {
-    text-transform: capitalize;
     font-size: 1.7rem;
     margin-top: 2rem;
+    text-transform: capitalize;
     @include desktop {
       font-size: 1.3rem;
       font-weight: 500;
