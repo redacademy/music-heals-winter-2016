@@ -8,27 +8,26 @@
 
 // Mission Statement //
 
-.menu-logo-wrapper {
+.home-menu-logo-wrapper {
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   @include desktop {
     justify-content: flex-start;
   }
 }
 
-.home .menu-button {
-  width: 60px;
+.home &.menu-button {
+  width: 55px;
   position: fixed;
   z-index: 100;
-  @include desktop {
-    width:60px;
-  }
+  margin-left: 1rem;
 }
 
 .home .logo {
   margin: 0 auto;
+  padding-top: .2rem;
   @include desktop {
     margin-left: 8rem;
   }
