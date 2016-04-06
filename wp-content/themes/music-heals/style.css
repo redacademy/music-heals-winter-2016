@@ -1192,11 +1192,9 @@ object {
 
 @media (min-width: 1080px) {
   .bx-wrapper {
-    -webkit-flex: 0 1 40%;
-        -ms-flex: 0 1 40%;
-            flex: 0 1 40%;
-    max-width: 99%;
-    width: 22.56rem; } }
+    height: 200px;
+    display: block;
+    overflow: hidden; } }
 
 .bxslider {
   list-style: none;
