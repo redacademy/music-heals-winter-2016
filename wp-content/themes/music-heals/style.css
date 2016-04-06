@@ -1194,7 +1194,8 @@ object {
   .bx-wrapper {
     height: 200px;
     display: block;
-    overflow: hidden; } }
+    overflow: hidden;
+    width: 99% !important; } }
 
 .bxslider {
   list-style: none;
