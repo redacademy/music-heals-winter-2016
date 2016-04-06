@@ -1432,7 +1432,7 @@ object {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2); }
 
 .content-text {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-weight: 300; }
   .content-text p {
     margin-top: 0rem; }
@@ -1827,7 +1827,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 2rem;
-  margin-right: none; }
+  margin-right: 0; }
   @media (min-width: 1080px) {
     .donation-wrapper {
       background-color: #9B9B9B;
