@@ -1849,6 +1849,10 @@ object {
   background-color: #fff; }
 
 @media (min-width: 1080px) {
+  .donation-wrapper:nth-child(1) .donation-info-inner {
+    padding-bottom: 2rem; } }
+
+@media (min-width: 1080px) {
   .donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5) {
     background-color: #9B9B9B; }
     .donation-wrapper:nth-child(1) .donation-info-wrapper, .donation-wrapper:nth-child(4) .donation-info-wrapper, .donation-wrapper:nth-child(5) .donation-info-wrapper {
@@ -1885,8 +1889,6 @@ object {
           -ms-flex: 0 1 50%;
               flex: 0 1 50%;
       max-width: 50%; } }
-  .donation-image-wrapper .donation-info-inner {
-    padding-bottom: 1.5rem; }
   @media (min-width: 1080px) {
     .donation-image-wrapper img {
       height: 19rem;
@@ -1912,6 +1914,8 @@ object {
       height: 19rem;
       margin: 1rem;
       width: 16rem; } }
+  .donation-info-wrapper .donation-info-inner {
+    padding-bottom: 2rem; }
   .donation-info-wrapper .price-wrapper {
     font-size: 3rem;
     margin: 1rem;

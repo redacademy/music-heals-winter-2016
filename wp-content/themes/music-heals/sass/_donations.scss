@@ -167,6 +167,14 @@
       background-color: #fff;
     }
 
+    .donation-wrapper:nth-child(1) {
+      .donation-info-inner {
+      @include desktop {
+        padding-bottom: 2rem;
+      }
+    }
+  }
+
     .donation-wrapper:nth-child(1), .donation-wrapper:nth-child(4), .donation-wrapper:nth-child(5){
     @include desktop {
     background-color: $med_grey;
@@ -217,11 +225,6 @@
           max-width: 50%;
       }
 
-      .donation-info-inner {
-        padding-bottom: 1.5rem;
-      }
-
-
       img {
         @include desktop {
           height: 19rem;
@@ -243,6 +246,10 @@
         height: 19rem;
         margin: 1rem;
         width: 16rem;
+      }
+
+      .donation-info-inner {
+        padding-bottom: 2rem;
       }
 
       .price-wrapper {
