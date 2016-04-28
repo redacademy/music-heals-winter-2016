@@ -58,5 +58,25 @@
 
 		<?php wp_footer(); ?>
 
+		<?php wp_enqueue_script('jquery'); ?>
+
+		<script type="text/javascript">
+		jQuery(document).ready(function($){
+		  $('.bxslider').bxSlider({
+		    mode: 'horizontal',
+		    infiniteLoop: true,
+		    speed: 2000,
+		    pause: 8000,
+		    auto: true,
+		    pager: false,
+		    controls: true
+		  });
+
+			$('.menu-button').click(function() {
+				$('.main-navigation').toggle("slide");
+			});
+		});
+		</script>
+
 	</body>
 </html>
